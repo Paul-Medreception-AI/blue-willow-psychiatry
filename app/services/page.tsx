@@ -48,8 +48,8 @@ export default function ServicesHubPage() {
           {CARDS.map((c) => (
             <a key={c.slug} href={"/services/" + c.slug} className="group block bg-white rounded-2xl overflow-hidden border border-[var(--color-border)] hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
               {c.image && c.image.src ? (
-                <div className="relative w-full h-48 bg-[var(--color-light)] overflow-hidden">
-                  <img src={c.image.src} alt={c.image.alt || c.title} loading="lazy" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                <div className="w-full bg-[var(--color-light)] overflow-hidden">
+                  <img src={c.image.src} alt={c.image.alt || c.title} loading="lazy" className="block w-full h-auto group-hover:scale-105 transition-transform duration-500" />
                 </div>
               ) : null}
               <div className="p-8">

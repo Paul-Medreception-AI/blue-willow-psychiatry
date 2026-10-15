@@ -37,9 +37,12 @@ export default function AboutPage() {
       <section className="bg-[var(--color-cream)] py-24">
         <div className="mx-auto grid max-w-6xl gap-12 px-6 lg:grid-cols-5">
           <div className="space-y-6 text-lg leading-relaxed text-[var(--color-ink)] lg:col-span-3 lg:pr-12">
-            <p>Blue Willow Psychiatry was built on the belief that mental health care should feel understanding, not rushed or one-size-fits-all. Led by Kristi Lawrence, APRN, the practice focuses on listening first so that every plan reflects the person behind the diagnosis.</p>
-            <p>Our approach begins with thorough assessment. Many people arrive unsure what is wrong, carrying a diagnosis they question, or having tried treatment after treatment without success. We take the time to understand your history and challenges, and when helpful, we use lab tests or other specialized testing.</p>
-            <p>Treatment is individualized. For some people that means medication, for others therapy, and often it is a combination. Medication management visits include brief solution-focused therapy, and our goal is to help you get back to living your best life.</p>
+            <h2 className="font-cormorant text-4xl text-[var(--color-primary)]">Our Treatment Philosophy</h2>
+            <p>Our primary goal is to understand how your symptoms are impacting your daily life and keeping you from living the life you want. Once we know your goals and the challenges you face, we can design a treatment plan to allow you to stop suffering and achieve your full potential.</p>
+            <p>We want this to be as easy as possible, and understand the demands on your time. We offer both in-office and virtual visits as well as offering appointments on weekends and evenings.</p>
+            <p>We know you are here because you have been trying, but what you are doing hasn&apos;t worked. At Blue Willow Psychiatry, we will explore different approaches so your efforts lead to real improvement. We like to think of ourselves as a coach: you do the work, but we give you guidance, tools, techniques and exercises so all your hard work results in real improvement. Sometimes treatment is therapy, medications, lifestyle or diet changes, or a combination of these.</p>
+            <p>If you already have a great therapist we want you to keep working with them, and we are happy to collaborate care. If you don&apos;t, we might suggest therapy at Blue Willow Psychiatry, or we will help you find an amazing therapist in our community that specializes in your unique needs.</p>
+            <p><Link href="/team" className="text-[var(--color-primary)] font-semibold underline">Meet Kristi Lawrence, APRN</Link>, who founded Blue Willow Psychiatry in 2023.</p>
           </div>
 
           <aside className="lg:col-span-2">
@@ -63,7 +66,7 @@ export default function AboutPage() {
                   <svg className="mt-1 h-6 w-6 shrink-0 text-[var(--color-accent)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <span>[Hours to be added]</span>
+                  <span>In-office and virtual visits. Evening and weekend appointments available.</span>
                 </div>
               </div>
               <Link href="/contact" className="mt-8 inline-block rounded-full bg-[var(--color-accent)] px-8 py-3 font-medium text-white transition-colors hover:bg-[var(--color-accent-dark)]">
@@ -82,22 +85,22 @@ export default function AboutPage() {
               <svg className="h-8 w-8 text-[var(--color-accent)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
               </svg>
-              <h3 className="mt-4 font-cormorant text-xl font-bold text-[var(--color-primary)]">Thorough Understanding</h3>
-              <p className="mt-3 text-[var(--color-muted)]">We take time to learn your history, challenges, and goals before settling on a diagnosis. When helpful, lab tests or specialized testing add clarity.</p>
+              <h3 className="mt-4 font-cormorant text-xl font-bold text-[var(--color-primary)]">A Coach in Your Corner</h3>
+              <p className="mt-3 text-[var(--color-muted)]">You do the work, but we give you guidance, tools, techniques and exercises so all your hard work results in real improvement.</p>
             </div>
             <div className="animate-fade-up rounded-2xl border border-[var(--color-border)] bg-[var(--color-cream)] p-8">
               <svg className="h-8 w-8 text-[var(--color-accent)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
               </svg>
-              <h3 className="mt-4 font-cormorant text-xl font-bold text-[var(--color-primary)]">Individualized Treatment</h3>
-              <p className="mt-3 text-[var(--color-muted)]">No two people are alike, so no two plans should be. Your care may include medication, therapy, or a combination built around your life.</p>
+              <h3 className="mt-4 font-cormorant text-xl font-bold text-[var(--color-primary)]">Mind and Body Together</h3>
+              <p className="mt-3 text-[var(--color-muted)]">Our emotions are also experienced physically in our bodies, and our physical wellness impacts our mood, emotions, energy levels, and behavior. If needed, we can order labs or tests to understand your physical body too.</p>
             </div>
             <div className="animate-fade-up rounded-2xl border border-[var(--color-border)] bg-[var(--color-cream)] p-8">
               <svg className="h-8 w-8 text-[var(--color-accent)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M8.625 9.75a.375.375 0 11-.75 0 .375.375 0 01.75 0zm4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zM2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 011.037-.443 48.282 48.282 0 005.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
               </svg>
-              <h3 className="mt-4 font-cormorant text-xl font-bold text-[var(--color-primary)]">Listening First</h3>
-              <p className="mt-3 text-[var(--color-muted)]">Care should feel understanding, not rushed. You are heard, your questions are welcome, and your plan is adjusted as your needs change.</p>
+              <h3 className="mt-4 font-cormorant text-xl font-bold text-[var(--color-primary)]">Careful, Safe Prescribing</h3>
+              <p className="mt-3 text-[var(--color-muted)]">We can, and often will, prescribe controlled substances, but only when we agree the benefit outweighs the risks. They are not prescribed at your first visit, and we may ask for outside records or drug screens to keep you safe.</p>
             </div>
           </div>
         </div>

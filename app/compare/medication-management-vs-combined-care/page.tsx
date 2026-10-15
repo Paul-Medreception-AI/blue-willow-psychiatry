@@ -68,8 +68,8 @@ export default function Page() {
 
       {/* page-image:start */}
       <div className="max-w-5xl mx-auto px-6 -mt-10 relative z-10">
-        <div className="relative w-full h-56 md:h-80 rounded-2xl overflow-hidden shadow-xl bg-[var(--color-light)]">
-          <img src={"/images/stock/compare-medication-management-vs-combined-care.jpg"} alt={"An overhead view of a colorful assortment of pills and capsules on a yellow background."} width={1200} height={627} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
+        <div className="w-full rounded-2xl overflow-hidden shadow-xl bg-[var(--color-light)]">
+          <img src={"/images/stock/compare-medication-management-vs-combined-care.jpg"} alt={"An overhead view of a colorful assortment of pills and capsules on a yellow background."} width={1200} height={627} loading="lazy" className="block w-full h-auto" />
         </div>
       </div>
       {/* page-image:end */}

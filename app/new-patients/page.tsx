@@ -20,23 +20,23 @@ export const metadata: Metadata = {
 }
 
 const steps = [
-  { number: '01', title: 'Schedule', description: 'Call the office at (435) 200-3430 or reach out through our contact page to set up your visit. If you have questions first, ask about a free 15 minute consultation.' },
-  { number: '02', title: 'Complete Paperwork', description: 'Intake forms can be completed before your visit or at your first appointment, so you can take the time you need.' },
-  { number: '03', title: 'First Visit', description: 'We talk through your history and concerns, and there is time for your questions. Your assessment may include lab tests or other specialized testing.' },
-  { number: '04', title: 'Care Plan', description: 'Together we agree on a plan that may include medication, therapy, or both. Follow-up visits keep your care on track.' },
+  { number: '01', title: 'Schedule', description: 'Call (435) 200-3430 to schedule in person or virtually. Not sure if we are a good fit? Ask for a free 15 minute consultation first.' },
+  { number: '02', title: 'New Patient Consult', description: 'Your first visit is 60 to 80 minutes, in the Tooele office or by virtual visit. Evening and weekend appointments are available.' },
+  { number: '03', title: 'In-Depth Assessment', description: 'We work to understand how your symptoms are impacting your daily life, your goals, and the challenges you face. This might include lab tests or other specialized testing.' },
+  { number: '04', title: 'Your Treatment Plan', description: 'Sometimes it is medications, sometimes therapy, often a combination. Return visits are 20 to 30 minutes and include medication management and brief solution-focused therapy.' },
 ]
 
 const bring = [
   { label: 'Photo ID and Insurance Card', text: 'A government-issued photo ID and your insurance card, if you plan to use coverage.' },
   { label: 'Medication List', text: 'Current medications and supplements, with doses, and any you have tried in the past.' },
   { label: 'Prior Records', text: 'Earlier evaluations, diagnoses, lab results, or treatment summaries, if you have them.' },
-  { label: 'Emergency Contact', text: 'Name and phone number of someone we can reach if needed.' },
+  { label: 'Your Questions', text: 'Anything you want to ask about your symptoms, past treatment, or options. There is time for your questions.' },
 ]
 
 const forms = [
-  { label: 'Intake form', text: 'Your history, current concerns, and goals for care.' },
-  { label: 'Consent form', text: 'Your agreement to evaluation and treatment.' },
-  { label: 'HIPAA authorization', text: 'Your privacy rights and who may receive your health information.' },
+  { label: 'Controlled substances', text: 'Controlled substances are not prescribed at your first visit. If you receive them from us, you will need to be seen in office periodically, and we might ask for outside records or drug screens.' },
+  { label: 'Payment', text: 'Payment is due at the time of service. We accept cash, credit card, check, and Venmo, and offer self pay rates for those without insurance.' },
+  { label: 'Cancellations', text: 'Missed appointments or appointments cancelled within 24 hours are charged $200 for new patients and $100 for return patients.' },
 ]
 
 function Check() {
@@ -93,8 +93,8 @@ export default function NewPatientsPage() {
 
       <section className="px-6">
         <div className="animate-fade-up bg-[var(--color-light)] rounded-2xl p-12 max-w-3xl mx-auto my-20">
-          <h2 className="font-cormorant text-3xl text-[var(--color-dark)]">Patient Forms</h2>
-          <p className="mt-4 text-[var(--color-muted)]">Forms available at our office or can be completed at your first appointment.</p>
+          <h2 className="font-cormorant text-3xl text-[var(--color-dark)]">Good to Know Before Your Visit</h2>
+          <p className="mt-4 text-[var(--color-muted)]">A few practice policies, so there are no surprises. <Link href="/insurance" className="text-[var(--color-primary)] underline">See insurance and fees</Link>.</p>
           <ul className="mt-6 space-y-4">
             {forms.map((f) => (
               <li key={f.label} className="flex gap-4">

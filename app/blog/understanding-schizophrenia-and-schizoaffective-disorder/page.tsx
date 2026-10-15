@@ -34,14 +34,14 @@ export default function Page() {
           </nav>
           <p className="text-xs uppercase tracking-widest text-white/70 mb-4">Patient Education</p>
           <h1 className="font-cormorant text-5xl font-light leading-tight max-w-3xl mx-auto text-center">Understanding Schizophrenia and Schizoaffective Disorder</h1>
-          <p className="mt-6 text-sm text-white/80">Published October 2026 · 6 min read · Reviewed by Blue Willow Psychiatry</p>
+          <p className="mt-6 text-sm text-white/80">Published October 2026 · 6 min read</p>
         </div>
       </section>
 
       {/* page-image:start */}
       <div className="max-w-5xl mx-auto px-6 -mt-10 relative z-10">
-        <div className="relative w-full h-56 md:h-80 rounded-2xl overflow-hidden shadow-xl bg-[var(--color-light)]">
-          <img src={"/images/stock/blog-understanding-schizophrenia-and-schizoaffective-disorder.jpg"} alt={"Woman with spiders on face and body holding sign reading 'Arachnophobia'."} width={1200} height={627} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
+        <div className="w-full rounded-2xl overflow-hidden shadow-xl bg-[var(--color-light)]">
+          <img src={"/images/stock/blog-understanding-schizophrenia-and-schizoaffective-disorder.jpg"} alt={"Woman with spiders on face and body holding sign reading 'Arachnophobia'."} width={1200} height={627} loading="lazy" className="block w-full h-auto" />
         </div>
       </div>
       {/* page-image:end */}
@@ -105,7 +105,7 @@ export default function Page() {
           </svg>
         </div>
         <div>
-          <p className="font-cormorant text-xl font-semibold text-[var(--color-ink)]">Reviewed by Blue Willow Psychiatry</p>
+          <p className="font-cormorant text-xl font-semibold text-[var(--color-ink)]">From Blue Willow Psychiatry</p>
           <p className="text-sm text-[var(--color-muted)] mt-1">This article is for general education and is not a substitute for personal medical advice.</p>
         </div>
       </div>
@@ -131,7 +131,7 @@ export default function Page() {
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white text-center">
         <div className="max-w-3xl mx-auto px-6">
           <h2 className="font-cormorant text-4xl font-light mb-4">Ready to Take the Next Step?</h2>
-          <p className="mb-8 text-white/80">Our team is here to help.</p>
+          <p className="mb-8 text-white/80">We are here to help.</p>
           <a href="/contact" className="inline-block bg-[var(--color-accent)] hover:bg-[var(--color-accent-dark)] text-white px-8 py-3 rounded-full border border-white/40 transition-colors">Contact Us</a>
         </div>
       </section>

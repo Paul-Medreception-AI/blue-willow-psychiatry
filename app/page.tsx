@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Mental Health Care in Tooele, UT | Blue Willow Psychiatry',
@@ -70,22 +71,28 @@ const steps = [
 export default function Home() {
   return (
     <main>
-      <section className="min-h-[90vh] bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] flex items-center text-white">
-        {/* optimize-skill target: pure-gradient hero (no real photo was found on the prior site) */}
-        <div className="max-w-5xl mx-auto px-6 text-center py-20">
-          <h1 className="font-cormorant text-6xl sm:text-7xl font-light tracking-tight leading-tight">
-            Mental Health Care That Truly Understands You
-          </h1>
-          <p className="text-xl text-white/90 max-w-2xl mx-auto mt-6 leading-relaxed">
-            Blue Willow Psychiatry offers in-depth assessment and individualized treatment designed to fit your life and needs. Whether you need answers, a second opinion, or a plan that finally works, Kristi Lawrence, APRN is here to help you get back to living your best life.
-          </p>
-          <div className="mt-10 flex flex-wrap gap-4 justify-center">
-            <Link href="/contact" className="bg-white text-[var(--color-dark)] px-8 py-4 rounded-xl font-bold shadow-xl hover:-translate-y-0.5 transition-all">
-              Schedule a Consultation
-            </Link>
-            <Link href="/services" className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all">
-              View Our Services
-            </Link>
+      <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-white">
+        {/* The prior site's own hero photo (eucalyptus in a vase); the plant sits on the left, the copy over the white space */}
+        <Image src="/images/jazmin-quaynor-8ioenvmof-I-unsplash.jpg" alt="Eucalyptus branches in a glass vase against a white wall" fill priority quality={85} sizes="100vw" className="object-cover object-left" />
+        <div className="absolute inset-0 bg-white/70 lg:bg-transparent lg:bg-gradient-to-r lg:from-transparent lg:via-white/30 lg:to-white/90" aria-hidden="true" />
+        <div className="relative w-full max-w-7xl mx-auto px-6 py-20">
+          <div className="lg:ml-auto lg:w-1/2 text-[var(--color-ink)]">
+            <p className="font-dm-sans text-sm uppercase tracking-widest text-[var(--color-primary)] font-semibold">Kristi Lawrence, APRN · Tooele, UT</p>
+            <h1 className="font-cormorant text-5xl sm:text-6xl lg:text-7xl font-light tracking-tight leading-tight mt-4 text-[var(--color-dark)]">
+              Mental health care that understands you.
+            </h1>
+            <p className="text-xl text-[var(--color-ink)] mt-6 leading-relaxed">
+              In-depth assessment and individualized treatment designed to fit your life and needs. In-office and virtual visits, with evening and weekend appointments available.
+            </p>
+            <div className="mt-10 flex flex-wrap gap-4">
+              <Link href="/contact" className="bg-[var(--color-primary)] text-white px-8 py-4 rounded-xl font-bold shadow-xl hover:-translate-y-0.5 hover:bg-[var(--color-dark)] transition-all">
+                Schedule a Consultation
+              </Link>
+              <a href="tel:4352003430" className="border-2 border-[var(--color-primary)] text-[var(--color-primary)] px-8 py-4 rounded-xl font-semibold hover:bg-[var(--color-light)] transition-all">
+                Call (435) 200-3430
+              </a>
+            </div>
+            <p className="mt-6 text-[var(--color-muted)]">Not sure if we are a good fit? Free 15 minute consultations are available.</p>
           </div>
         </div>
       </section>
@@ -127,22 +134,19 @@ export default function Home() {
           <div className="lg:col-span-3 animate-fade-up">
             <h2 className="font-cormorant text-4xl text-[var(--color-ink)]">Care That Fits Your Life and Your Needs</h2>
             <p className="text-[var(--color-muted)] leading-relaxed mt-6">
-              Blue Willow Psychiatry was built on the belief that mental health care should feel understanding, not rushed or one-size-fits-all. Led by Kristi Lawrence, APRN, the practice focuses on listening first so that every plan reflects the person behind the diagnosis.
+              Blue Willow Psychiatry was built on the belief that mental health care should feel understanding, not rushed or one-size-fits-all. It was founded in 2023 by Kristi Lawrence, APRN, a Grantsville native who is board certified as both a Family Nurse Practitioner and a Psychiatric Mental Health Nurse Practitioner, so she looks at the whole person, not just pieces.
             </p>
             <p className="text-[var(--color-muted)] leading-relaxed mt-4">
               Our approach begins with thorough assessment. Many people arrive unsure what is wrong, carrying a diagnosis they question, or having tried treatment after treatment without success. We take the time to understand your history and challenges, and when helpful, we use lab tests or other specialized testing.
             </p>
-            <Link href="/about" className="inline-block text-[var(--color-primary)] font-semibold mt-6 hover:underline">
-              Meet Our Team →
+            <Link href="/team" className="inline-block text-[var(--color-primary)] font-semibold mt-6 hover:underline">
+              Meet Kristi →
             </Link>
           </div>
           <div className="lg:col-span-2 animate-fade-up">
-            <div className="bg-[var(--color-light)] rounded-2xl h-80 w-full flex items-center justify-center">
-              <svg className="w-20 h-20 stroke-[var(--color-primary)] opacity-40" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 21s-8-5-8-11a4.5 4.5 0 018-2.8A4.5 4.5 0 0120 10c0 6-8 11-8 11z" />
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v5M9.5 11.5h5" />
-              </svg>
-            </div>
+            <Link href="/team" className="block rounded-2xl overflow-hidden shadow-xl max-w-sm mx-auto">
+              <Image src="/images/kristi-lawrence-aprn.jpg" alt="Kristi Lawrence, APRN" width={825} height={1100} sizes="(max-width: 1024px) 384px, 33vw" className="block w-full h-auto" />
+            </Link>
           </div>
         </div>
       </section>

@@ -59,7 +59,6 @@ const STATIC: [string, number, Freq][] = [
   ["/contact", 0.70, 'monthly'],
   ["/faq", 0.70, 'monthly'],
   ["/insurance", 0.70, 'monthly'],
-  ["/insurance-and-fees", 0.70, 'monthly'],
   ["/locations/tooele-ut", 0.80, 'monthly'],
   ["/new-patients", 0.70, 'monthly'],
   ["/privacy-sms", 0.30, 'yearly'],

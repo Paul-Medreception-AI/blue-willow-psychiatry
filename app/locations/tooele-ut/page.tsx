@@ -42,7 +42,7 @@ const services = [
 
 const faqs = [
   {
-    q: 'How do I get to the office from Tooele?',
+    q: 'Where is the office?',
     a: 'The office is at 28 North Main Street, Tooele, UT 84074. Enter that address in your preferred map app for turn-by-turn directions from wherever you are starting.',
   },
   {
@@ -68,15 +68,15 @@ export default function Page() {
             <Link href="/" className="hover:underline">Home</Link> › Locations › <span>Tooele, UT</span>
           </nav>
           <h1 className="font-cormorant text-5xl font-light mb-6">Mental Health Care Near Tooele, UT</h1>
-          <p className="text-xl text-white/90 mb-8">Serving patients from Tooele and surrounding UT communities.</p>
+          <p className="text-xl text-white/90 mb-8">Serving Tooele, Grantsville, Erda, Stansbury, Stockton, and surrounding areas, in person or by virtual visit.</p>
           <Link href="/contact" className="inline-block rounded-full bg-[var(--color-accent)] px-8 py-3 font-medium text-white border border-white/40 transition hover:bg-[var(--color-accent-dark)]">Schedule in Tooele</Link>
         </div>
       </section>
 
       {/* page-image:start */}
       <div className="max-w-5xl mx-auto px-6 -mt-10 relative z-10">
-        <div className="relative w-full h-56 md:h-80 rounded-2xl overflow-hidden shadow-xl bg-[var(--color-light)]">
-          <img src={"/images/stock/location-tooele-ut.jpg"} alt={"A stunning aerial perspective of snow-dusted Salt Lake City, highlighting its winter landscape and surrounding mountains."} width={1200} height={627} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
+        <div className="w-full rounded-2xl overflow-hidden shadow-xl bg-[var(--color-light)]">
+          <img src={"/images/stock/location-tooele-ut.jpg"} alt={"A stunning aerial perspective of snow-dusted Salt Lake City, highlighting its winter landscape and surrounding mountains."} width={1200} height={627} loading="lazy" className="block w-full h-auto" />
         </div>
       </div>
       {/* page-image:end */}
@@ -85,7 +85,7 @@ export default function Page() {
         <div className="max-w-4xl mx-auto px-6 animate-fade-up">
           <h2 className="font-cormorant text-4xl text-[var(--color-primary)] mb-6">Serving the Tooele Area</h2>
           <p className="text-[var(--color-ink)] leading-relaxed mb-4">
-            Blue Willow Psychiatry is located at 28 North Main Street in Tooele, UT 84074, and serves people from Tooele and nearby communities. Use the address in your map app for directions from your starting point, and call (435) 200-3430 if you have questions before you come in.
+            Blue Willow Psychiatry is located at 28 North Main Street in Tooele, UT 84074, and serves residents of Grantsville, Erda, Stansbury, Tooele, Stockton, and surrounding areas. Founder Kristi Lawrence, APRN is a Grantsville native. Use the address in your map app for directions from your starting point, and call (435) 200-3430 if you have questions before you come in.
           </p>
           <p className="text-[var(--color-ink)] leading-relaxed mb-8">
             Patients from Tooele can expect a respectful, unhurried conversation about what brings them in and what they hope to change. Mental health care works best as a partnership, so your questions and preferences are part of every step in planning your care.
@@ -135,7 +135,7 @@ export default function Page() {
 
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white text-center">
         <div className="max-w-3xl mx-auto px-6">
-          <h2 className="font-cormorant text-4xl mb-6">Get Expert Care from Tooele</h2>
+          <h2 className="font-cormorant text-4xl mb-6">Get Care Close to Home</h2>
           <p className="text-white/90 mb-8">Call (435) 200-3430 or reach out online to start the conversation.</p>
           <Link href="/contact" className="inline-block rounded-full bg-[var(--color-accent)] px-8 py-3 font-medium text-white border border-white/40 transition hover:bg-[var(--color-accent-dark)]">Contact Us</Link>
         </div>

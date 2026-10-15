@@ -14,7 +14,7 @@ export default function PatientFormSmsPage() {
       <div className="max-w-2xl mx-auto px-6 py-24 text-center">
         <h1 className="font-cormorant text-3xl font-semibold text-[var(--color-ink)] mb-4">Patient Form</h1>
         <p className="text-[var(--color-muted)] leading-relaxed">
-          [A2P opt-in form not configured] — this page is reserved for the SMS consent form and is not yet live.
+          [A2P opt-in form not configured]. This page is reserved for the SMS consent form and is not yet live.
         </p>
       </div>
     </main>

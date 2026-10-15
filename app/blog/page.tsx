@@ -37,8 +37,8 @@ export default function BlogIndexPage() {
           {featured ? (
             <a href={'/blog/' + featured.slug} className="group block bg-white rounded-2xl p-10 border border-[var(--color-border)] shadow-sm hover:shadow-xl transition-all duration-300">
               {featured.image ? (
-                <div className="relative w-full h-56 md:h-72 -mt-2 mb-8 rounded-xl overflow-hidden bg-[var(--color-light)]">
-                  <img src={featured.image.src} alt={featured.image.alt || featured.title} className="absolute inset-0 w-full h-full object-cover" />
+                <div className="w-full -mt-2 mb-8 rounded-xl overflow-hidden bg-[var(--color-light)]">
+                  <img src={featured.image.src} alt={featured.image.alt || featured.title} className="block w-full h-auto" />
                 </div>
               ) : null}
               <p className="text-xs uppercase tracking-widest text-[var(--color-primary)]">Featured article</p>
@@ -57,8 +57,8 @@ export default function BlogIndexPage() {
               {rest.map((p) => (
                 <a key={p.slug} href={'/blog/' + p.slug} className="group block bg-white rounded-2xl overflow-hidden border border-[var(--color-border)] hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                   {p.image ? (
-                    <div className="relative w-full h-44 bg-[var(--color-light)] overflow-hidden">
-                      <img src={p.image.src} alt={p.image.alt || p.title} loading="lazy" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                    <div className="w-full bg-[var(--color-light)] overflow-hidden">
+                      <img src={p.image.src} alt={p.image.alt || p.title} loading="lazy" className="block w-full h-auto group-hover:scale-105 transition-transform duration-500" />
                     </div>
                   ) : null}
                   <div className="p-8">

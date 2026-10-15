@@ -23,8 +23,8 @@ const PHONE: { href: string; label: string } | null = {"href":"tel:4352003430","
 const NAV: NavGroup[] = [
   { href: "/services", label: "Services", items: [...rows("/services", SERVICES)], footer: {"href":"/services","label":"All services"} },
   { href: "/conditions", label: "Conditions", items: [...rows("/conditions", CONDITIONS)], footer: {"href":"/conditions","label":"All conditions we treat"} },
-  { href: "/about", label: "About", items: [...[{"href":"/team","label":"Our Team"},{"href":"/reviews","label":"Patient Reviews"},{"href":"/locations/tooele-ut","label":"Tooele, UT"},{"href":"/insurance-and-fees","label":"Insurance and Fees"}]] },
-  { href: "/new-patients", label: "Patients", items: [...[{"href":"/insurance","label":"Insurance & Billing"},{"href":"/telehealth","label":"Visiting Our Office"},{"href":"/faq","label":"FAQ"}]] },
+  { href: "/about", label: "About", items: [...[{"href":"/team","label":"Meet Kristi"},{"href":"/reviews","label":"Patient Reviews"},{"href":"/locations/tooele-ut","label":"Tooele, UT"}]] },
+  { href: "/new-patients", label: "Patients", items: [...[{"href":"/insurance","label":"Insurance & Fees"},{"href":"/telehealth","label":"Telehealth & Office Visits"},{"href":"/faq","label":"FAQ"}]] },
   { href: "/blog", label: "Resources", items: [...[{"href":"/compare/insurance-vs-self-pay-psychiatry","label":"Insurance vs Self Pay for Psychiatry"},{"href":"/compare/medication-management-vs-combined-care","label":"Medication Management vs Combined Medication and Therapy"},{"href":"/compare/medication-vs-therapy","label":"Medication vs Therapy: Which Is Right for You?"},{"href":"/compare/psychiatric-assessment-vs-primary-care-evaluation","label":"Psychiatric Assessment vs Primary Care Evaluation for Mental Health"},{"href":"/compare/second-opinion-vs-continuing-treatment","label":"Second Opinion vs Continuing Current Treatment"}]] },
   { href: "/contact", label: "Contact", items: [] },
 ]

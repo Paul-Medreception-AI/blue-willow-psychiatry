@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: 'How do I schedule an appointment?',
-    a: 'You can call the office at (435) 200-3430 or reach out through the contact page. Let us know what kind of visit you are interested in, such as a new patient assessment, a second opinion, or a free consultation. The office can also help you verify your insurance coverage. If you are unsure which option fits, the free consultation is a good place to start.',
+    a: 'You can call the office at (435) 200-3430 or reach out through the contact page. Let us know what kind of visit you are interested in, such as a new patient assessment, a second opinion, or a free consultation. Please have your insurance information handy so we can verify coverage when you schedule. If you are unsure which option fits, the free consultation is a good place to start.',
   },
   {
     q: 'What should I expect at my first visit?',
@@ -62,19 +62,27 @@ const faqs = [
   },
   {
     q: 'Do you accept my insurance?',
-    a: 'Insurance participation is not listed here, so the best way to find out is to call the office at (435) 200-3430. The practice can help you verify your insurance coverage when you reach out. It is also a good idea to contact your insurance company to ask about your mental health benefits. You can also ask about self-pay options when you call.',
+    a: 'We accept several different insurance plans, including some types of Medicaid, United Healthcare, PEHP, DMBA, Regence/BCBS, SelectHealth and University of Utah Health Plans. Please call (435) 200-3430 to verify coverage when you schedule your appointment. See our Insurance & Fees page for details.',
   },
   {
     q: 'How much does a visit cost?',
-    a: 'Fees are not listed on this website, and they can vary depending on the type of visit and your coverage. Please call the office at (435) 200-3430 to ask about fees, insurance, or self-pay questions. Asking before you schedule helps you know what to expect. You can also use the Insurance or Self Pay Question option on the contact page.',
+    a: 'For those who do not have insurance, we offer self pay rates. New patient consults are 60 to 80 minutes and are $250. Return visits are 20 to 30 minutes and $185. Both include medication management and brief solution-focused therapy. For patients who only need medication management and do not have complicated treatment plans, a 15 minute appointment is available for $150. Payment is due at the time of service, and we accept cash, credit card, check, and Venmo.',
   },
   {
     q: 'What is your cancellation policy?',
-    a: 'Policies about cancellations, late arrivals, and missed appointments are not listed on this website. Please call the office at (435) 200-3430 to ask about them before or when you schedule. If you need to change an appointment, contacting the office as early as you can is always a courteous step.',
+    a: 'Missed appointments or appointments cancelled within 24 hours are charged a cancellation fee of $200 for new patients and $100 for return patients. If you need to change an appointment, please call (435) 200-3430 as early as you can.',
   },
   {
     q: 'Do I need a referral?',
-    a: 'The website does not state a referral requirement. Because requirements can differ, especially depending on your insurance plan, please call the office at (435) 200-3430 to confirm. You can also check with your insurance company. If your primary care provider recommended you, bringing relevant records can be helpful.',
+    a: 'You can call to schedule directly. Some insurance plans have their own referral rules, so it is worth checking with your plan. If your primary care provider recommended you, bringing relevant records to your first visit can help.',
+  },
+  {
+    q: 'Do you offer telehealth or evening appointments?',
+    a: 'Yes. We offer both in-office and virtual visits, and evening and weekend appointments are available.',
+  },
+  {
+    q: 'Do you prescribe controlled substances?',
+    a: 'We can, and often will, prescribe controlled substances, but only on an individual basis when we agree that the benefit outweighs the risks. Controlled substances are not prescribed at your first visit, and you will need to be seen in office periodically if you receive them from us. We might ask for outside records or drug screens to ensure your safety and well-being.',
   },
   {
     q: 'Is the practice taking new patients?',

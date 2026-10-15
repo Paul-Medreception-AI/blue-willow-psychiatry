@@ -44,7 +44,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               <div>
                 <span className="font-cormorant text-2xl font-semibold text-white">Blue Willow Psychiatry</span>
-                <p className="mt-4 text-sm text-white/70 max-w-xs">Individualized mental health care built around you.</p>
+                <p className="mt-4 text-sm text-white/70 max-w-xs">Mental health care that understands you.</p>
+                <p className="mt-4 text-sm text-white/70">In-office and virtual visits. Evening and weekend appointments available.</p>
+                <a href="https://www.psychologytoday.com/profile/1115781" target="_blank" rel="noopener noreferrer" className="mt-4 inline-block text-sm text-white/70 underline underline-offset-2 hover:text-white transition-colors">Kristi Lawrence on Psychology Today</a>
               </div>
               <div>
                 <h3 className="font-cormorant text-lg font-semibold mb-4">Quick Links</h3>
@@ -52,7 +54,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <li><a href="/services" className="hover:text-white transition-colors">Services</a></li>
                   <li><a href="/conditions" className="hover:text-white transition-colors">Conditions</a></li>
                   <li><a href="/about" className="hover:text-white transition-colors">About</a></li>
-                  <li><a href="/insurance-and-fees" className="hover:text-white transition-colors">Insurance and Fees</a></li>
+                  <li><a href="/team" className="hover:text-white transition-colors">Meet Kristi</a></li>
+                  <li><a href="/telehealth" className="hover:text-white transition-colors">Telehealth</a></li>
+                  <li><a href="/insurance" className="hover:text-white transition-colors">Insurance and Fees</a></li>
                   <li><a href="/contact" className="hover:text-white transition-colors">Contact</a></li>
                 </ul>
               </div>
@@ -60,13 +64,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <h3 className="font-cormorant text-lg font-semibold mb-4">Contact</h3>
                 <ul className="space-y-2 text-sm text-white/70">
                   <li>28 North Main Street, Tooele, UT 84074</li>
-                  <li><a href="tel:(435) 200-3430" className="hover:text-white transition-colors">(435) 200-3430</a></li>
+                  <li><a href="tel:4352003430" className="hover:text-white transition-colors">(435) 200-3430</a></li>
                   <li><a href="mailto:Kristi@BlueWillowPsych.com" className="hover:text-white transition-colors">Kristi@BlueWillowPsych.com</a></li>
                 </ul>
               </div>
             </div>
             <div className="mt-12 pt-8 border-t border-white/10 text-xs text-white/60 space-y-3">
-              <p>This website does not collect protected health information. All clinical intake is handled through a secure patient portal.</p>
+              <p>This website does not collect protected health information. Please do not send medical details by email or through the contact form. If you are in crisis, call or text 988, or call 911.</p>
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
                 <p>© {year} Blue Willow Psychiatry</p>
                 <p className="flex flex-wrap items-center gap-2">
