@@ -4,6 +4,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import { SERVICES } from '../../lib/data/services'
+import PageHero from '@/components/PageHero'
 
 const TITLE = "Services | Blue Willow Psychiatry"
 const DESCRIPTION = "Blue Willow Psychiatry offers Assessments, Treatment, Medication Management, Brief Solution-Focused Therapy, and more."
@@ -32,20 +33,8 @@ const CARDS: Card[] = [
 export default function ServicesHubPage() {
   return (
     <>
-      <section className="relative overflow-hidden bg-white py-28 text-[var(--color-ink)] text-center">
-        {/* Her original Services page background (bluewillowpsych.com/services) */}
-        <Image src="/images/pexels-evie-shaffer-2395251.jpg" alt="" fill priority quality={80} sizes="100vw" className="object-cover object-center" aria-hidden="true" />
-        <div className="absolute inset-0 bg-white/55" aria-hidden="true" />
-        <div className="relative max-w-4xl mx-auto px-6">
-          <nav className="text-sm text-[var(--color-muted)] mb-4" aria-label="Breadcrumb">
-            <a href="/" className="hover:underline">Home</a>
-            <span className="mx-2">›</span>
-            <span>Services</span>
-          </nav>
-          <h1 className="font-cormorant text-5xl md:text-6xl font-semibold text-[var(--color-dark)]">{HEADING}</h1>
-          <p className="text-xl text-[var(--color-ink)] max-w-2xl mx-auto mt-4 leading-relaxed">{SUBHEADING}</p>
-        </div>
-      </section>
+      {/* Page header: her original Services page photo. */}
+      <PageHero title={HEADING} subtitle={SUBHEADING} crumb="Services" image="/images/pexels-evie-shaffer-2395251.jpg" position="object-[center_55%]" />
 
       <section className="bg-[var(--color-cream)] py-20">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

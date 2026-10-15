@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import PageHero from '@/components/PageHero'
 
 export const metadata: Metadata = {
   title: 'New Patient Information | Blue Willow Psychiatry',
@@ -50,12 +51,8 @@ function Check() {
 export default function NewPatientsPage() {
   return (
     <main className="text-[var(--color-ink)]">
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-24 text-white text-center">
-        <div className="max-w-7xl mx-auto px-6">
-          <h1 className="font-cormorant text-5xl font-light">New Patients</h1>
-          <p className="mt-4 text-lg">Everything you need to know before your first visit</p>
-        </div>
-      </section>
+      {/* Page header: from her draft Services page. */}
+      <PageHero title={"New Patients"} subtitle={"Everything you need to know before your first visit"} crumb="New Patients" image="/images/eucalyptus-sprig-jar.jpg" position="object-[center_52%]" />
 
       <section className="bg-[var(--color-cream)] py-24">
         <div className="max-w-7xl mx-auto px-6">

@@ -3,6 +3,7 @@
 // post that is not there or leave one out.
 import type { Metadata } from 'next'
 import { BLOG_POSTS } from '../../lib/data/blog'
+import PageHero from '@/components/PageHero'
 
 const TITLE = "Health Articles | Blue Willow Psychiatry"
 const DESCRIPTION = "Patient education from Blue Willow Psychiatry: How to Know If You Need a Psychiatric Assessment, Getting a Second Opinion on a Mental Health Diagnosis, and more"
@@ -20,17 +21,8 @@ export default function BlogIndexPage() {
   const [featured, ...rest] = BLOG_POSTS
   return (
     <>
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-24 text-white text-center">
-        <div className="max-w-4xl mx-auto px-6">
-          <nav className="text-sm text-white/70 mb-4" aria-label="Breadcrumb">
-            <a href="/" className="hover:underline">Home</a>
-            <span className="mx-2">›</span>
-            <span>Resources</span>
-          </nav>
-          <h1 className="font-cormorant text-5xl md:text-6xl font-light">Health Articles</h1>
-          <p className="text-xl text-white/85 max-w-2xl mx-auto mt-4 leading-relaxed">Clear, practical information to help you make informed decisions about your health.</p>
-        </div>
-      </section>
+      {/* Page header: from her draft Services page. */}
+      <PageHero title={"Health Articles"} subtitle={"Clear, practical information to help you make informed decisions about your health."} crumb="Resources" image="/images/succulent.jpg" position="object-[right_45%]" />
 
       <section className="bg-[var(--color-cream)] py-20">
         <div className="max-w-7xl mx-auto px-6">

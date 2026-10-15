@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import PageHero from '@/components/PageHero'
 
 export const metadata: Metadata = {
   title: 'FAQ | Blue Willow Psychiatry in Tooele, UT',
@@ -109,15 +110,8 @@ const faqs = [
 export default function FaqPage() {
   return (
     <main>
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-24 text-white text-center">
-        <div className="max-w-4xl mx-auto px-6">
-          <nav aria-label="Breadcrumb" className="text-sm text-white/80 mb-6">
-            <Link href="/" className="hover:underline">Home</Link> › <span>FAQ</span>
-          </nav>
-          <h1 className="font-cormorant text-5xl font-light">Frequently Asked Questions</h1>
-          <p className="mt-6 text-lg text-white/90">Everything you need to know about our practice and services</p>
-        </div>
-      </section>
+      {/* Page header: her original Meet Kristi page photo. */}
+      <PageHero title={"Frequently Asked Questions"} subtitle={"Everything you need to know about our practice and services"} crumb="FAQ" image="/images/chua-bing-quan-Sg7eWHKrxrA-unsplash.jpg" position="object-[right_70%]" />
 
       <section className="bg-[var(--color-cream)] py-24">
         <div className="max-w-4xl mx-auto px-6">

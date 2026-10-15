@@ -71,29 +71,56 @@ const steps = [
 export default function Home() {
   return (
     <main>
-      <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden bg-white">
-        {/* Her original homepage hero (bluewillowpsych.com): the eucalyptus photo at full strength, name and tagline centered over it */}
-        <Image src="/images/jazmin-quaynor-8ioenvmof-I-unsplash.jpg" alt="Eucalyptus branches in a glass vase against a white wall" fill priority quality={85} sizes="100vw" className="object-cover object-center" />
-        <div className="absolute inset-0 bg-white/20" aria-hidden="true" />
-        <div className="relative w-full max-w-4xl mx-auto px-6 py-24 text-center text-black">
-          <h1 className="font-cormorant text-5xl sm:text-6xl lg:text-7xl font-semibold tracking-tight leading-tight">
-            Kristi Lawrence, APRN
-          </h1>
-          <p className="font-cormorant text-2xl sm:text-3xl lg:text-4xl mt-6">
-            Mental health care that understands <em>you</em>.
-          </p>
-          <p className="mt-6 text-lg text-[var(--color-ink)] max-w-2xl mx-auto">
-            Blue Willow Psychiatry in Tooele, UT. In-office and virtual visits, with evening and weekend appointments available.
-          </p>
-          <div className="mt-10 flex flex-wrap gap-4 justify-center">
-            <Link href="/services" className="bg-[var(--color-primary)] text-white px-10 py-3 rounded-full font-semibold shadow-lg hover:bg-[var(--color-dark)] transition-colors">
-              Learn More
-            </Link>
-            <Link href="/contact" className="bg-white/90 border-2 border-[var(--color-primary)] text-[var(--color-primary)] px-10 py-3 rounded-full font-semibold hover:bg-white transition-colors">
-              Schedule a Consultation
-            </Link>
+      {/* Home hero, from Paul's mockups (2026-10-15): her original eucalyptus photo, mirrored so the
+          vase sits on the right (public/images/eucalyptus-vase-right.jpg is the flipped file; a CSS
+          flip mirrors object-position too and showed the empty side), on a warm off-white instead of
+          stark white, running up behind the translucent header. Desktop: copy on the left, photo on
+          the right, faded at its left edge so no leaf is behind the text. Phones: leaves on top,
+          vase bottom right, copy on clear space between. */}
+      <section className="relative -mt-20 overflow-hidden bg-[var(--color-warm)]">
+        {/* Desktop: the photo fills the right side. */}
+        <div className="absolute inset-y-0 right-0 hidden lg:block w-[62%]" aria-hidden="true">
+          <Image src="/images/eucalyptus-vase-right.jpg" alt="" fill priority quality={85} sizes="62vw" className="object-cover object-right" />
+          <div className="absolute inset-0 bg-[var(--color-warm)] mix-blend-multiply" />
+          <div className="absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-[var(--color-warm)] to-transparent" />
+        </div>
+        {/* Phones and tablets: two crops of the same photo, the leaves across the top (behind the
+            header) and the vase at the bottom right, so the copy sits on clear space between them.
+            One photo stretched over the whole tall hero zoomed into a single blurry leaf. */}
+        <div className="absolute top-0 inset-x-0 h-[400px] md:h-[330px] overflow-hidden lg:hidden" aria-hidden="true">
+          <Image src="/images/eucalyptus-vase-right.jpg" alt="" width={2500} height={1666} priority quality={80} sizes="200vw" className="absolute top-0 -right-[35%] w-[200%] md:-right-[8%] md:w-[115%] max-w-none h-auto" />
+          <div className="absolute inset-0 bg-[var(--color-warm)] mix-blend-multiply" />
+          <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-b from-transparent to-[var(--color-warm)]" />
+        </div>
+        <div className="absolute bottom-0 right-0 w-[66%] md:w-[45%] h-[360px] overflow-hidden lg:hidden" aria-hidden="true">
+          <Image src="/images/eucalyptus-vase-right.jpg" alt="" width={2500} height={1666} quality={80} sizes="200vw" className="absolute bottom-0 -right-[60px] h-[640px] w-auto max-w-none" />
+          <div className="absolute inset-0 bg-[var(--color-warm)] mix-blend-multiply" />
+          <div className="absolute inset-x-0 top-0 h-1/5 bg-gradient-to-b from-[var(--color-warm)] to-transparent" />
+          <div className="absolute inset-y-0 left-0 w-1/6 bg-gradient-to-r from-[var(--color-warm)] to-transparent" />
+        </div>
+        <div className="relative max-w-7xl mx-auto px-6 lg:px-8 pt-[290px] md:pt-[260px] pb-[230px] lg:pt-44 lg:pb-36 lg:min-h-[88vh] flex items-center">
+          <div className="w-full lg:max-w-[46%]">
+            <p className="flex items-center gap-4 font-dm-sans text-xs sm:text-sm uppercase tracking-[0.3em] text-[var(--color-muted)]">
+              Kristi Lawrence, APRN
+              <span className="inline-block w-12 h-px bg-[var(--color-muted)]" aria-hidden="true" />
+            </p>
+            <h1 className="font-cormorant text-5xl sm:text-6xl xl:text-7xl font-semibold leading-[1.05] tracking-tight text-[var(--color-ink)] mt-6">
+              Mental health care that understands <em>you</em>.
+            </h1>
+            <p className="mt-6 text-lg text-[var(--color-ink)]/80 leading-relaxed max-w-xl">
+              Blue Willow Psychiatry in Tooele, UT. In-office and virtual visits, with evening and weekend appointments available.
+            </p>
+            <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-5">
+              <Link href="/contact" className="inline-flex items-center gap-2 bg-[var(--color-primary)] hover:bg-[var(--color-dark)] text-white px-8 py-4 rounded-lg font-semibold shadow-md transition-colors">
+                Schedule a Consultation
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
+              </Link>
+              <Link href="/services" className="font-semibold text-[var(--color-primary)] underline decoration-2 underline-offset-8 hover:text-[var(--color-dark)]">
+                Learn More
+              </Link>
+            </div>
+            <p className="mt-8 max-w-[15rem] sm:max-w-none text-sm text-[var(--color-muted)]">Have questions first? Call <a href="tel:4352003430" className="font-semibold text-[var(--color-primary)] underline">(435) 200-3430</a> for a free 15 minute consultation.</p>
           </div>
-          <p className="mt-6 text-[var(--color-ink)]">Have questions first? Call <a href="tel:4352003430" className="font-semibold underline">(435) 200-3430</a> for a free 15 minute consultation.</p>
         </div>
       </section>
 

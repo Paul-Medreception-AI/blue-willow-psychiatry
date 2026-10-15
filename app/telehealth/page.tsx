@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import PageHero from '@/components/PageHero'
 
 const TITLE = 'Telehealth Psychiatry in Utah | Blue Willow Psychiatry'
 const DESCRIPTION = 'See Kristi Lawrence, APRN in the Tooele office or by virtual visit. Evening and weekend appointments are available. Call (435) 200-3430.'
@@ -62,14 +63,8 @@ const faqs = [
 export default function TelehealthPage() {
   return (
     <main>
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-24 text-white text-center">
-        <div className="max-w-3xl mx-auto px-6">
-          <h1 className="font-cormorant text-5xl font-light">Telehealth and Office Visits</h1>
-          <p className="mt-6 text-lg text-white/90 leading-relaxed">
-            We want this to be as easy as possible, and understand the demands on your time. We offer both in-office and virtual visits, as well as appointments on weekends and evenings.
-          </p>
-        </div>
-      </section>
+      {/* Page header: from her draft Services page. */}
+      <PageHero title={"Telehealth and Office Visits"} subtitle={"We want this to be as easy as possible, and understand the demands on your time. We offer both in-office and virtual visits, as well as appointments on weekends and evenings."} crumb="Telehealth" image="/images/eucalyptus-sprig-jar.jpg" position="object-[center_52%]" />
 
       <section className="bg-[var(--color-cream)] py-24">
         <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import PageHero from '@/components/PageHero'
 
 const TITLE = 'Insurance & Fees | Blue Willow Psychiatry, Tooele UT'
 const DESCRIPTION = 'Insurance plans accepted at Blue Willow Psychiatry, including Medicaid, PEHP, DMBA, SelectHealth and Regence, plus self pay rates and payment options.'
@@ -73,14 +74,8 @@ export default function InsurancePage() {
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_SCHEMA) }} />
 
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-24 text-white text-center">
-        <div className="max-w-3xl mx-auto px-6">
-          <h1 className="font-cormorant text-5xl font-light">Insurance &amp; Fees</h1>
-          <p className="mt-6 text-lg text-white/90 leading-relaxed">
-            Insurance plans we accept, self pay rates, and what to know before your visit.
-          </p>
-        </div>
-      </section>
+      {/* Page header: from her draft Services page. */}
+      <PageHero title={"Insurance & Fees"} subtitle={"Insurance plans we accept, self pay rates, and what to know before your visit."} crumb="Insurance & Fees" image="/images/succulent.jpg" position="object-[right_45%]" />
 
       <section className="bg-[var(--color-cream)] py-24">
         <div className="max-w-4xl mx-auto px-6">

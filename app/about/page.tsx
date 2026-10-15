@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import PageHero from '@/components/PageHero'
 
 export const metadata: Metadata = {
   title: 'About Blue Willow Psychiatry | Tooele, UT',
@@ -22,17 +23,8 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="mx-auto max-w-6xl px-6">
-          <nav className="mb-6 text-sm text-white/70">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <span className="mx-2">›</span>
-            <span className="text-white">About</span>
-          </nav>
-          <h1 className="font-cormorant text-6xl font-light">Care That Fits Your Life and Your Needs</h1>
-          <p className="mt-4 text-xl text-white/80">Understanding, thorough, and individualized mental health care in Tooele, UT.</p>
-        </div>
-      </section>
+      {/* Page header: from her draft Philosophy page. */}
+      <PageHero title={"Care That Fits Your Life and Your Needs"} subtitle={"Understanding, thorough, and individualized mental health care in Tooele, UT."} crumb="About" image="/images/eucalyptus-white-flowers.jpg" position="object-[center_40%]" />
 
       <section className="bg-[var(--color-cream)] py-24">
         <div className="mx-auto grid max-w-6xl gap-12 px-6 lg:grid-cols-5">

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import ContactForm from '@/components/ContactForm'
+import PageHero from '@/components/PageHero'
 
 export const metadata: Metadata = {
   title: 'Contact Blue Willow Psychiatry | Tooele, UT',
@@ -23,17 +24,8 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <main>
-      <section className="relative overflow-hidden bg-white py-32 text-center">
-        {/* Her original Contact page background (bluewillowpsych.com/contact) */}
-        <Image src="/images/pexels-min-an-1353938.jpg" alt="" fill priority quality={80} sizes="100vw" className="object-cover object-top" aria-hidden="true" />
-        <div className="absolute inset-0 bg-white/35" aria-hidden="true" />
-        <div className="relative max-w-3xl mx-auto px-6">
-          <h1 className="font-cormorant text-6xl font-semibold text-[var(--color-dark)]">Contact Us</h1>
-          <p className="mt-6 text-lg text-[var(--color-ink)]">
-            We&apos;d love to hear from you. Reach out to schedule an appointment or ask a question.
-          </p>
-        </div>
-      </section>
+      {/* Page header: her original Contact page photo. */}
+      <PageHero title={"Contact Us"} subtitle={"We'd love to hear from you. Reach out to schedule an appointment or ask a question."} crumb="Contact" image="/images/pexels-min-an-1353938.jpg" position="object-top" />
 
       <section className="bg-[var(--color-cream)] py-24">
         <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-16">

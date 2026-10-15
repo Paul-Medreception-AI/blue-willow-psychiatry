@@ -39,7 +39,7 @@ function Chevron() {
 
 export default function SiteHeader() {
   return (
-    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-[var(--color-border)] shadow-sm">
+    <header className="sticky top-0 z-50 bg-white/75 backdrop-blur-md border-b border-[var(--color-border)]/60 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
         <a href="/" className="flex items-center min-w-0" aria-label={NAME + ', home'}>
           {LOGO ? (
