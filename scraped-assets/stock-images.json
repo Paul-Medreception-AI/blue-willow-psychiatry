@@ -1,0 +1,689 @@
+{
+  "note": "Page photos chosen by the website builder. Pexels photos are free to use (pexels.com/license); credit is appreciated, not required.",
+  "images": [
+    {
+      "page": "services:brief-solution-focused-therapy",
+      "file": "public/images/stock/brief-solution-focused-therapy.jpg",
+      "source": "pexels",
+      "alt": "From above of blurred unrecognizable female psychologist sitting in office near table with clipboard and pen during session in office",
+      "pexels_id": 5699437,
+      "photographer": "Alex Green",
+      "pexels_url": "https://www.pexels.com/photo/crop-woman-in-office-with-clipboard-5699437/"
+    },
+    {
+      "page": "services:medication-management",
+      "file": "public/images/stock/medication-management.jpg",
+      "source": "pexels",
+      "alt": "Assorted pills arranged beside wooden tiles spelling 'PANIC', symbolizing anxiety treatment.",
+      "pexels_id": 31487212,
+      "photographer": "Marta Branco",
+      "pexels_url": "https://www.pexels.com/photo/assorted-pills-with-word-panic-on-wooden-tiles-31487212/"
+    },
+    {
+      "page": "services:second-opinions",
+      "file": "public/images/stock/second-opinions.jpg",
+      "source": "pexels",
+      "alt": "Unrecognizable professional female psychologist writing on clipboard while sitting against client on blurred background during psychotherapy session in light of",
+      "pexels_id": 7176026,
+      "photographer": "SHVETS production",
+      "pexels_url": "https://www.pexels.com/photo/crop-psychologist-taking-notes-during-appointment-7176026/"
+    },
+    {
+      "page": "services:free-15-minute-consultation",
+      "file": "public/images/stock/free-15-minute-consultation.jpg",
+      "source": "pexels",
+      "alt": "A therapist and client during a counseling session, focusing on mental health support.",
+      "pexels_id": 14797780,
+      "photographer": "World Sikh Organization of Canada",
+      "pexels_url": "https://www.pexels.com/photo/two-women-sitting-in-a-room-14797780/"
+    },
+    {
+      "page": "services:treatment",
+      "file": "public/images/stock/treatment.jpg",
+      "source": "pexels",
+      "alt": "A therapist taking notes during a consultation with a patient, focusing on mental health.",
+      "pexels_id": 7699526,
+      "photographer": "MART  PRODUCTION",
+      "pexels_url": "https://www.pexels.com/photo/therapist-making-notes-7699526/"
+    },
+    {
+      "page": "conditions:add-and-adhd",
+      "file": "public/images/stock/add-and-adhd.jpg",
+      "source": "pexels",
+      "alt": "Simple depiction of ADHD awareness with text on a chalkboard.",
+      "pexels_id": 8378727,
+      "photographer": "Tara Winstead",
+      "pexels_url": "https://www.pexels.com/photo/adhd-text-8378727/"
+    },
+    {
+      "page": "conditions:addiction-and-substance-use-disorders",
+      "file": "public/images/stock/addiction-and-substance-use-disorders.jpg",
+      "source": "pexels",
+      "alt": "A cannabis leaf and wooden letter tiles spelling 'addicted' on a green surface.",
+      "pexels_id": 8327018,
+      "photographer": "Alesia  Kozik",
+      "pexels_url": "https://www.pexels.com/photo/letter-tiles-beside-marijuana-leaf-on-a-green-surface-8327018/"
+    },
+    {
+      "page": "conditions:anxiety",
+      "file": "public/images/stock/anxiety.jpg",
+      "source": "pexels",
+      "alt": "Pink Scrabble tiles spelling 'anxiety' on a white surface. Concept of mental health.",
+      "pexels_id": 5939115,
+      "photographer": "Anna Tarazevich",
+      "pexels_url": "https://www.pexels.com/photo/close-up-shot-of-scrabble-tiles-5939115/"
+    },
+    {
+      "page": "conditions:alcohol-use-disorder",
+      "file": "public/images/stock/alcohol-use-disorder.jpg",
+      "source": "pexels",
+      "alt": "Adult man sitting indoors looking pensive with a beer bottle, conveying emotions of stress or contemplation.",
+      "pexels_id": 7926719,
+      "photographer": "Nicola Barts",
+      "pexels_url": "https://www.pexels.com/photo/close-up-photo-of-man-drinking-beer-7926719/"
+    },
+    {
+      "page": "conditions:adult-adhd",
+      "file": "public/images/stock/adult-adhd.jpg",
+      "source": "pexels",
+      "alt": "Side view of a thoughtful bald man with an arm tattoo, sitting indoors.",
+      "pexels_id": 7927417,
+      "photographer": "Nicola Barts",
+      "pexels_url": "https://www.pexels.com/photo/man-in-white-tank-top-with-arm-tattoo-holding-his-head-7927417/"
+    },
+    {
+      "page": "conditions:bipolar-disorder",
+      "file": "public/images/stock/bipolar-disorder.jpg",
+      "source": "pexels",
+      "alt": "Word depression spelled with letter tiles on vibrant red background, highlighting mental health theme.",
+      "pexels_id": 6136083,
+      "photographer": "Anna Tarazevich",
+      "pexels_url": "https://www.pexels.com/photo/word-depression-composed-of-tiles-with-letters-on-red-background-6136083/"
+    },
+    {
+      "page": "conditions:depression",
+      "file": "public/images/stock/depression.jpg",
+      "source": "pexels",
+      "alt": "Close-up of an elderly man covering his face, expressing sadness and contemplation.",
+      "pexels_id": 10090774,
+      "photographer": "Danny Doneo",
+      "pexels_url": "https://www.pexels.com/photo/a-sad-man-covering-his-face-with-his-hands-10090774/"
+    },
+    {
+      "page": "conditions:generalized-anxiety-disorder",
+      "file": "public/images/stock/generalized-anxiety-disorder.jpg",
+      "source": "pexels",
+      "alt": "Wooden tiles on a white background spell anxiety, symbolizing mental health awareness.",
+      "pexels_id": 3656855,
+      "photographer": "Suzy Hazelwood",
+      "pexels_url": "https://www.pexels.com/photo/white-and-brown-wooden-tiles-3656855/"
+    },
+    {
+      "page": "conditions:grief-and-loss",
+      "file": "public/images/stock/grief-and-loss.jpg",
+      "source": "pexels",
+      "alt": "A woman in a cemetery expressing grief and contemplation in a serene outdoor setting.",
+      "pexels_id": 6907840,
+      "photographer": "Arina Krasnikova",
+      "pexels_url": "https://www.pexels.com/photo/brunette-woman-in-cemetery-6907840/"
+    },
+    {
+      "page": "conditions:mood-instability",
+      "file": "public/images/stock/mood-instability.jpg",
+      "source": "pexels",
+      "alt": "Close-up of a woman expressing sadness and emotional distress indoors.",
+      "pexels_id": 7272851,
+      "photographer": "https://kaboompics.com/",
+      "pexels_url": "https://www.pexels.com/photo/portrait-of-a-crying-woman-7272851/"
+    },
+    {
+      "page": "conditions:insomnia",
+      "file": "public/images/stock/insomnia.jpg",
+      "source": "pexels",
+      "alt": "Close-up of a woman in blue satin pajamas tearing a paper with the word 'SLEEP'.",
+      "pexels_id": 8416421,
+      "photographer": "SHVETS production",
+      "pexels_url": "https://www.pexels.com/photo/woman-in-sating-pajamas-tearing-a-white-paper-8416421/"
+    },
+    {
+      "page": "services:assessments",
+      "file": "public/images/stock/assessments.jpg",
+      "source": "pexels",
+      "alt": "Close-up of a person writing on a psychological assessment form with a pencil.",
+      "pexels_id": 8654753,
+      "photographer": "Mikhail Nilov",
+      "pexels_url": "https://www.pexels.com/photo/close-up-of-man-looking-at-a-document-with-an-autism-test-8654753/"
+    },
+    {
+      "page": "conditions:obsessive-compulsive-disorder",
+      "file": "public/images/stock/obsessive-compulsive-disorder.jpg",
+      "source": "pexels",
+      "alt": "Close-up of wooden blocks spelling ANXIETY on a wooden surface with blurred green background.",
+      "pexels_id": 30917905,
+      "photographer": "Markus Winkler",
+      "pexels_url": "https://www.pexels.com/photo/wooden-blocks-spelling-anxiety-on-wooden-surface-30917905/"
+    },
+    {
+      "page": "conditions:opioid-use-disorder",
+      "file": "public/images/stock/opioid-use-disorder.jpg",
+      "source": "pexels",
+      "alt": "Close-up of white pills scattered from an orange prescription bottle on a gray surface.",
+      "pexels_id": 11361813,
+      "photographer": "Towfiqu barbhuiya",
+      "pexels_url": "https://www.pexels.com/photo/bottle-with-pills-11361813/"
+    },
+    {
+      "page": "conditions:panic-disorder",
+      "file": "public/images/stock/panic-disorder.jpg",
+      "source": "pexels",
+      "alt": "A woman in a hoodie with panic attack letters, representing mental health struggles.",
+      "pexels_id": 8410839,
+      "photographer": "SHVETS production",
+      "pexels_url": "https://www.pexels.com/photo/woman-in-black-hoodie-8410839/"
+    },
+    {
+      "page": "conditions:psychosis",
+      "file": "public/images/stock/psychosis.jpg",
+      "source": "pexels",
+      "alt": "Black and white portrait exploring identity and emotion through mirror reflections.",
+      "pexels_id": 6764111,
+      "photographer": "cottonbro studio",
+      "pexels_url": "https://www.pexels.com/photo/black-and-white-woman-creative-dark-6764111/"
+    },
+    {
+      "page": "conditions:postpartum-depression",
+      "file": "public/images/stock/postpartum-depression.jpg",
+      "source": "pexels",
+      "alt": "Woman in deep thought sitting in a sunlit bedroom, expressing emotions of sadness and solitude.",
+      "pexels_id": 3807730,
+      "photographer": "Andrea Piacquadio",
+      "pexels_url": "https://www.pexels.com/photo/woman-in-gray-tank-top-while-sitting-on-bed-3807730/"
+    },
+    {
+      "page": "conditions:ptsd",
+      "file": "public/images/stock/ptsd.jpg",
+      "source": "pexels",
+      "alt": "A combat veteran in military uniform engages in a counseling session indoors, expressing emotions.",
+      "pexels_id": 7468058,
+      "photographer": "RDNE Stock project",
+      "pexels_url": "https://www.pexels.com/photo/photo-of-soldier-explaining-to-a-therapist-7468058/"
+    },
+    {
+      "page": "conditions:schizoaffective-disorder",
+      "file": "public/images/stock/schizoaffective-disorder.jpg",
+      "source": "pexels",
+      "alt": "A man sits alone by a window, reflecting on emotions in a minimalist room.",
+      "pexels_id": 6756351,
+      "photographer": "cottonbro studio",
+      "pexels_url": "https://www.pexels.com/photo/light-man-people-wall-6756351/"
+    },
+    {
+      "page": "conditions:schizophrenia",
+      "file": "public/images/stock/schizophrenia.jpg",
+      "source": "pexels",
+      "alt": "Adult holding a sign with 'Phobia' to convey fear and anxiety concepts.",
+      "pexels_id": 8459027,
+      "photographer": "MART  PRODUCTION",
+      "pexels_url": "https://www.pexels.com/photo/a-person-holding-a-sign-of-phobia-8459027/"
+    },
+    {
+      "page": "conditions:sleep-disturbances",
+      "file": "public/images/stock/sleep-disturbances.jpg",
+      "source": "pexels",
+      "alt": "Tattooed woman with pillow and sleep mask showing insomnia concept.",
+      "pexels_id": 8416438,
+      "photographer": "SHVETS production",
+      "pexels_url": "https://www.pexels.com/photo/a-woman-in-light-blue-long-sleeves-with-pillow-on-her-head-8416438/"
+    },
+    {
+      "page": "conditions:seasonal-affective-disorder",
+      "file": "public/images/stock/seasonal-affective-disorder.jpg",
+      "source": "pexels",
+      "alt": "Two people hugging indoors near a window with a snowy, cityscape background.",
+      "pexels_id": 6789128,
+      "photographer": "Ivan S",
+      "pexels_url": "https://www.pexels.com/photo/a-person-in-long-sleeve-shirt-hugging-a-person-in-cream-sweater-by-the-window-6789128/"
+    },
+    {
+      "page": "conditions:social-anxiety",
+      "file": "public/images/stock/social-anxiety.jpg",
+      "source": "pexels",
+      "alt": "Portrait of people holding signs about phobias and ophidiophobia.",
+      "pexels_id": 8458986,
+      "photographer": "MART  PRODUCTION",
+      "pexels_url": "https://www.pexels.com/photo/man-and-woman-holding-signs-of-different-forms-of-phobia-8458986/"
+    },
+    {
+      "page": "conditions:trauma-related-symptoms",
+      "file": "public/images/stock/trauma-related-symptoms.jpg",
+      "source": "pexels",
+      "alt": "Woman looking distressed with hands on head, expressing worry indoors.",
+      "pexels_id": 7699305,
+      "photographer": "MART  PRODUCTION",
+      "pexels_url": "https://www.pexels.com/photo/close-up-shot-of-a-sad-woman-7699305/"
+    },
+    {
+      "page": "conditions:stress-and-adjustment-disorders",
+      "file": "public/images/stock/stress-and-adjustment-disorders.jpg",
+      "source": "pexels",
+      "alt": "Wooden blocks spelling 'Anxiety' with assorted pills below on a light background.",
+      "pexels_id": 31464245,
+      "photographer": "Marta Branco",
+      "pexels_url": "https://www.pexels.com/photo/anxiety-relief-pills-and-wooden-blocks-display-31464245/"
+    },
+    {
+      "page": "conditions:treatment-resistant-depression",
+      "file": "public/images/stock/treatment-resistant-depression.jpg",
+      "source": "pexels",
+      "alt": "A client discusses issues during a therapy session with a therapist taking notes, indoors.",
+      "pexels_id": 23496490,
+      "photographer": "Vitaly Gariev",
+      "pexels_url": "https://www.pexels.com/photo/a-man-and-woman-are-sitting-on-a-couch-with-a-clipboard-23496490/"
+    },
+    {
+      "page": "compare:insurance-vs-self-pay-psychiatry",
+      "file": "public/images/stock/compare-insurance-vs-self-pay-psychiatry.jpg",
+      "source": "pexels",
+      "alt": "Man lying on couch during therapy session with female therapist taking notes.",
+      "pexels_id": 7447068,
+      "photographer": "Gustavo Fring",
+      "pexels_url": "https://www.pexels.com/photo/man-during-therapy-session-7447068/"
+    },
+    {
+      "page": "locations:tooele-ut",
+      "file": "public/images/stock/location-tooele-ut.jpg",
+      "source": "pexels",
+      "alt": "A stunning aerial perspective of snow-dusted Salt Lake City, highlighting its winter landscape and surrounding mountains.",
+      "pexels_id": 19964272,
+      "photographer": "Aaron Hairston",
+      "pexels_url": "https://www.pexels.com/photo/town-and-mountains-landscape-19964272/"
+    },
+    {
+      "page": "compare:medication-management-vs-combined-care",
+      "file": "public/images/stock/compare-medication-management-vs-combined-care.jpg",
+      "source": "pexels",
+      "alt": "An overhead view of a colorful assortment of pills and capsules on a yellow background.",
+      "pexels_id": 12585199,
+      "photographer": "Etatics Inc.",
+      "pexels_url": "https://www.pexels.com/photo/close-up-shot-of-pills-12585199/"
+    },
+    {
+      "page": "compare:psychiatric-assessment-vs-primary-care-evaluation",
+      "file": "public/images/stock/compare-psychiatric-assessment-vs-primary-care-evaluation.jpg",
+      "source": "pexels",
+      "alt": "A close-up of a Rorschach inkblot test during a psychotherapy session, highlighting mental health care.",
+      "pexels_id": 9064394,
+      "photographer": "RDNE Stock project",
+      "pexels_url": "https://www.pexels.com/photo/a-person-holding-a-clipboard-with-artwork-9064394/"
+    },
+    {
+      "page": "compare:medication-vs-therapy",
+      "file": "public/images/stock/compare-medication-vs-therapy.jpg",
+      "source": "pexels",
+      "alt": "From above of crop unrecognizable person sitting on bed and holding bunch of painkillers in hand at home",
+      "pexels_id": 6798899,
+      "photographer": "Michelle Leman",
+      "pexels_url": "https://www.pexels.com/photo/person-holding-pills-in-hand-while-sitting-on-bed-6798899/"
+    },
+    {
+      "page": "blog:adult-adhd-signs-you-may-have-missed",
+      "file": "public/images/stock/blog-adult-adhd-signs-you-may-have-missed.jpg",
+      "source": "pexels",
+      "alt": "African American woman with health messages about nutrition and obesity awareness.",
+      "pexels_id": 6668854,
+      "photographer": "Moe Magners",
+      "pexels_url": "https://www.pexels.com/photo/woman-in-white-crew-neck-shirt-standing-beside-white-wall-with-healthy-living-slogans-6668854/"
+    },
+    {
+      "page": "compare:second-opinion-vs-continuing-treatment",
+      "file": "public/images/stock/compare-second-opinion-vs-continuing-treatment.jpg",
+      "source": "pexels",
+      "alt": "From above crop African American male in casual clothes sitting on comfy couch and answering professional female consultant questions in modern psychotherapy of",
+      "pexels_id": 5699466,
+      "photographer": "Alex Green",
+      "pexels_url": "https://www.pexels.com/photo/crop-unrecognizable-black-man-sharing-complains-with-female-psychologist-5699466/"
+    },
+    {
+      "page": "blog:alcohol-use-and-your-mental-health",
+      "file": "public/images/stock/blog-alcohol-use-and-your-mental-health.jpg",
+      "source": "pexels",
+      "alt": "A man sits on a couch, drinking wine in a dimly lit room, conveying a contemplative mood.",
+      "pexels_id": 6603407,
+      "photographer": "cottonbro studio",
+      "pexels_url": "https://www.pexels.com/photo/a-man-drinking-alcoholic-drink-6603407/"
+    },
+    {
+      "page": "blog:adhd-and-anxiety-when-they-overlap",
+      "file": "public/images/stock/blog-adhd-and-anxiety-when-they-overlap.jpg",
+      "source": "pexels",
+      "alt": "Creative illustration highlighting ADHD awareness with colorful brain imagery.",
+      "pexels_id": 8378728,
+      "photographer": "Tara Winstead",
+      "pexels_url": "https://www.pexels.com/photo/adhd-text-8378728/"
+    },
+    {
+      "page": "blog:building-healthy-routines-for-mental-wellness",
+      "file": "public/images/stock/blog-building-healthy-routines-for-mental-wellness.jpg",
+      "source": "pexels",
+      "alt": "A woman performing a yoga pose on a mat in an urban park setting during fall.",
+      "pexels_id": 34382758,
+      "photographer": "Zulfugar Karimov",
+      "pexels_url": "https://www.pexels.com/photo/woman-practicing-yoga-outdoors-in-urban-park-34382758/"
+    },
+    {
+      "page": "blog:finding-hope-after-a-long-struggle",
+      "file": "public/images/stock/blog-finding-hope-after-a-long-struggle.jpg",
+      "source": "pexels",
+      "alt": "Inspiring message with a pink ribbon symbolizing breast cancer survival and awareness.",
+      "pexels_id": 7792485,
+      "photographer": "Leeloo The First",
+      "pexels_url": "https://www.pexels.com/photo/i-am-survivor-note-on-a-letterboard-7792485/"
+    },
+    {
+      "page": "blog:coping-with-seasonal-mood-changes",
+      "file": "public/images/stock/blog-coping-with-seasonal-mood-changes.jpg",
+      "source": "pexels",
+      "alt": "Colorful maple leaves held in hand symbolizing fall season's beauty.",
+      "pexels_id": 8258114,
+      "photographer": "Julia Filirovska",
+      "pexels_url": "https://www.pexels.com/photo/person-holding-maple-leaves-8258114/"
+    },
+    {
+      "page": "blog:getting-a-second-opinion-on-a-mental-health-diagnosis",
+      "file": "public/images/stock/blog-getting-a-second-opinion-on-a-mental-health-diagnosis.jpg",
+      "source": "pexels",
+      "alt": "Scrabble tiles spelling 'Talking' on wooden surface, symbolizing communication.",
+      "pexels_id": 20021284,
+      "photographer": "Markus Winkler",
+      "pexels_url": "https://www.pexels.com/photo/talking-scrabble-letters-on-a-wooden-table-20021284/"
+    },
+    {
+      "page": "blog:grief-and-mental-health",
+      "file": "public/images/stock/blog-grief-and-mental-health.jpg",
+      "source": "pexels",
+      "alt": "Desperate African American female with curly hair wiping face with tissue while crying from sadness on windowsill and looking away",
+      "pexels_id": 6382600,
+      "photographer": "Liza Summer",
+      "pexels_url": "https://www.pexels.com/photo/upset-black-woman-wiping-tears-with-tissue-6382600/"
+    },
+    {
+      "page": "blog:how-to-talk-to-a-loved-one-about-getting-help",
+      "file": "public/images/stock/blog-how-to-talk-to-a-loved-one-about-getting-help.jpg",
+      "source": "pexels",
+      "alt": "Therapist and patient in conversation during a counseling session indoors.",
+      "pexels_id": 36729378,
+      "photographer": "Vitaly Gariev",
+      "pexels_url": "https://www.pexels.com/photo/therapist-consulting-with-patient-in-office-setting-36729378/"
+    },
+    {
+      "page": "blog:how-to-know-if-you-need-a-psychiatric-assessment",
+      "file": "public/images/stock/blog-how-to-know-if-you-need-a-psychiatric-assessment.jpg",
+      "source": "pexels",
+      "alt": "A psychologist and patient discuss a Rorschach inkblot test during a therapy session.",
+      "pexels_id": 9064387,
+      "photographer": "RDNE Stock project",
+      "pexels_url": "https://www.pexels.com/photo/woman-on-a-therapy-9064387/"
+    },
+    {
+      "page": "blog:how-lab-tests-can-support-a-psychiatric-diagnosis",
+      "file": "public/images/stock/blog-how-lab-tests-can-support-a-psychiatric-diagnosis.jpg",
+      "source": "pexels",
+      "alt": "Flat lay of pink laboratory and office supplies promoting breast cancer awareness.",
+      "pexels_id": 7723598,
+      "photographer": "Tara Winstead",
+      "pexels_url": "https://www.pexels.com/photo/white-blank-paper-on-pink-background-7723598/"
+    },
+    {
+      "page": "blog:insomnia-when-sleeplessness-needs-treatment",
+      "file": "public/images/stock/blog-insomnia-when-sleeplessness-needs-treatment.jpg",
+      "source": "pexels",
+      "alt": "Close-up of a woman holding a pillow with 'insomnia' text, depicting sleep disorder.",
+      "pexels_id": 8410726,
+      "photographer": "SHVETS production",
+      "pexels_url": "https://www.pexels.com/photo/woman-hugging-a-pillow-8410726/"
+    },
+    {
+      "page": "blog:is-a-free-consultation-right-for-you",
+      "file": "public/images/stock/blog-is-a-free-consultation-right-for-you.jpg",
+      "source": "pexels",
+      "alt": "Calm female sitting on armchair and giving interview to concentrated woman in light room",
+      "pexels_id": 7176296,
+      "photographer": "SHVETS production",
+      "pexels_url": "https://www.pexels.com/photo/female-talking-with-psychologist-during-session-7176296/"
+    },
+    {
+      "page": "blog:living-with-bipolar-disorder",
+      "file": "public/images/stock/blog-living-with-bipolar-disorder.jpg",
+      "source": "pexels",
+      "alt": "A contemplative man sits in a corner of a dimly lit bedroom, reflecting deep emotions.",
+      "pexels_id": 6756354,
+      "photographer": "cottonbro studio",
+      "pexels_url": "https://www.pexels.com/photo/man-in-black-jacket-and-red-pants-sitting-on-floor-6756354/"
+    },
+    {
+      "page": "blog:managing-panic-attacks",
+      "file": "public/images/stock/blog-managing-panic-attacks.jpg",
+      "source": "pexels",
+      "alt": "A woman sitting with 'PANIC ATTACK' on her hood, showing anxiety indoors.",
+      "pexels_id": 8410841,
+      "photographer": "SHVETS production",
+      "pexels_url": "https://www.pexels.com/photo/woman-wearing-black-hoodie-8410841/"
+    },
+    {
+      "page": "blog:mood-swings-or-bipolar-disorder",
+      "file": "public/images/stock/blog-mood-swings-or-bipolar-disorder.jpg",
+      "source": "pexels",
+      "alt": "A serene sunset silhouette of a woman sitting on a swing by the seashore, evoking tranquility and reflection.",
+      "pexels_id": 289998,
+      "photographer": "Pixabay",
+      "pexels_url": "https://www.pexels.com/photo/silhouette-of-woman-on-swing-during-golden-hour-289998/"
+    },
+    {
+      "page": "blog:medication-therapy-or-both",
+      "file": "public/images/stock/blog-medication-therapy-or-both.jpg",
+      "source": "pexels",
+      "alt": "Vibrant pink and blue capsules scattered on a light textured background.",
+      "pexels_id": 2228550,
+      "photographer": "Thought Catalog",
+      "pexels_url": "https://www.pexels.com/photo/medication-capsules-2228550/"
+    },
+    {
+      "page": "blog:obsessive-compulsive-disorder-more-than-neatness",
+      "file": "public/images/stock/blog-obsessive-compulsive-disorder-more-than-neatness.jpg",
+      "source": "pexels",
+      "alt": "A woman poses with a pillow labeled 'insomnia' highlighting sleep disorders and mental health awareness.",
+      "pexels_id": 8410718,
+      "photographer": "SHVETS production",
+      "pexels_url": "https://www.pexels.com/photo/woman-wearing-a-pillow-using-a-belt-8410718/"
+    },
+    {
+      "page": "blog:preparing-for-follow-up-medication-visits",
+      "file": "public/images/stock/blog-preparing-for-follow-up-medication-visits.jpg",
+      "source": "pexels",
+      "alt": "Doctor in white coat consulting patient in a modern office setting.",
+      "pexels_id": 39192395,
+      "photographer": "Vitaly Gariev",
+      "pexels_url": "https://www.pexels.com/photo/doctor-consulting-patient-in-modern-office-39192395/"
+    },
+    {
+      "page": "blog:recognizing-psychosis-early",
+      "file": "public/images/stock/blog-recognizing-psychosis-early.jpg",
+      "source": "pexels",
+      "alt": "Silhouette of a person meditating by the water as the sun rises at Cove Island Park in Stamford, Connecticut.",
+      "pexels_id": 39379756,
+      "photographer": "David Kanigan",
+      "pexels_url": "https://www.pexels.com/photo/serene-reflection-by-sunrise-at-cove-island-park-39379756/"
+    },
+    {
+      "page": "blog:postpartum-mood-changes-when-to-seek-help",
+      "file": "public/images/stock/blog-postpartum-mood-changes-when-to-seek-help.jpg",
+      "source": "pexels",
+      "alt": "A woman in bed showing signs of anxiety. Soft light indoors.",
+      "pexels_id": 36730543,
+      "photographer": "Vitaly Gariev",
+      "pexels_url": "https://www.pexels.com/photo/woman-feeling-anxious-in-bed-during-the-day-36730543/"
+    },
+    {
+      "page": "blog:questions-to-ask-your-psychiatric-provider",
+      "file": "public/images/stock/blog-questions-to-ask-your-psychiatric-provider.jpg",
+      "source": "pexels",
+      "alt": "Wooden letter tiles on a rustic surface spell the word 'Therapist'.",
+      "pexels_id": 19783687,
+      "photographer": "Markus Winkler",
+      "pexels_url": "https://www.pexels.com/photo/the-word-therapist-spelled-out-with-scrabble-letters-19783687/"
+    },
+    {
+      "page": "blog:stress-burnout-and-your-mental-health",
+      "file": "public/images/stock/blog-stress-burnout-and-your-mental-health.jpg",
+      "source": "pexels",
+      "alt": "A skeleton covered in sticky notes with 'burnout' on one, symbolizing work stress and exhaustion.",
+      "pexels_id": 8386717,
+      "photographer": "Tara Winstead",
+      "pexels_url": "https://www.pexels.com/photo/a-skeleton-buried-with-sticky-notes-8386717/"
+    },
+    {
+      "page": "blog:recognizing-the-signs-of-depression",
+      "file": "public/images/stock/blog-recognizing-the-signs-of-depression.jpg",
+      "source": "pexels",
+      "alt": "A vintage typewriter with the word 'Depression' typed on paper, conveying a mental health theme.",
+      "pexels_id": 12231827,
+      "photographer": "Markus Winkler",
+      "pexels_url": "https://www.pexels.com/photo/a-white-bond-paper-with-depression-text-on-a-typewriter-12231827/"
+    },
+    {
+      "page": "blog:taking-the-first-step-toward-mental-health-care",
+      "file": "public/images/stock/blog-taking-the-first-step-toward-mental-health-care.jpg",
+      "source": "pexels",
+      "alt": "A therapist attentively takes notes while two clients engage in a counseling session indoors.",
+      "pexels_id": 7447058,
+      "photographer": "Gustavo Fring",
+      "pexels_url": "https://www.pexels.com/photo/close-up-shot-of-a-woman-in-white-long-sleeve-and-denim-pants-looking-at-a-clipboard-7447058/"
+    },
+    {
+      "page": "blog:substance-use-and-mental-health",
+      "file": "public/images/stock/blog-substance-use-and-mental-health.jpg",
+      "source": "pexels",
+      "alt": "Close-up view of scattered white pills and empty blister pack on a wooden surface, suggesting concepts of medicine or mental health.",
+      "pexels_id": 7277966,
+      "photographer": "MART  PRODUCTION",
+      "pexels_url": "https://www.pexels.com/photo/medicine-tablets-on-the-wooden-floor-7277966/"
+    },
+    {
+      "page": "blog:treatment-resistant-depression-explained",
+      "file": "public/images/stock/blog-treatment-resistant-depression-explained.jpg",
+      "source": "pexels",
+      "alt": "Therapist takes notes while patient discusses problems on a couch during a session.",
+      "pexels_id": 23496499,
+      "photographer": "Vitaly Gariev",
+      "pexels_url": "https://www.pexels.com/photo/two-people-sitting-on-a-couch-with-a-tablet-23496499/"
+    },
+    {
+      "page": "blog:supporting-a-family-member-with-mental-illness",
+      "file": "public/images/stock/blog-supporting-a-family-member-with-mental-illness.jpg",
+      "source": "pexels",
+      "alt": "Young man in thoughtful pose indoors with family members in the background, expressing contemplation and care.",
+      "pexels_id": 7551666,
+      "photographer": "Kampus Production",
+      "pexels_url": "https://www.pexels.com/photo/photo-of-a-man-with-his-hand-on-his-head-7551666/"
+    },
+    {
+      "page": "blog:self-pay-psychiatry-what-to-know",
+      "file": "public/images/stock/blog-self-pay-psychiatry-what-to-know.jpg",
+      "source": "pexels",
+      "alt": "Patient and therapist in a modern therapy session indoors.",
+      "pexels_id": 7579309,
+      "photographer": "Antoni Shkraba",
+      "pexels_url": "https://www.pexels.com/photo/man-in-a-psychotherapy-session-with-a-psychologist-7579309/"
+    },
+    {
+      "page": "blog:understanding-anxiety-beyond-everyday-worry",
+      "file": "public/images/stock/blog-understanding-anxiety-beyond-everyday-worry.jpg",
+      "source": "pexels",
+      "alt": "Blue letter blocks spelling 'worry' on a bold orange background. Bright and conceptual design.",
+      "pexels_id": 8386832,
+      "photographer": "Arturo A",
+      "pexels_url": "https://www.pexels.com/photo/letters-on-blue-square-tiles-on-orange-background-8386832/"
+    },
+    {
+      "page": "blog:understanding-psychiatric-medications",
+      "file": "public/images/stock/blog-understanding-psychiatric-medications.jpg",
+      "source": "pexels",
+      "alt": "Varied colorful pills and tablets scattered on a grey surface, viewed from above.",
+      "pexels_id": 6191556,
+      "photographer": "cottonbro studio",
+      "pexels_url": "https://www.pexels.com/photo/close-up-of-scattered-pills-in-different-shapes-sizes-and-colors-6191556/"
+    },
+    {
+      "page": "blog:understanding-schizophrenia-and-schizoaffective-disorder",
+      "file": "public/images/stock/blog-understanding-schizophrenia-and-schizoaffective-disorder.jpg",
+      "source": "pexels",
+      "alt": "Woman with spiders on face and body holding sign reading 'Arachnophobia'.",
+      "pexels_id": 8458820,
+      "photographer": "MART  PRODUCTION",
+      "pexels_url": "https://www.pexels.com/photo/a-fearful-woman-holding-a-sign-of-arachnophobia-8458820/"
+    },
+    {
+      "page": "blog:understanding-ptsd-and-trauma-responses",
+      "file": "public/images/stock/blog-understanding-ptsd-and-trauma-responses.jpg",
+      "source": "pexels",
+      "alt": "Military personnel discuss mental health in a supportive group therapy session.",
+      "pexels_id": 7468225,
+      "photographer": "RDNE Stock project",
+      "pexels_url": "https://www.pexels.com/photo/photo-of-people-having-a-therapy-session-7468225/"
+    },
+    {
+      "page": "blog:what-is-brief-solution-focused-therapy",
+      "file": "public/images/stock/blog-what-is-brief-solution-focused-therapy.jpg",
+      "source": "pexels",
+      "alt": "Crop anonymous African American man in casual clothes sitting on sofa and talking to female psychologist during psychotherapy session in modern studio",
+      "pexels_id": 5699418,
+      "photographer": "Alex Green",
+      "pexels_url": "https://www.pexels.com/photo/crop-unrecognizable-man-talking-to-female-psychologist-5699418/"
+    },
+    {
+      "page": "blog:using-insurance-for-mental-health-care",
+      "file": "public/images/stock/blog-using-insurance-for-mental-health-care.jpg",
+      "source": "pexels",
+      "alt": "Flat lay of health insurance concept with planner and pills.",
+      "pexels_id": 7163940,
+      "photographer": "Leeloo The First",
+      "pexels_url": "https://www.pexels.com/photo/pills-and-scrabble-tiles-7163940/"
+    },
+    {
+      "page": "blog:what-is-a-psychiatric-aprn",
+      "file": "public/images/stock/blog-what-is-a-psychiatric-aprn.jpg",
+      "source": "pexels",
+      "alt": "A therapy session featuring a diverse group discussing issues with a mental health professional.",
+      "pexels_id": 7579319,
+      "photographer": "Antoni Shkraba",
+      "pexels_url": "https://www.pexels.com/photo/men-arguing-with-each-other-7579319/"
+    },
+    {
+      "page": "blog:what-to-expect-at-your-first-psychiatry-visit",
+      "file": "public/images/stock/blog-what-to-expect-at-your-first-psychiatry-visit.jpg",
+      "source": "pexels",
+      "alt": "A therapist engages in a focused psychotherapy session with a patient in an indoor setting.",
+      "pexels_id": 4100433,
+      "photographer": "cottonbro studio",
+      "pexels_url": "https://www.pexels.com/photo/man-in-gray-sweater-sitting-on-black-couch-4100433/"
+    },
+    {
+      "page": "blog:when-treatment-after-treatment-has-not-worked",
+      "file": "public/images/stock/blog-when-treatment-after-treatment-has-not-worked.jpg",
+      "source": "pexels",
+      "alt": "Positive man in formal wear lying on sofa with notebook in hands while smiling and talking with therapist in black suit",
+      "pexels_id": 4148905,
+      "photographer": "Gustavo Fring",
+      "pexels_url": "https://www.pexels.com/photo/cheerful-man-talking-with-therapist-and-lying-on-sofa-4148905/"
+    },
+    {
+      "page": "blog:why-sleep-and-mental-health-are-connected",
+      "file": "public/images/stock/blog-why-sleep-and-mental-health-are-connected.jpg",
+      "source": "pexels",
+      "alt": "A person peacefully sleeping with an eye mask, wrapped in a purple blanket on a white background.",
+      "pexels_id": 8416276,
+      "photographer": "SHVETS production",
+      "pexels_url": "https://www.pexels.com/photo/a-man-sleeping-while-covering-his-body-with-purple-comforter-8416276/"
+    }
+  ]
+}
