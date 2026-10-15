@@ -75,8 +75,8 @@ export default function Home() {
           window light (eucalyptus-marble-table.jpg: her original photo, mirrored, extended onto a marble
           tabletop and relit with Stability on Bedrock, then upscaled), on the photo's own light warm
           gray wall, running up behind the translucent header. Desktop: copy on the left, photo on the
-          right, masked so it dissolves before the copy. Phones: two crops of the same photo, the
-          leaves across the top and the carafe on its table at the bottom right, copy between. */}
+          right, masked so it dissolves before the copy. Phones and tablets: the leaves across the top,
+          the copy below them (the carafe under the fold looked out of place, Paul 2026-10-15). */}
       <section className="relative -mt-20 overflow-hidden hero-wall">
         <div className="absolute inset-y-0 right-0 hidden lg:block w-[62%] hero-photo-fade" aria-hidden="true">
           <Image src="/images/eucalyptus-marble-table.jpg" alt="" fill priority quality={85} sizes="62vw" className="object-cover object-right" />
@@ -84,10 +84,7 @@ export default function Home() {
         <div className="absolute top-0 inset-x-0 h-[400px] md:h-[280px] overflow-hidden lg:hidden hero-leaves-fade" aria-hidden="true">
           <Image src="/images/eucalyptus-marble-table.jpg" alt="" width={2400} height={1924} priority quality={80} sizes="200vw" className="absolute top-0 -left-[40%] w-[200%] md:-left-[24%] md:w-[160%] max-w-none h-auto" />
         </div>
-        <div className="absolute bottom-0 right-0 w-[66%] md:w-[45%] h-[360px] overflow-hidden lg:hidden hero-vase-fade" aria-hidden="true">
-          <Image src="/images/eucalyptus-marble-table.jpg" alt="" width={2400} height={1924} quality={80} sizes="200vw" className="absolute bottom-0 -right-[60px] h-[640px] w-auto max-w-none" />
-        </div>
-        <div className="relative max-w-7xl mx-auto px-6 lg:px-8 pt-[290px] md:pt-[260px] pb-[230px] lg:pt-44 lg:pb-36 lg:min-h-[88vh] flex items-center">
+        <div className="relative max-w-7xl mx-auto px-6 lg:px-8 pt-[290px] md:pt-[260px] pb-16 lg:pt-44 lg:pb-36 lg:min-h-[88vh] flex items-center">
           <div className="w-full lg:max-w-[46%]">
             <p className="flex items-center gap-4 font-dm-sans text-xs sm:text-sm uppercase tracking-[0.3em] text-[var(--color-muted)]">
               Kristi Lawrence, APRN
@@ -108,7 +105,7 @@ export default function Home() {
                 Learn More
               </Link>
             </div>
-            <p className="mt-8 max-w-[15rem] sm:max-w-none text-sm text-[var(--color-muted)]">Have questions first? Call <a href="tel:4352003430" className="font-semibold text-[var(--color-primary)] underline">(435) 200-3430</a> for a free 15 minute consultation.</p>
+            <p className="mt-8 text-sm text-[var(--color-muted)]">Have questions first? Call <a href="tel:4352003430" className="font-semibold text-[var(--color-primary)] underline">(435) 200-3430</a> for a free 15 minute consultation.</p>
           </div>
         </div>
       </section>

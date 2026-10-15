@@ -45,9 +45,3 @@ body { background-color: var(--color-cream); color: var(--color-ink); }
   mask-image: linear-gradient(to bottom, #000 50%, transparent 100%), linear-gradient(to left, transparent 0%, #000 22%);
   mask-composite: intersect;
 }
-.hero-vase-fade {
-  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 28%), linear-gradient(to right, transparent 0%, #000 22%);
-  -webkit-mask-composite: source-in;
-  mask-image: linear-gradient(to bottom, transparent 0%, #000 28%), linear-gradient(to right, transparent 0%, #000 22%);
-  mask-composite: intersect;
-}
