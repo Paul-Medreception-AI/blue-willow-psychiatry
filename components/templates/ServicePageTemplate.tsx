@@ -90,6 +90,14 @@ const CHECK = (
 )
 const DEFAULT_ICON = 'M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z'
 
+// Every list the page maps goes through list(). lib/data is model output plus silo
+// appends that never pass the builder's checks, and ONE entry whose list is missing or a
+// bare string fails the whole next build during prerender (Blue Willow Psychiatry,
+// 2026-10-15: two sections with no body). A section with no body is not rendered.
+function list<T>(v: T[] | undefined | null): T[] {
+  return Array.isArray(v) ? v : []
+}
+
 export function ServicePageTemplate({ c }: { c: ServicePageContent }) {
   const schemaBreadcrumb = {
     '@context': 'https://schema.org',
@@ -100,10 +108,11 @@ export function ServicePageTemplate({ c }: { c: ServicePageContent }) {
       { '@type': 'ListItem', position: 3, name: c.title, item: c.siteUrl + c.hubHref + '/' + c.slug },
     ],
   }
-  const schemaFaq = c.faqs && c.faqs.length ? {
+  const sections = list(c.extraSections).filter((s) => s && list(s.body).length)
+  const schemaFaq = list(c.faqs).length ? {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: c.faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+    mainEntity: list(c.faqs).map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
   } : null
 
   return (
@@ -125,11 +134,11 @@ export function ServicePageTemplate({ c }: { c: ServicePageContent }) {
               <h1 className="text-4xl md:text-5xl font-semibold mb-6 leading-tight">{c.headline}</h1>
               <p className="text-xl opacity-95 max-w-3xl leading-relaxed">{c.heroSubhead || c.description}</p>
             </div>
-            {c.heroImage && (
+            {c.heroImage && c.heroImage.src ? (
               <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
                 <Image src={c.heroImage.src} alt={c.heroImage.alt} fill priority quality={90} sizes="(max-width: 768px) 100vw, 384px" className="object-cover" />
               </div>
-            )}
+            ) : null}
           </div>
         </div>
       </section>
@@ -144,20 +153,20 @@ export function ServicePageTemplate({ c }: { c: ServicePageContent }) {
         </section>
       )}
 
-      {(c.intro && c.intro.length) || (c.signsList && c.signsList.length) ? (
+      {list(c.intro).length || list(c.signsList).length ? (
         <section className="bg-[var(--color-cream)] py-20">
           <div className="max-w-4xl mx-auto px-6">
             {c.introHeading && <h2 className="text-3xl md:text-4xl font-semibold mb-8 text-[var(--color-ink)]">{c.introHeading}</h2>}
-            {c.intro && c.intro.length ? (
+            {list(c.intro).length ? (
               <div className="space-y-6 text-lg leading-relaxed text-[var(--color-ink)]">
-                {c.intro.map((p, i) => <p key={i}>{p}</p>)}
+                {list(c.intro).map((p, i) => <p key={i}>{p}</p>)}
               </div>
             ) : null}
-            {c.signsList && c.signsList.length ? (
+            {list(c.signsList).length ? (
               <div className="mt-12 bg-white rounded-xl p-8 shadow-sm">
                 {c.signsHeading && <h3 className="text-2xl font-semibold mb-6 text-[var(--color-ink)]">{c.signsHeading}</h3>}
                 <ul className="space-y-4">
-                  {c.signsList.map((s, i) => <li key={i} className="flex items-start gap-3">{CHECK}<span className="text-[var(--color-ink)]">{s}</span></li>)}
+                  {list(c.signsList).map((s, i) => <li key={i} className="flex items-start gap-3">{CHECK}<span className="text-[var(--color-ink)]">{s}</span></li>)}
                 </ul>
               </div>
             ) : null}
@@ -165,24 +174,24 @@ export function ServicePageTemplate({ c }: { c: ServicePageContent }) {
         </section>
       ) : null}
 
-      {c.bullets && c.bullets.length ? (
+      {list(c.bullets).length ? (
         <section className="bg-white py-16">
           <div className="max-w-4xl mx-auto px-6">
             <h2 className="text-3xl md:text-4xl font-semibold mb-8 text-[var(--color-ink)] text-center">What to Expect</h2>
             <ul className="space-y-4 max-w-2xl mx-auto">
-              {c.bullets.map((b, i) => <li key={i} className="flex items-start gap-3">{CHECK}<span className="text-[var(--color-ink)] text-lg">{b}</span></li>)}
+              {list(c.bullets).map((b, i) => <li key={i} className="flex items-start gap-3">{CHECK}<span className="text-[var(--color-ink)] text-lg">{b}</span></li>)}
             </ul>
           </div>
         </section>
       ) : null}
 
-      {c.approach && c.approach.length ? (
+      {list(c.approach).length ? (
         <section className="bg-white py-20">
           <div className="max-w-7xl mx-auto px-6">
             {c.approachHeading && <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[var(--color-ink)] text-center">{c.approachHeading}</h2>}
             {c.approachSubhead && <p className="text-xl text-[var(--color-muted)] text-center mb-16 max-w-3xl mx-auto">{c.approachSubhead}</p>}
             <div className="grid md:grid-cols-3 gap-8">
-              {c.approach.map((card, i) => (
+              {list(c.approach).map((card, i) => (
                 <div key={i} className="bg-[var(--color-cream)] rounded-xl p-8 hover:shadow-lg transition-shadow animate-fade-up">
                   <div className="mb-6">
                     <svg className="w-12 h-12 text-[var(--color-primary)]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
@@ -198,14 +207,14 @@ export function ServicePageTemplate({ c }: { c: ServicePageContent }) {
         </section>
       ) : null}
 
-      {c.premiumOptions && c.premiumOptions.length ? (
+      {list(c.premiumOptions).length ? (
         <section className="bg-white pb-20">
           <div className="max-w-7xl mx-auto px-6">
             <div className="bg-[var(--color-light)] rounded-2xl p-10 max-w-4xl mx-auto">
               {c.premiumHeading && <h3 className="text-3xl font-semibold mb-6 text-[var(--color-ink)]">{c.premiumHeading}</h3>}
               {c.premiumIntro && <p className="text-lg text-[var(--color-ink)] mb-8 leading-relaxed">{c.premiumIntro}</p>}
               <div className="grid md:grid-cols-2 gap-6">
-                {c.premiumOptions.map((o, i) => (
+                {list(c.premiumOptions).map((o, i) => (
                   <div key={i} className="bg-white rounded-lg p-6">
                     <h4 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">{o.title}</h4>
                     <p className="text-[var(--color-muted)]">{o.body}</p>
@@ -217,12 +226,12 @@ export function ServicePageTemplate({ c }: { c: ServicePageContent }) {
         </section>
       ) : null}
 
-      {c.benefits && c.benefits.length ? (
+      {list(c.benefits).length ? (
         <section className="bg-[var(--color-cream)] py-20">
           <div className="max-w-5xl mx-auto px-6">
             <h2 className="text-3xl md:text-4xl font-semibold mb-12 text-[var(--color-ink)] text-center">Benefits</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              {c.benefits.map((b, i) => (
+              {list(c.benefits).map((b, i) => (
                 <div key={i} className="bg-white rounded-xl p-8 shadow-sm animate-fade-up">
                   <h3 className="text-xl font-semibold mb-3 text-[var(--color-ink)]">{b.title}</h3>
                   <p className="text-[var(--color-muted)] leading-relaxed">{b.body}</p>
@@ -233,13 +242,13 @@ export function ServicePageTemplate({ c }: { c: ServicePageContent }) {
         </section>
       ) : null}
 
-      {c.timeline && c.timeline.length ? (
+      {list(c.timeline).length ? (
         <section className="bg-white py-20">
           <div className="max-w-3xl mx-auto px-6">
             <div className="bg-[var(--color-light)] rounded-2xl p-12">
               {c.timelineHeading && <h2 className="text-3xl md:text-4xl font-semibold mb-8 text-[var(--color-ink)] text-center">{c.timelineHeading}</h2>}
               <div className="space-y-8">
-                {c.timeline.map((step, i) => (
+                {list(c.timeline).map((step, i) => (
                   <div key={i} className="border-l-4 border-[var(--color-primary)] pl-6">
                     <h3 className="text-2xl font-semibold mb-3 text-[var(--color-ink)]">{step.title}</h3>
                     <p className="text-[var(--color-muted)] leading-relaxed">{step.body}</p>
@@ -251,14 +260,14 @@ export function ServicePageTemplate({ c }: { c: ServicePageContent }) {
         </section>
       ) : null}
 
-      {c.extraSections && c.extraSections.length ? (
+      {sections.length ? (
         <section className="bg-[var(--color-cream)] py-20">
           <div className="max-w-4xl mx-auto px-6 space-y-14">
-            {c.extraSections.map((s, i) => (
+            {sections.map((s, i) => (
               <div key={i}>
                 <h2 className="text-3xl md:text-4xl font-semibold mb-6 text-[var(--color-ink)]">{s.heading}</h2>
                 <div className="space-y-4 text-lg leading-relaxed text-[var(--color-ink)]">
-                  {s.body.map((p, j) => <p key={j}>{p}</p>)}
+                  {list(s.body).map((p, j) => <p key={j}>{p}</p>)}
                 </div>
               </div>
             ))}
@@ -266,24 +275,24 @@ export function ServicePageTemplate({ c }: { c: ServicePageContent }) {
         </section>
       ) : null}
 
-      {c.videoLibrary && c.videoLibrary.length ? (
+      {list(c.videoLibrary).length ? (
         <section className="bg-white py-20">
           <div className="max-w-6xl mx-auto px-6">
             {c.videoLibraryHeading && <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[var(--color-ink)] text-center">{c.videoLibraryHeading}</h2>}
             {c.videoLibrarySubhead && <p className="text-center text-[var(--color-muted)] mb-12 max-w-2xl mx-auto">{c.videoLibrarySubhead}</p>}
             <div className="grid md:grid-cols-3 gap-6">
-              {c.videoLibrary.map((v, i) => <Video key={i} videoId={v.videoId} title={v.title} />)}
+              {list(c.videoLibrary).map((v, i) => <Video key={i} videoId={v.videoId} title={v.title} />)}
             </div>
           </div>
         </section>
       ) : null}
 
-      {c.faqs && c.faqs.length ? (
+      {list(c.faqs).length ? (
         <section className="bg-[var(--color-cream)] py-20">
           <div className="max-w-4xl mx-auto px-6">
             <h2 className="text-3xl md:text-4xl font-semibold mb-12 text-[var(--color-ink)] text-center">Common Questions About {c.title}</h2>
             <div className="space-y-4">
-              {c.faqs.map((f, i) => (
+              {list(c.faqs).map((f, i) => (
                 <details key={i} className="bg-white rounded-lg shadow-sm group">
                   <summary className="cursor-pointer list-none p-6 font-semibold text-lg text-[var(--color-ink)] hover:text-[var(--color-primary)] transition-colors">
                     <div className="flex items-center justify-between">
@@ -301,12 +310,12 @@ export function ServicePageTemplate({ c }: { c: ServicePageContent }) {
         </section>
       ) : null}
 
-      {c.relatedLinks && c.relatedLinks.length ? (
+      {list(c.relatedLinks).length ? (
         <section className="bg-white py-16">
           <div className="max-w-7xl mx-auto px-6">
             <h3 className="text-3xl font-semibold mb-10 text-[var(--color-ink)] text-center">Related {c.hubLabel}</h3>
             <div className="grid md:grid-cols-3 gap-8">
-              {c.relatedLinks.map((r, i) => (
+              {list(c.relatedLinks).map((r, i) => (
                 <a key={i} href={r.href} className="group bg-[var(--color-cream)] rounded-xl p-8 hover:shadow-xl transition-all hover:-translate-y-1">
                   {r.eyebrow && <p className="text-xs font-semibold uppercase tracking-widest text-[var(--color-muted)] mb-2">{r.eyebrow}</p>}
                   <h4 className="text-xl font-semibold mb-3 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors">{r.label}</h4>
