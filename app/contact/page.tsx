@@ -1,4 +1,6 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
+import ContactForm from '@/components/ContactForm'
 
 export const metadata: Metadata = {
   title: 'Contact Blue Willow Psychiatry | Tooele, UT',
@@ -21,10 +23,13 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <main>
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white text-center">
-        <div className="max-w-3xl mx-auto px-6">
-          <h1 className="font-cormorant text-6xl font-light">Get In Touch</h1>
-          <p className="mt-6 text-lg text-white/90">
+      <section className="relative overflow-hidden bg-white py-32 text-center">
+        {/* Her original Contact page background (bluewillowpsych.com/contact) */}
+        <Image src="/images/pexels-min-an-1353938.jpg" alt="" fill priority quality={80} sizes="100vw" className="object-cover object-top" aria-hidden="true" />
+        <div className="absolute inset-0 bg-white/35" aria-hidden="true" />
+        <div className="relative max-w-3xl mx-auto px-6">
+          <h1 className="font-cormorant text-6xl font-semibold text-[var(--color-dark)]">Contact Us</h1>
+          <p className="mt-6 text-lg text-[var(--color-ink)]">
             We&apos;d love to hear from you. Reach out to schedule an appointment or ask a question.
           </p>
         </div>
@@ -33,27 +38,13 @@ export default function ContactPage() {
       <section className="bg-[var(--color-cream)] py-24">
         <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-16">
           <div id="form" className="animate-fade-up bg-white rounded-2xl p-10 shadow-sm border border-[var(--color-border)] self-start">
-            {/* TODO(optimize): wire a real contact form (Studio ingest) before launch */}
-            <h2 className="font-cormorant text-3xl mb-8 text-[var(--color-primary)]">Send Us a Message</h2>
+            <h2 className="font-cormorant text-3xl mb-4 text-[var(--color-primary)]">Send Us a Message</h2>
             <p className="text-[var(--color-ink)] mb-8">
-              The quickest way to reach us is to call or email. Tell us what you need and we will help you with the next step.
+              Not sure if we are a good fit? Free 15 minute consultations are available. Leave your details and we will call or email you back, or call <a href="tel:+14352003430" className="font-semibold underline">(435) 200-3430</a>.
             </p>
-            <div className="flex flex-wrap gap-4">
-              <a
-                href="tel:(435) 200-3430"
-                className="bg-[var(--color-accent)] hover:bg-[var(--color-accent-dark)] transition-colors text-white px-6 py-3 rounded-xl font-semibold"
-              >
-                Call (435) 200-3430
-              </a>
-              <a
-                href="mailto:Kristi@BlueWillowPsych.com"
-                className="border-2 border-[var(--color-primary)] text-[var(--color-primary)] hover:bg-[var(--color-light)] transition-colors px-6 py-3 rounded-xl font-semibold"
-              >
-                Email us
-              </a>
-            </div>
-            <p className="text-[var(--color-muted)] text-xs mt-4">
-              Please do not send medical details or personal health information by email. Email is not a secure way to share private health information.
+            <ContactForm phone="(435) 200-3430" phoneHref="tel:+14352003430" />
+            <p className="text-[var(--color-muted)] text-xs mt-6">
+              Please do not include medical details. This form is not monitored for emergencies: if you are in crisis, call or text 988, or call 911.
             </p>
           </div>
 
@@ -73,7 +64,7 @@ export default function ContactPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h2.5l1.5 4-2 1.5a11 11 0 005.5 5.5L16 12l4 1.5V16a2 2 0 01-2 2A15 15 0 013 5z" />
               </svg>
               <h3 className="font-cormorant text-2xl text-[var(--color-primary)] mb-2">Call</h3>
-              <a href="tel:(435) 200-3430" className="font-cormorant text-3xl font-bold text-[var(--color-primary)] hover:text-[var(--color-dark)] transition-colors">
+              <a href="tel:+14352003430" className="font-cormorant text-3xl font-bold text-[var(--color-primary)] hover:text-[var(--color-dark)] transition-colors">
                 (435) 200-3430
               </a>
               <p className="mt-3 text-[var(--color-ink)]">

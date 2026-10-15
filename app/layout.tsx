@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import { Cormorant_Garamond, DM_Sans } from 'next/font/google'
 import './globals.css'
 import SiteHeader from '../components/SiteHeader'
@@ -79,6 +80,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <a href="/terms-sms" className="hover:text-white transition-colors">Terms of Service</a>
                   <span>|</span>
                   <a href="/terms-sms#sms-terms" className="hover:text-white transition-colors">SMS Terms</a>
+                  <span>|</span>
+                  <a href="/patient-form-sms" className="hover:text-white transition-colors">Text Message Sign-Up</a>
                 </p>
               </div>
             </div>
@@ -88,6 +91,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </footer>
       </body>
+      {/* MedReception patient widget: callback, appointment request and the AI chat, all filed on
+          Blue Willow Psychiatry's Studio board (qa-api lambdaWidget, client id 'blue-willow-psychiatry',
+          STUDIO_ONLY). Same embed as body1md and gables-pain. */}
+      <Script src="https://widget.medreception.ai/embed.js" data-client-id="blue-willow-psychiatry" strategy="afterInteractive" />
       {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
 
     </html>

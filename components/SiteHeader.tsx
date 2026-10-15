@@ -43,9 +43,9 @@ export default function SiteHeader() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
         <a href="/" className="flex items-center min-w-0" aria-label={NAME + ', home'}>
           {LOGO ? (
-            <img src={LOGO} alt={NAME} className="h-11 w-auto max-w-[220px] object-contain" />
+            <img src={LOGO} alt={NAME} className="h-16 w-auto max-w-[330px] object-contain" />
           ) : (
-            <span className="font-cormorant text-xl line-clamp-2 font-semibold text-[var(--color-primary)] leading-tight max-w-[calc(100vw-6rem)] sm:max-w-[16rem]">{NAME}</span>
+            <span className="font-cormorant text-3xl line-clamp-2 font-semibold text-[var(--color-primary)] leading-none max-w-[calc(100vw-6rem)] sm:max-w-none sm:whitespace-nowrap">{NAME}</span>
           )}
         </a>
 

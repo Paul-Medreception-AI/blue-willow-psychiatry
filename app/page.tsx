@@ -71,29 +71,29 @@ const steps = [
 export default function Home() {
   return (
     <main>
-      <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-white">
-        {/* The prior site's own hero photo (eucalyptus in a vase); the plant sits on the left, the copy over the white space */}
-        <Image src="/images/jazmin-quaynor-8ioenvmof-I-unsplash.jpg" alt="Eucalyptus branches in a glass vase against a white wall" fill priority quality={85} sizes="100vw" className="object-cover object-left" />
-        <div className="absolute inset-0 bg-white/70 lg:bg-transparent lg:bg-gradient-to-r lg:from-transparent lg:via-white/30 lg:to-white/90" aria-hidden="true" />
-        <div className="relative w-full max-w-7xl mx-auto px-6 py-20">
-          <div className="lg:ml-auto lg:w-1/2 text-[var(--color-ink)]">
-            <p className="font-dm-sans text-sm uppercase tracking-widest text-[var(--color-primary)] font-semibold">Kristi Lawrence, APRN · Tooele, UT</p>
-            <h1 className="font-cormorant text-5xl sm:text-6xl lg:text-7xl font-light tracking-tight leading-tight mt-4 text-[var(--color-dark)]">
-              Mental health care that understands you.
-            </h1>
-            <p className="text-xl text-[var(--color-ink)] mt-6 leading-relaxed">
-              In-depth assessment and individualized treatment designed to fit your life and needs. In-office and virtual visits, with evening and weekend appointments available.
-            </p>
-            <div className="mt-10 flex flex-wrap gap-4">
-              <Link href="/contact" className="bg-[var(--color-primary)] text-white px-8 py-4 rounded-xl font-bold shadow-xl hover:-translate-y-0.5 hover:bg-[var(--color-dark)] transition-all">
-                Schedule a Consultation
-              </Link>
-              <a href="tel:4352003430" className="border-2 border-[var(--color-primary)] text-[var(--color-primary)] px-8 py-4 rounded-xl font-semibold hover:bg-[var(--color-light)] transition-all">
-                Call (435) 200-3430
-              </a>
-            </div>
-            <p className="mt-6 text-[var(--color-muted)]">Not sure if we are a good fit? Free 15 minute consultations are available.</p>
+      <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden bg-white">
+        {/* Her original homepage hero (bluewillowpsych.com): the eucalyptus photo at full strength, name and tagline centered over it */}
+        <Image src="/images/jazmin-quaynor-8ioenvmof-I-unsplash.jpg" alt="Eucalyptus branches in a glass vase against a white wall" fill priority quality={85} sizes="100vw" className="object-cover object-center" />
+        <div className="absolute inset-0 bg-white/20" aria-hidden="true" />
+        <div className="relative w-full max-w-4xl mx-auto px-6 py-24 text-center text-black">
+          <h1 className="font-cormorant text-5xl sm:text-6xl lg:text-7xl font-semibold tracking-tight leading-tight">
+            Kristi Lawrence, APRN
+          </h1>
+          <p className="font-cormorant text-2xl sm:text-3xl lg:text-4xl mt-6">
+            Mental health care that understands <em>you</em>.
+          </p>
+          <p className="mt-6 text-lg text-[var(--color-ink)] max-w-2xl mx-auto">
+            Blue Willow Psychiatry in Tooele, UT. In-office and virtual visits, with evening and weekend appointments available.
+          </p>
+          <div className="mt-10 flex flex-wrap gap-4 justify-center">
+            <Link href="/services" className="bg-[var(--color-primary)] text-white px-10 py-3 rounded-full font-semibold shadow-lg hover:bg-[var(--color-dark)] transition-colors">
+              Learn More
+            </Link>
+            <Link href="/contact" className="bg-white/90 border-2 border-[var(--color-primary)] text-[var(--color-primary)] px-10 py-3 rounded-full font-semibold hover:bg-white transition-colors">
+              Schedule a Consultation
+            </Link>
           </div>
+          <p className="mt-6 text-[var(--color-ink)]">Have questions first? Call <a href="tel:4352003430" className="font-semibold underline">(435) 200-3430</a> for a free 15 minute consultation.</p>
         </div>
       </section>
 

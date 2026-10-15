@@ -189,6 +189,7 @@ export default function TermsSmsPage() {
             </p>
             <div className="bg-[var(--color-cream)] border border-[var(--color-border)] rounded-lg p-6">
               <p className="text-[var(--color-ink)] font-semibold mb-2">Blue Willow Psychiatry</p>
+              <p className="text-[var(--color-muted)] mb-2">Address: 28 North Main Street, Tooele, UT 84074</p>
               <p className="text-[var(--color-muted)] mb-2">Phone: (435) 200-3430</p>
               <p className="text-[var(--color-muted)] mb-2">Email: kristi@bluewillowpsych.com</p>
               <p className="text-[var(--color-muted)]">Website: https://www.bluewillowpsych.com</p>

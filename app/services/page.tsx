@@ -2,6 +2,7 @@
 // mapped from lib/data/services.ts, so a page added there (including by the silo
 // builder's data_append) appears here without editing this file.
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { SERVICES } from '../../lib/data/services'
 
 const TITLE = "Services | Blue Willow Psychiatry"
@@ -31,15 +32,18 @@ const CARDS: Card[] = [
 export default function ServicesHubPage() {
   return (
     <>
-      <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-24 text-white text-center">
-        <div className="max-w-4xl mx-auto px-6">
-          <nav className="text-sm text-white/70 mb-4" aria-label="Breadcrumb">
+      <section className="relative overflow-hidden bg-white py-28 text-[var(--color-ink)] text-center">
+        {/* Her original Services page background (bluewillowpsych.com/services) */}
+        <Image src="/images/pexels-evie-shaffer-2395251.jpg" alt="" fill priority quality={80} sizes="100vw" className="object-cover object-center" aria-hidden="true" />
+        <div className="absolute inset-0 bg-white/55" aria-hidden="true" />
+        <div className="relative max-w-4xl mx-auto px-6">
+          <nav className="text-sm text-[var(--color-muted)] mb-4" aria-label="Breadcrumb">
             <a href="/" className="hover:underline">Home</a>
             <span className="mx-2">›</span>
             <span>Services</span>
           </nav>
-          <h1 className="font-cormorant text-5xl md:text-6xl font-light">{HEADING}</h1>
-          <p className="text-xl text-white/85 max-w-2xl mx-auto mt-4 leading-relaxed">{SUBHEADING}</p>
+          <h1 className="font-cormorant text-5xl md:text-6xl font-semibold text-[var(--color-dark)]">{HEADING}</h1>
+          <p className="text-xl text-[var(--color-ink)] max-w-2xl mx-auto mt-4 leading-relaxed">{SUBHEADING}</p>
         </div>
       </section>
 

@@ -73,8 +73,11 @@ export default function TeamPage() {
         </div>
       </section>
 
-      <section className="bg-white py-20">
-        <div className="max-w-3xl mx-auto px-6 space-y-6 text-lg leading-relaxed text-[var(--color-ink)]">
+      <section className="relative overflow-hidden bg-white py-20">
+        {/* Her original Meet Kristi page background (bluewillowpsych.com/kristi) */}
+        <Image src="/images/chua-bing-quan-Sg7eWHKrxrA-unsplash.jpg" alt="" fill quality={75} sizes="100vw" className="object-cover object-right-bottom" aria-hidden="true" />
+        <div className="absolute inset-0 bg-white/75" aria-hidden="true" />
+        <div className="relative max-w-3xl mx-auto px-6 space-y-6 text-lg leading-relaxed text-[var(--color-ink)]">
           <h2 className="font-cormorant text-4xl text-[var(--color-primary)]">About Kristi</h2>
           <p>
             Kristi has been caring for patients for more than 16 years as a nurse and nurse practitioner. In her years working as a Family Nurse Practitioner she discovered both her passion for, and talents in, mental health care, and earned a second board certification as a Psychiatric Mental Health Nurse Practitioner to focus her services in this area.
