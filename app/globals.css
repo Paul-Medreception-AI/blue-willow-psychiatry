@@ -28,3 +28,26 @@ body { background-color: var(--color-cream); color: var(--color-ink); }
   animation-timeline: view();
   animation-range: entry 0% entry 35%;
 }
+
+/* Home hero (Paul's mockup, 2026-10-15). The wall: the hero photo's own wall tone, lightest under the
+   copy. The fades are MASKS, so the photo dissolves into whatever is behind it; no color to match. */
+.hero-wall { background: #ebe9e6; }
+@media (min-width: 1024px) {
+  .hero-wall { background: linear-gradient(90deg, #f3f1ee 0%, #efedea 38%, #dedbd8 72%, #d6d4d1 100%); }
+}
+.hero-photo-fade {
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 38%);
+  mask-image: linear-gradient(to right, transparent 0%, #000 38%);
+}
+.hero-leaves-fade {
+  -webkit-mask-image: linear-gradient(to bottom, #000 50%, transparent 100%), linear-gradient(to left, transparent 0%, #000 22%);
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(to bottom, #000 50%, transparent 100%), linear-gradient(to left, transparent 0%, #000 22%);
+  mask-composite: intersect;
+}
+.hero-vase-fade {
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 28%), linear-gradient(to right, transparent 0%, #000 22%);
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(to bottom, transparent 0%, #000 28%), linear-gradient(to right, transparent 0%, #000 22%);
+  mask-composite: intersect;
+}

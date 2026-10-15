@@ -71,32 +71,21 @@ const steps = [
 export default function Home() {
   return (
     <main>
-      {/* Home hero, from Paul's mockups (2026-10-15): her original eucalyptus photo, mirrored so the
-          vase sits on the right (public/images/eucalyptus-vase-right.jpg is the flipped file; a CSS
-          flip mirrors object-position too and showed the empty side), on a warm off-white instead of
-          stark white, running up behind the translucent header. Desktop: copy on the left, photo on
-          the right, faded at its left edge so no leaf is behind the text. Phones: leaves on top,
-          vase bottom right, copy on clear space between. */}
-      <section className="relative -mt-20 overflow-hidden bg-[var(--color-warm)]">
-        {/* Desktop: the photo fills the right side. */}
-        <div className="absolute inset-y-0 right-0 hidden lg:block w-[62%]" aria-hidden="true">
-          <Image src="/images/eucalyptus-vase-right.jpg" alt="" fill priority quality={85} sizes="62vw" className="object-cover object-right" />
-          <div className="absolute inset-0 bg-[var(--color-warm)] mix-blend-multiply" />
-          <div className="absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-[var(--color-warm)] to-transparent" />
+      {/* Home hero, from Paul's mockups (2026-10-15): the carafe of eucalyptus on a marble table in soft
+          window light (eucalyptus-marble-table.jpg: her original photo, mirrored, extended onto a marble
+          tabletop and relit with Stability on Bedrock, then upscaled), on the photo's own light warm
+          gray wall, running up behind the translucent header. Desktop: copy on the left, photo on the
+          right, masked so it dissolves before the copy. Phones: two crops of the same photo, the
+          leaves across the top and the carafe on its table at the bottom right, copy between. */}
+      <section className="relative -mt-20 overflow-hidden hero-wall">
+        <div className="absolute inset-y-0 right-0 hidden lg:block w-[62%] hero-photo-fade" aria-hidden="true">
+          <Image src="/images/eucalyptus-marble-table.jpg" alt="" fill priority quality={85} sizes="62vw" className="object-cover object-right" />
         </div>
-        {/* Phones and tablets: two crops of the same photo, the leaves across the top (behind the
-            header) and the vase at the bottom right, so the copy sits on clear space between them.
-            One photo stretched over the whole tall hero zoomed into a single blurry leaf. */}
-        <div className="absolute top-0 inset-x-0 h-[400px] md:h-[330px] overflow-hidden lg:hidden" aria-hidden="true">
-          <Image src="/images/eucalyptus-vase-right.jpg" alt="" width={2500} height={1666} priority quality={80} sizes="200vw" className="absolute top-0 -right-[35%] w-[200%] md:-right-[8%] md:w-[115%] max-w-none h-auto" />
-          <div className="absolute inset-0 bg-[var(--color-warm)] mix-blend-multiply" />
-          <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-b from-transparent to-[var(--color-warm)]" />
+        <div className="absolute top-0 inset-x-0 h-[400px] md:h-[280px] overflow-hidden lg:hidden hero-leaves-fade" aria-hidden="true">
+          <Image src="/images/eucalyptus-marble-table.jpg" alt="" width={2400} height={1924} priority quality={80} sizes="200vw" className="absolute top-0 -left-[40%] w-[200%] md:-left-[24%] md:w-[160%] max-w-none h-auto" />
         </div>
-        <div className="absolute bottom-0 right-0 w-[66%] md:w-[45%] h-[360px] overflow-hidden lg:hidden" aria-hidden="true">
-          <Image src="/images/eucalyptus-vase-right.jpg" alt="" width={2500} height={1666} quality={80} sizes="200vw" className="absolute bottom-0 -right-[60px] h-[640px] w-auto max-w-none" />
-          <div className="absolute inset-0 bg-[var(--color-warm)] mix-blend-multiply" />
-          <div className="absolute inset-x-0 top-0 h-1/5 bg-gradient-to-b from-[var(--color-warm)] to-transparent" />
-          <div className="absolute inset-y-0 left-0 w-1/6 bg-gradient-to-r from-[var(--color-warm)] to-transparent" />
+        <div className="absolute bottom-0 right-0 w-[66%] md:w-[45%] h-[360px] overflow-hidden lg:hidden hero-vase-fade" aria-hidden="true">
+          <Image src="/images/eucalyptus-marble-table.jpg" alt="" width={2400} height={1924} quality={80} sizes="200vw" className="absolute bottom-0 -right-[60px] h-[640px] w-auto max-w-none" />
         </div>
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8 pt-[290px] md:pt-[260px] pb-[230px] lg:pt-44 lg:pb-36 lg:min-h-[88vh] flex items-center">
           <div className="w-full lg:max-w-[46%]">
