@@ -41,7 +41,7 @@ export default function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 bg-white/75 backdrop-blur-md border-b border-[var(--color-border)]/60 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
-        <a href="/" className="flex items-center min-w-0" aria-label={NAME + ', home'}>
+        <a href="/" className="flex items-center min-w-0 sm:shrink-0" aria-label={NAME + ', home'}>
           {LOGO ? (
             <img src={LOGO} alt={NAME} className="h-16 w-auto max-w-[330px] object-contain" />
           ) : (
@@ -49,11 +49,11 @@ export default function SiteHeader() {
           )}
         </a>
 
-        <nav className="hidden xl:flex items-center gap-1" aria-label="Main">
+        <nav className="hidden xl:flex items-center gap-1 2xl:gap-0" aria-label="Main">
           {NAV.map((g) =>
             g.items.length ? (
               <div key={g.href} className="relative group">
-                <a href={g.href} className="flex items-center gap-1 px-3 py-2 rounded-lg text-[15px] font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] hover:bg-[var(--color-light)] transition-colors">
+                <a href={g.href} className="flex items-center gap-1 px-3 2xl:px-2 py-2 rounded-lg text-[15px] font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] hover:bg-[var(--color-light)] transition-colors">
                   {g.label}
                   <Chevron />
                 </a>
@@ -73,7 +73,7 @@ export default function SiteHeader() {
                 </div>
               </div>
             ) : (
-              <a key={g.href} href={g.href} className="px-3 py-2 rounded-lg text-[15px] font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] hover:bg-[var(--color-light)] transition-colors">
+              <a key={g.href} href={g.href} className="px-3 2xl:px-2 py-2 rounded-lg text-[15px] font-medium text-[var(--color-ink)] hover:text-[var(--color-primary)] hover:bg-[var(--color-light)] transition-colors">
                 {g.label}
               </a>
             )
