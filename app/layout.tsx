@@ -16,8 +16,10 @@ export const metadata: Metadata = {
   title: 'Blue Willow Psychiatry | Mental health care that understands you',
   description: 'Blue Willow Psychiatry offers in-depth assessment and individualized treatment designed to fit your life and needs. Whether you need answers, a second opinion, or a plan that finally works, Kristi Lawrence, APRN is here to help you get back to living your best life.',
   icons: {
-    icon: [{ url: '/favicon.ico' }, { url: '/favicon.png', type: 'image/png' }],
-    apple: '/favicon.png',
+    // A eucalyptus leaf like the hero's, white on the site blue (2026-10-15). favicon.png used to be an
+    // .ico file under a .png name, so iOS had no home-screen icon.
+    icon: [{ url: '/favicon.ico', sizes: '48x48' }, { url: '/icon.svg', type: 'image/svg+xml' }],
+    apple: '/apple-touch-icon.png',
   },
   openGraph: {
     title: 'Blue Willow Psychiatry | Mental health care that understands you',
