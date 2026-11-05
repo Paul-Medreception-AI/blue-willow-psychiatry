@@ -26,12 +26,8 @@ const faqs = [
     a: 'Blue Willow Psychiatry provides mental health care in Tooele, UT, including in-depth assessment and diagnosis, individualized treatment, medication management, and brief solution-focused therapy. Care is led by Kristi Lawrence, APRN. The goal is a plan that fits your life and needs rather than a one-size-fits-all approach. Medication and therapy can be combined when that makes sense for you.',
   },
   {
-    q: 'What is the free 15 minute consultation?',
-    a: 'The free 15 minute consultation is a brief, low-pressure conversation where you can ask questions and see whether the practice is a good fit for you. It is not a full evaluation or a treatment visit. Think of it as a first step before deciding whether to schedule an assessment. To arrange one, call (435) 200-3430 or use the contact page.',
-  },
-  {
     q: 'How do I schedule an appointment?',
-    a: 'You can call the office at (435) 200-3430 or reach out through the contact page. Let us know what kind of visit you are interested in, such as a new patient assessment, a second opinion, or a free consultation. Please have your insurance information handy so we can verify coverage when you schedule. If you are unsure which option fits, the free consultation is a good place to start.',
+    a: 'You can call the office at (435) 200-3430 or reach out through the contact page. Let us know what kind of visit you are interested in, such as a new patient assessment or a second opinion. Please have your insurance information handy so we can verify coverage when you schedule. If you are unsure which option fits, just ask when you call.',
   },
   {
     q: 'What should I expect at my first visit?',
@@ -63,7 +59,7 @@ const faqs = [
   },
   {
     q: 'Do you accept my insurance?',
-    a: 'We accept several different insurance plans, including some types of Medicaid, United Healthcare, PEHP, DMBA, Regence/BCBS, SelectHealth and University of Utah Health Plans. Please call (435) 200-3430 to verify coverage when you schedule your appointment. See our Insurance & Fees page for details.',
+    a: 'We accept most insurance plans, including Medicaid and Medicare, Aetna, BlueCross BlueShield and Regence, DMBA, PEHP, University of Utah Health Plans, United Healthcare, SelectHealth, Tricare and more. Please call (435) 200-3430 to verify coverage when you schedule your appointment. See our Insurance & Fees page for details.',
   },
   {
     q: 'How much does a visit cost?',
@@ -87,7 +83,7 @@ const faqs = [
   },
   {
     q: 'Is the practice taking new patients?',
-    a: 'Availability can change, so the best way to find out is to contact the office directly. Call (435) 200-3430 or send a message through the contact page. You can also ask about the free 15 minute consultation, which is a simple way to start the conversation.',
+    a: 'Availability can change, so the best way to find out is to contact the office directly. Call (435) 200-3430 or send a message through the contact page.',
   },
   {
     q: 'What should I bring to my first appointment?',
@@ -132,7 +128,7 @@ export default function FaqPage() {
       <section className="bg-[var(--color-ink)] text-white py-20 text-center">
         <div className="max-w-3xl mx-auto px-6 animate-fade-up">
           <h2 className="font-cormorant text-4xl font-light">Still have questions?</h2>
-          <p className="mt-4 text-white/80">Call (435) 200-3430 or reach out online. A free 15 minute consultation is a simple way to see if we are a good fit.</p>
+          <p className="mt-4 text-white/80">Call (435) 200-3430 or reach out online and we will help you decide on the right first visit.</p>
           <Link href="/contact" className="inline-block mt-8 px-8 py-3 rounded-lg bg-[var(--color-accent)] text-white font-semibold transition-colors hover:bg-[var(--color-accent-dark)]">
             Schedule a Consultation
           </Link>

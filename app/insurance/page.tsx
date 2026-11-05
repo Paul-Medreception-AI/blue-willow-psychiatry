@@ -3,7 +3,7 @@ import Link from 'next/link'
 import PageHero from '@/components/PageHero'
 
 const TITLE = 'Insurance & Fees | Blue Willow Psychiatry, Tooele UT'
-const DESCRIPTION = 'Insurance plans accepted at Blue Willow Psychiatry, including Medicaid, PEHP, DMBA, SelectHealth and Regence, plus self pay rates and payment options.'
+const DESCRIPTION = 'Insurance plans accepted at Blue Willow Psychiatry, including Medicaid, Medicare, Aetna, BlueCross BlueShield and Regence, DMBA, PEHP, SelectHealth, United Healthcare and Tricare, plus self pay rates and payment options.'
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -23,15 +23,18 @@ export const metadata: Metadata = {
   },
 }
 
-// As published by the practice. "Some types of Medicaid" is their wording: plans vary, so patients call to confirm.
+// As published by the practice on bluewillowpsych.com (checked 2026-11-05): "most insurance plans, including ... and more".
 const PLANS = [
-  'Some types of Medicaid',
-  'United Healthcare',
-  'PEHP',
+  'Medicaid',
+  'Medicare',
+  'Aetna',
+  'BlueCross BlueShield and Regence',
   'DMBA',
-  'Regence / BlueCross BlueShield',
-  'SelectHealth',
+  'PEHP',
   'University of Utah Health Plans',
+  'United Healthcare',
+  'SelectHealth',
+  'Tricare',
 ]
 
 const SELF_PAY = [
@@ -43,7 +46,7 @@ const SELF_PAY = [
 const faqs = [
   {
     q: 'Do you take my insurance?',
-    a: 'We accept several plans, including some types of Medicaid, United Healthcare, PEHP, DMBA, Regence/BCBS, SelectHealth and University of Utah Health Plans. Coverage varies by plan, so please call (435) 200-3430 to verify your coverage when you schedule your appointment.',
+    a: 'We accept most insurance plans, including Medicaid and Medicare, Aetna, BlueCross BlueShield and Regence, DMBA, PEHP, University of Utah Health Plans, United Healthcare, SelectHealth, Tricare and more. Please call (435) 200-3430 to verify coverage when you schedule your appointment.',
   },
   {
     q: 'What if I do not have insurance?',
@@ -81,7 +84,7 @@ export default function InsurancePage() {
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="font-cormorant text-4xl text-center mb-4 text-[var(--color-primary)]">Insurance Plans We Accept</h2>
           <p className="text-center text-[var(--color-muted)] mb-12 max-w-2xl mx-auto">
-            We accept several different insurance plans. Please call to verify coverage when you schedule your appointment.
+            We accept most insurance plans, including the ones listed here and more. Please call to verify coverage when you schedule your appointment.
           </p>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {PLANS.map((p) => (
@@ -149,7 +152,7 @@ export default function InsurancePage() {
       <section className="bg-[var(--color-primary)] py-20 text-center text-white">
         <div className="max-w-3xl mx-auto px-6">
           <h2 className="font-cormorant text-4xl font-light">Questions about coverage?</h2>
-          <p className="mt-4 text-white/85">Call (435) 200-3430. Free 15 minute consultations are available.</p>
+          <p className="mt-4 text-white/85">Call (435) 200-3430 and we will check your plan with you.</p>
           <Link href="/contact" className="inline-block mt-8 px-8 py-3 rounded-full bg-white text-[var(--color-primary)] font-semibold hover:bg-[var(--color-cream)] transition-colors">
             Schedule a Consultation
           </Link>

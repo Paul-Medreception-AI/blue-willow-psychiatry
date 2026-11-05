@@ -125,7 +125,7 @@ export default function TeamPage() {
       <section className="bg-[var(--color-ink)] py-20 text-white text-center">
         <div className="max-w-3xl mx-auto px-6 animate-fade-up">
           <h2 className="font-cormorant text-4xl font-light">Have Questions? Let&apos;s Talk.</h2>
-          <p className="mt-4 text-white/80">Not sure if we are a good fit? Call (435) 200-3430 for a free 15 minute consultation.</p>
+          <p className="mt-4 text-white/80">Call (435) 200-3430 or send a message with your questions.</p>
           <Link
             href="/contact"
             className="inline-block mt-8 px-8 py-3 rounded-full bg-[var(--color-accent)] hover:bg-[var(--color-accent-dark)] transition-colors text-white font-semibold"

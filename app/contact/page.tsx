@@ -5,11 +5,11 @@ import PageHero from '@/components/PageHero'
 
 export const metadata: Metadata = {
   title: 'Contact Blue Willow Psychiatry | Tooele, UT',
-  description: 'Contact Blue Willow Psychiatry in Tooele, UT. Call (435) 200-3430 or email to schedule a visit or ask about a free 15 minute consultation.',
+  description: 'Contact Blue Willow Psychiatry in Tooele, UT. Call (435) 200-3430 or email to schedule a visit, in person or virtually.',
   alternates: { canonical: '/contact' },
   openGraph: {
     title: 'Contact Blue Willow Psychiatry | Tooele, UT',
-    description: 'Contact Blue Willow Psychiatry in Tooele, UT. Call (435) 200-3430 or email to schedule a visit or ask about a free 15 minute consultation.',
+    description: 'Contact Blue Willow Psychiatry in Tooele, UT. Call (435) 200-3430 or email to schedule a visit, in person or virtually.',
     url: 'https://www.bluewillowpsych.com/contact',
     siteName: 'Blue Willow Psychiatry',
     type: 'website',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary',
     title: 'Contact Blue Willow Psychiatry | Tooele, UT',
-    description: 'Contact Blue Willow Psychiatry in Tooele, UT. Call (435) 200-3430 or email to schedule a visit or ask about a free 15 minute consultation.',
+    description: 'Contact Blue Willow Psychiatry in Tooele, UT. Call (435) 200-3430 or email to schedule a visit, in person or virtually.',
   },
 }
 
@@ -32,7 +32,7 @@ export default function ContactPage() {
           <div id="form" className="animate-fade-up bg-white rounded-2xl p-10 shadow-sm border border-[var(--color-border)] self-start">
             <h2 className="font-cormorant text-3xl mb-4 text-[var(--color-primary)]">Send Us a Message</h2>
             <p className="text-[var(--color-ink)] mb-8">
-              Not sure if we are a good fit? Free 15 minute consultations are available. Leave your details and we will call or email you back, or call <a href="tel:+14352003430" className="font-semibold underline">(435) 200-3430</a>.
+              Leave your details and we will call or email you back, or call <a href="tel:+14352003430" className="font-semibold underline">(435) 200-3430</a>.
             </p>
             <ContactForm phone="(435) 200-3430" phoneHref="tel:+14352003430" />
             <p className="text-[var(--color-muted)] text-xs mt-6">
@@ -91,7 +91,7 @@ export default function ContactPage() {
                 <h3 className="font-cormorant text-2xl">Book an Appointment</h3>
               </div>
               <p className="text-white/90 mb-6">
-                Start with a free 15 minute consultation to ask questions and see if we are a good fit.
+                Call or send a message to ask questions and schedule your first visit.
               </p>
               <a
                 href="#form"

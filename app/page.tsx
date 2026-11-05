@@ -24,7 +24,7 @@ const trust = [
   'Personalized Care Plans',
   'In-Depth Assessment and Diagnosis',
   'Medication Management and Therapy Combined',
-  'Free 15 Minute Consultations Available',
+  'Evening and Weekend Appointments Available',
 ]
 
 const services = [
@@ -63,7 +63,7 @@ const services = [
 ]
 
 const steps = [
-  { number: '01', title: 'Reach Out', description: 'Call or email to schedule, or book a free 15 minute consultation to ask questions. We can also help you verify your insurance coverage.' },
+  { number: '01', title: 'Reach Out', description: 'Call or email to schedule in person or virtually. We can also help you verify your insurance coverage.' },
   { number: '02', title: 'Comprehensive Assessment', description: 'Your new patient consult runs 60 to 80 minutes so we can understand your history and concerns. This may include lab tests or other specialized testing.' },
   { number: '03', title: 'Personalized Treatment', description: 'We develop a plan that may include medication, therapy, or both. Follow-up visits keep your care on track and adjusted to your needs.' },
 ]
@@ -105,7 +105,7 @@ export default function Home() {
                 Learn More
               </Link>
             </div>
-            <p className="mt-8 text-sm text-[var(--color-muted)]">Have questions first? Call <a href="tel:4352003430" className="font-semibold text-[var(--color-primary)] underline">(435) 200-3430</a> for a free 15 minute consultation.</p>
+            <p className="mt-8 text-sm text-[var(--color-muted)]">Have questions first? Call <a href="tel:4352003430" className="font-semibold text-[var(--color-primary)] underline">(435) 200-3430</a>.</p>
           </div>
         </div>
       </section>

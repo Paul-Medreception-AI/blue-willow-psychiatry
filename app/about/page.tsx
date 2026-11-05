@@ -101,7 +101,7 @@ export default function AboutPage() {
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-center text-white">
         <div className="mx-auto max-w-3xl px-6">
           <h2 className="font-cormorant text-4xl">Ready to Get Started?</h2>
-          <p className="mt-4 text-white/80">Reach out to ask questions or schedule a free 15 minute consultation.</p>
+          <p className="mt-4 text-white/80">Reach out to ask questions or schedule your first visit.</p>
           <Link href="/contact" className="mt-8 inline-block rounded-full bg-white px-8 py-3 font-medium text-[var(--color-dark)] transition-colors hover:bg-[var(--color-light)]">
             Contact Us
           </Link>

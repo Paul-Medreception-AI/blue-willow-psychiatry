@@ -23,7 +23,6 @@ const STATIC: [string, number, Freq][] = [
   ["/blog/how-to-know-if-you-need-a-psychiatric-assessment", 0.60, 'monthly'],
   ["/blog/how-to-talk-to-a-loved-one-about-getting-help", 0.60, 'monthly'],
   ["/blog/insomnia-when-sleeplessness-needs-treatment", 0.60, 'monthly'],
-  ["/blog/is-a-free-consultation-right-for-you", 0.60, 'monthly'],
   ["/blog/living-with-bipolar-disorder", 0.60, 'monthly'],
   ["/blog/managing-panic-attacks", 0.60, 'monthly'],
   ["/blog/medication-therapy-or-both", 0.60, 'monthly'],

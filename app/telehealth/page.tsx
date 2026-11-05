@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     q: 'How do I get started?',
-    a: 'Call (435) 200-3430 to schedule, or to set up a free 15 minute consultation if you have questions first.',
+    a: 'Call (435) 200-3430 to schedule, or send a message through the contact page if you have questions first.',
   },
 ]
 
@@ -113,7 +113,7 @@ export default function TelehealthPage() {
       <section className="bg-[var(--color-ink)] py-20 text-white text-center">
         <div className="max-w-3xl mx-auto px-6">
           <h2 className="font-cormorant text-4xl font-light">Ready to take the first step?</h2>
-          <p className="mt-4 text-white/80">Have questions before you get started? Call for a free 15 minute consultation.</p>
+          <p className="mt-4 text-white/80">Have questions before you get started? Call (435) 200-3430 or send a message.</p>
           <Link href="/contact" className="inline-block mt-8 px-8 py-3 rounded-full bg-[var(--color-accent)] hover:bg-[var(--color-accent-dark)] transition-colors text-white font-semibold">
             Schedule a Consultation
           </Link>

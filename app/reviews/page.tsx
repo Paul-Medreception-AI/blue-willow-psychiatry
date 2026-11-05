@@ -54,7 +54,7 @@ export default function ReviewsPage() {
         <div className="max-w-3xl mx-auto px-6 animate-fade-up">
           <h2 className="font-cormorant text-4xl font-light mb-4">Mental Health Care That Truly Understands You</h2>
           <p className="text-white/90 mb-8">
-            Free 15 minute consultations are available. Call (435) 200-3430 or reach out online to get started.
+            Call (435) 200-3430 or reach out online to get started.
           </p>
           <Link
             href="/contact"

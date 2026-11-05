@@ -30,6 +30,9 @@ const nextConfig = {
       { source: '/test', destination: '/', permanent: true },
       { source: '/cart', destination: '/', permanent: true },
       { source: '/insurance-and-fees', destination: '/insurance', permanent: true },
+      // Removed 2026-11-05 at the practice's request: the free consultation is no longer offered.
+      { source: '/services/free-15-minute-consultation', destination: '/contact', permanent: true },
+      { source: '/blog/is-a-free-consultation-right-for-you', destination: '/blog', permanent: true },
     ];
   },
 };

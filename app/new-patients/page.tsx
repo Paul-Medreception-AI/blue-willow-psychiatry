@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 }
 
 const steps = [
-  { number: '01', title: 'Schedule', description: 'Call (435) 200-3430 to schedule in person or virtually. Not sure if we are a good fit? Ask for a free 15 minute consultation first.' },
+  { number: '01', title: 'Schedule', description: 'Call (435) 200-3430 to schedule in person or virtually. Evening and weekend appointments are available.' },
   { number: '02', title: 'New Patient Consult', description: 'Your first visit is 60 to 80 minutes, in the Tooele office or by virtual visit. Evening and weekend appointments are available.' },
   { number: '03', title: 'In-Depth Assessment', description: 'We work to understand how your symptoms are impacting your daily life, your goals, and the challenges you face. This might include lab tests or other specialized testing.' },
   { number: '04', title: 'Your Treatment Plan', description: 'Sometimes it is medications, sometimes therapy, often a combination. Return visits are 20 to 30 minutes and include medication management and brief solution-focused therapy.' },
@@ -116,7 +116,7 @@ export default function NewPatientsPage() {
       <section className="bg-[var(--color-primary)] py-20 text-white text-center">
         <div className="max-w-3xl mx-auto px-6">
           <h2 className="font-cormorant text-4xl font-light">Ready to take the first step?</h2>
-          <p className="mt-4">Ask questions in a free 15 minute consultation or schedule your assessment.</p>
+          <p className="mt-4">Call with your questions or schedule your assessment.</p>
           <Link href="/contact" className="mt-8 inline-block rounded-full bg-[var(--color-accent)] border border-white px-8 py-3 font-semibold text-white transition-colors hover:bg-[var(--color-accent-dark)]">
             Schedule a Consultation
           </Link>
