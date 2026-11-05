@@ -12,6 +12,7 @@ const dmSans = DM_Sans({ subsets: ['latin'], weight: ['300','400','500','600'], 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID
 
 export const metadata: Metadata = {
+  verification: { google: 'CD8xRi7kLa6I4aDk3_CWfq2cx_KFfPkIsxQGCrp3Uz0' },
   metadataBase: new URL('https://www.bluewillowpsych.com'),
   title: 'Blue Willow Psychiatry | Mental health care that understands you',
   description: 'Blue Willow Psychiatry offers in-depth assessment and individualized treatment designed to fit your life and needs. Whether you need answers, a second opinion, or a plan that finally works, Kristi Lawrence, APRN is here to help you get back to living your best life.',
