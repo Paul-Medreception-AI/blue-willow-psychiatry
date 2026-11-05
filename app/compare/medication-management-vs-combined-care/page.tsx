@@ -62,7 +62,7 @@ export default function Page() {
             <Link href="/" className="hover:underline">Home</Link> › <span>Resources</span> › <span>Comparison</span>
           </nav>
           <h1 className="font-cormorant text-5xl font-light">Medication Management vs Combined Medication and Therapy</h1>
-          <p className="mt-6 text-lg text-white/90">A clear guide to help you weigh your options for mental health care in Tooele, UT.</p>
+          <p className="mt-6 text-lg text-white/90">A clear guide to help you weigh your options for mental health care in Tooele, Utah.</p>
         </div>
       </section>
 
@@ -140,7 +140,7 @@ export default function Page() {
       <section className="bg-[var(--color-primary)] py-20 text-white text-center">
         <div className="max-w-2xl mx-auto px-6 animate-fade-up">
           <h2 className="font-cormorant text-4xl mb-4">Not Sure Which Is Right for You?</h2>
-          <p className="mb-8 text-white/90">Reach out to Blue Willow Psychiatry at 28 North Main Street, Tooele, UT, or call (435) 200-3430.</p>
+          <p className="mb-8 text-white/90">Reach out to Blue Willow Psychiatry at 1102 W 60 S, Ste 6, Tooele, Utah, or call (435) 200-3430.</p>
           <Link href="/contact" className="inline-block rounded-full bg-white px-8 py-3 font-semibold text-[var(--color-accent-dark)] transition hover:bg-[var(--color-light)]">Discuss Your Options</Link>
         </div>
       </section>

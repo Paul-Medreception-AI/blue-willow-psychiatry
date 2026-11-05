@@ -2,11 +2,11 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Recognizing Psychosis Early | Blue Willow Psychiatry',
-  description: 'Learn the early warning signs of psychosis, who is affected, why early support matters, and how families can help a loved one find care in Tooele, UT.',
+  description: 'Learn the early warning signs of psychosis, who is affected, why early support matters, and how families can help a loved one find care in Tooele, Utah.',
   alternates: { canonical: '/blog/recognizing-psychosis-early' },
   openGraph: {
     title: 'Recognizing Psychosis Early | Blue Willow Psychiatry',
-    description: 'Learn the early warning signs of psychosis, who is affected, why early support matters, and how families can help a loved one find care in Tooele, UT.',
+    description: 'Learn the early warning signs of psychosis, who is affected, why early support matters, and how families can help a loved one find care in Tooele, Utah.',
     url: 'https://www.bluewillowpsych.com/blog/recognizing-psychosis-early',
     siteName: 'Blue Willow Psychiatry',
     type: 'website',
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary',
     title: 'Recognizing Psychosis Early | Blue Willow Psychiatry',
-    description: 'Learn the early warning signs of psychosis, who is affected, why early support matters, and how families can help a loved one find care in Tooele, UT.',
+    description: 'Learn the early warning signs of psychosis, who is affected, why early support matters, and how families can help a loved one find care in Tooele, Utah.',
   },
 }
 
@@ -127,7 +127,7 @@ export default function Page() {
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Taking the Next Step</h2>
         <p className="text-[var(--color-ink)] leading-loose text-base">
-          If you are noticing these changes in yourself or someone you love, you do not need to wait for things to get worse. Blue Willow Psychiatry provides mental health care in Tooele, UT, and you can call (435) 200-3430 or visit us at 28 North Main Street to talk about next steps. If there is immediate danger, call 911 or 988 right away.
+          If you are noticing these changes in yourself or someone you love, you do not need to wait for things to get worse. Blue Willow Psychiatry provides mental health care in Tooele, Utah, and you can call (435) 200-3430 or visit us at 1102 W 60 S, Ste 6 to talk about next steps. If there is immediate danger, call 911 or 988 right away.
         </p>
       </article>
 

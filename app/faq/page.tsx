@@ -3,27 +3,27 @@ import Link from 'next/link'
 import PageHero from '@/components/PageHero'
 
 export const metadata: Metadata = {
-  title: 'FAQ | Blue Willow Psychiatry in Tooele, UT',
-  description: 'Answers to common questions about assessments, medication management, therapy, insurance and what to expect at Blue Willow Psychiatry in Tooele, UT.',
+  title: 'FAQ | Blue Willow Psychiatry in Tooele, Utah',
+  description: 'Answers to common questions about assessments, medication management, therapy, insurance and what to expect at Blue Willow Psychiatry in Tooele, Utah.',
   alternates: { canonical: '/faq' },
   openGraph: {
-    title: 'FAQ | Blue Willow Psychiatry in Tooele, UT',
-    description: 'Answers to common questions about assessments, medication management, therapy, insurance and what to expect at Blue Willow Psychiatry in Tooele, UT.',
+    title: 'FAQ | Blue Willow Psychiatry in Tooele, Utah',
+    description: 'Answers to common questions about assessments, medication management, therapy, insurance and what to expect at Blue Willow Psychiatry in Tooele, Utah.',
     url: 'https://www.bluewillowpsych.com/faq',
     siteName: 'Blue Willow Psychiatry',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'FAQ | Blue Willow Psychiatry in Tooele, UT',
-    description: 'Answers to common questions about assessments, medication management, therapy, insurance and what to expect at Blue Willow Psychiatry in Tooele, UT.',
+    title: 'FAQ | Blue Willow Psychiatry in Tooele, Utah',
+    description: 'Answers to common questions about assessments, medication management, therapy, insurance and what to expect at Blue Willow Psychiatry in Tooele, Utah.',
   },
 }
 
 const faqs = [
   {
     q: 'What does Blue Willow Psychiatry do?',
-    a: 'Blue Willow Psychiatry provides mental health care in Tooele, UT, including in-depth assessment and diagnosis, individualized treatment, medication management, and brief solution-focused therapy. Care is led by Kristi Lawrence, APRN. The goal is a plan that fits your life and needs rather than a one-size-fits-all approach. Medication and therapy can be combined when that makes sense for you.',
+    a: 'Blue Willow Psychiatry provides mental health care in Tooele, Utah, including in-depth assessment and diagnosis, individualized treatment, medication management, and brief solution-focused therapy. Care is led by Kristi Lawrence, APRN. The goal is a plan that fits your life and needs rather than a one-size-fits-all approach. Medication and therapy can be combined when that makes sense for you.',
   },
   {
     q: 'How do I schedule an appointment?',
@@ -74,8 +74,8 @@ const faqs = [
     a: 'You can call to schedule directly. Some insurance plans have their own referral rules, so it is worth checking with your plan. If your primary care provider recommended you, bringing relevant records to your first visit can help.',
   },
   {
-    q: 'Do you offer telehealth or evening appointments?',
-    a: 'Yes. We offer both in-office and virtual visits, and evening and weekend appointments are available.',
+    q: 'Do you offer telehealth?',
+    a: 'Yes. We offer both in-office and virtual visits, so you can choose what fits your schedule.',
   },
   {
     q: 'Do you prescribe controlled substances?',
@@ -99,7 +99,7 @@ const faqs = [
   },
   {
     q: 'Where is the practice located?',
-    a: 'Blue Willow Psychiatry is located at 28 North Main Street, Tooele, UT 84074. You can reach the office by phone at (435) 200-3430. If you have questions about parking, directions, or what to bring, call before your visit.',
+    a: 'Blue Willow Psychiatry is located at 1102 W 60 S, Ste 6, Tooele, Utah 84074, in Mindful Collective, a shared office space for mental health care. You can reach the office by phone at (435) 200-3430. If you have questions about parking, directions, or what to bring, call before your visit.',
   },
 ]
 

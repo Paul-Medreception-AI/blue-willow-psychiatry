@@ -40,7 +40,7 @@ const steps = [
 const related = [
   { href: '/blog', title: 'Resources Hub', text: 'Browse all patient education articles from Blue Willow Psychiatry.' },
   { href: '/contact', title: 'Schedule an Appointment', text: 'Reach out to the practice to ask about an evaluation.' },
-  { href: '/services', title: 'Our Services', text: 'Learn about the mental health care offered in Tooele, UT.' },
+  { href: '/services', title: 'Our Services', text: 'Learn about the mental health care offered in Tooele, Utah.' },
 ]
 
 function Check() {
@@ -110,7 +110,7 @@ export default function Page() {
         </ul>
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Taking the Next Step</h2>
-        <p>If this article sounds uncomfortably familiar, you are not alone, and it is not too late to get answers. A mental health professional can help you understand what is going on and discuss options that fit your life. Blue Willow Psychiatry is located at 28 North Main Street in Tooele, UT. You can call the practice at (435) 200-3430 to start the conversation. This article is for education only and is not a substitute for personal medical advice.</p>
+        <p>If this article sounds uncomfortably familiar, you are not alone, and it is not too late to get answers. A mental health professional can help you understand what is going on and discuss options that fit your life. Blue Willow Psychiatry is located at 1102 W 60 S, Ste 6 in Tooele, Utah. You can call the practice at (435) 200-3430 to start the conversation. This article is for education only and is not a substitute for personal medical advice.</p>
       </article>
 
       <section className="max-w-3xl mx-auto my-12 px-6">
@@ -122,7 +122,7 @@ export default function Page() {
           </div>
           <div>
             <p className="font-cormorant text-xl font-semibold text-[var(--color-ink)]">From Blue Willow Psychiatry</p>
-            <p className="text-[var(--color-muted)] mt-1">Patient education from a mental health practice in Tooele, UT.</p>
+            <p className="text-[var(--color-muted)] mt-1">Patient education from a mental health practice in Tooele, Utah.</p>
           </div>
         </div>
       </section>

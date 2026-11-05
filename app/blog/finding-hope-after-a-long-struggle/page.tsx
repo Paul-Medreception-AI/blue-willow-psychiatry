@@ -113,7 +113,7 @@ export default function Page() {
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Taking the Next Step</h2>
         <p className="text-[var(--color-ink)] leading-loose text-base">
-          You do not have to have everything figured out before asking for support. If you are in the Tooele area and ready to talk, Blue Willow Psychiatry at 28 North Main Street can be reached at (435) 200-3430. A long struggle is not the end of the story, and reaching out can be the first step toward feeling like yourself again.
+          You do not have to have everything figured out before asking for support. If you are in the Tooele area and ready to talk, Blue Willow Psychiatry at 1102 W 60 S, Ste 6 can be reached at (435) 200-3430. A long struggle is not the end of the story, and reaching out can be the first step toward feeling like yourself again.
         </p>
       </article>
 

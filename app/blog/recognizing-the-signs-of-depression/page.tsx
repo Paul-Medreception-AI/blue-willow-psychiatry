@@ -2,11 +2,11 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Recognizing the Signs of Depression | Blue Willow',
-  description: 'Learn the emotional, physical and behavioral signs of depression, who it affects, and when to reach out for professional mental health care in Tooele, UT.',
+  description: 'Learn the emotional, physical and behavioral signs of depression, who it affects, and when to reach out for professional mental health care in Tooele, Utah.',
   alternates: { canonical: '/blog/recognizing-the-signs-of-depression' },
   openGraph: {
     title: 'Recognizing the Signs of Depression | Blue Willow',
-    description: 'Learn the emotional, physical and behavioral signs of depression, who it affects, and when to reach out for professional mental health care in Tooele, UT.',
+    description: 'Learn the emotional, physical and behavioral signs of depression, who it affects, and when to reach out for professional mental health care in Tooele, Utah.',
     url: 'https://www.bluewillowpsych.com/blog/recognizing-the-signs-of-depression',
     siteName: 'Blue Willow Psychiatry',
     type: 'website',
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary',
     title: 'Recognizing the Signs of Depression | Blue Willow',
-    description: 'Learn the emotional, physical and behavioral signs of depression, who it affects, and when to reach out for professional mental health care in Tooele, UT.',
+    description: 'Learn the emotional, physical and behavioral signs of depression, who it affects, and when to reach out for professional mental health care in Tooele, Utah.',
   },
 }
 
@@ -135,7 +135,7 @@ export default function Page() {
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Take the Next Step</h2>
         <p className="text-[var(--color-ink)] leading-loose text-base">
-          If several of these signs sound familiar, reaching out for an evaluation is a sign of strength, not failure. Blue Willow Psychiatry provides mental health care in Tooele, UT. You can call us at (435) 200-3430 or visit us at 28 North Main Street, Tooele, UT 84074 to talk about what you are experiencing and what support may be right for you.
+          If several of these signs sound familiar, reaching out for an evaluation is a sign of strength, not failure. Blue Willow Psychiatry provides mental health care in Tooele, Utah. You can call us at (435) 200-3430 or visit us at 1102 W 60 S, Ste 6, Tooele, Utah 84074 to talk about what you are experiencing and what support may be right for you.
         </p>
       </article>
 

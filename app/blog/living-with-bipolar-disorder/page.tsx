@@ -112,7 +112,7 @@ export default function Page() {
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Taking the Next Step</h2>
         <p className="leading-loose text-base mb-4">
-          Living with bipolar disorder is a long-term journey, but you do not have to navigate it alone. If you recognize these patterns in yourself or someone close to you, a conversation with a mental health professional can bring clarity and a plan. Blue Willow Psychiatry in Tooele, UT offers mental health care; you can reach the practice at (435) 200-3430.
+          Living with bipolar disorder is a long-term journey, but you do not have to navigate it alone. If you recognize these patterns in yourself or someone close to you, a conversation with a mental health professional can bring clarity and a plan. Blue Willow Psychiatry in Tooele, Utah offers mental health care; you can reach the practice at (435) 200-3430.
         </p>
       </article>
 

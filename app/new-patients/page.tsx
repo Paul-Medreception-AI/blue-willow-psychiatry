@@ -4,11 +4,11 @@ import PageHero from '@/components/PageHero'
 
 export const metadata: Metadata = {
   title: 'New Patient Information | Blue Willow Psychiatry',
-  description: 'What to expect at your first visit to Blue Willow Psychiatry in Tooele, UT: how to schedule, what to bring, and the forms to expect.',
+  description: 'What to expect at your first visit to Blue Willow Psychiatry in Tooele, Utah: how to schedule, what to bring, and the forms to expect.',
   alternates: { canonical: '/new-patients' },
   openGraph: {
     title: 'New Patient Information | Blue Willow Psychiatry',
-    description: 'What to expect at your first visit to Blue Willow Psychiatry in Tooele, UT: how to schedule, what to bring, and the forms to expect.',
+    description: 'What to expect at your first visit to Blue Willow Psychiatry in Tooele, Utah: how to schedule, what to bring, and the forms to expect.',
     url: 'https://www.bluewillowpsych.com/new-patients',
     siteName: 'Blue Willow Psychiatry',
     type: 'website',
@@ -16,13 +16,13 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary',
     title: 'New Patient Information | Blue Willow Psychiatry',
-    description: 'What to expect at your first visit to Blue Willow Psychiatry in Tooele, UT: how to schedule, what to bring, and the forms to expect.',
+    description: 'What to expect at your first visit to Blue Willow Psychiatry in Tooele, Utah: how to schedule, what to bring, and the forms to expect.',
   },
 }
 
 const steps = [
-  { number: '01', title: 'Schedule', description: 'Call (435) 200-3430 to schedule in person or virtually. Evening and weekend appointments are available.' },
-  { number: '02', title: 'New Patient Consult', description: 'Your first visit is 60 to 80 minutes, in the Tooele office or by virtual visit. Evening and weekend appointments are available.' },
+  { number: '01', title: 'Schedule', description: 'Call (435) 200-3430 to schedule in person or virtually.' },
+  { number: '02', title: 'New Patient Consult', description: 'Your first visit is 60 to 80 minutes, in the Tooele office or by virtual visit.' },
   { number: '03', title: 'In-Depth Assessment', description: 'We work to understand how your symptoms are impacting your daily life, your goals, and the challenges you face. This might include lab tests or other specialized testing.' },
   { number: '04', title: 'Your Treatment Plan', description: 'Sometimes it is medications, sometimes therapy, often a combination. Return visits are 20 to 30 minutes and include medication management and brief solution-focused therapy.' },
 ]
@@ -109,7 +109,7 @@ export default function NewPatientsPage() {
       <section className="bg-[var(--color-cream)] py-16">
         <div className="max-w-3xl mx-auto px-6 text-center">
           <h2 className="font-cormorant text-3xl mb-4 text-[var(--color-primary)]">Scheduling Questions</h2>
-          <p className="text-[var(--color-muted)]">To reschedule an appointment or ask about the office&apos;s policies, please call us at (435) 200-3430. The office is at 28 North Main Street, Tooele, UT 84074.</p>
+          <p className="text-[var(--color-muted)]">To reschedule an appointment or ask about the office&apos;s policies, please call us at (435) 200-3430. The office is at 1102 W 60 S, Ste 6, Tooele, Utah 84074, in Mindful Collective.</p>
         </div>
       </section>
 

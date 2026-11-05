@@ -113,7 +113,7 @@ export default function Page() {
           Consider reaching out if your symptoms last more than a couple of weeks, interfere with work, relationships, or daily life, or if you are using alcohol or other substances to cope. If you have thoughts of harming yourself or ending your life, seek help immediately by calling or texting 988, the Suicide &amp; Crisis Lifeline, or by calling 911.
         </p>
         <p className="mt-4">
-          You do not have to wait for spring to feel better. If the changing seasons are weighing on you, Blue Willow Psychiatry in Tooele, UT is here to talk. Call (435) 200-3430 or visit our contact page to start the conversation.
+          You do not have to wait for spring to feel better. If the changing seasons are weighing on you, Blue Willow Psychiatry in Tooele, Utah is here to talk. Call (435) 200-3430 or visit our contact page to start the conversation.
         </p>
       </article>
 

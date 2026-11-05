@@ -3,20 +3,20 @@ import Link from 'next/link'
 import PageHero from '@/components/PageHero'
 
 export const metadata: Metadata = {
-  title: 'About Blue Willow Psychiatry | Tooele, UT',
-  description: 'Learn about Blue Willow Psychiatry in Tooele, UT, where Kristi Lawrence, APRN provides thorough assessment and individualized mental health care.',
+  title: 'About Blue Willow Psychiatry | Tooele, Utah',
+  description: 'Learn about Blue Willow Psychiatry in Tooele, Utah, where Kristi Lawrence, APRN provides thorough assessment and individualized mental health care.',
   alternates: { canonical: '/about' },
   openGraph: {
-    title: 'About Blue Willow Psychiatry | Tooele, UT',
-    description: 'Learn about Blue Willow Psychiatry in Tooele, UT, where Kristi Lawrence, APRN provides thorough assessment and individualized mental health care.',
+    title: 'About Blue Willow Psychiatry | Tooele, Utah',
+    description: 'Learn about Blue Willow Psychiatry in Tooele, Utah, where Kristi Lawrence, APRN provides thorough assessment and individualized mental health care.',
     url: 'https://www.bluewillowpsych.com/about',
     siteName: 'Blue Willow Psychiatry',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'About Blue Willow Psychiatry | Tooele, UT',
-    description: 'Learn about Blue Willow Psychiatry in Tooele, UT, where Kristi Lawrence, APRN provides thorough assessment and individualized mental health care.',
+    title: 'About Blue Willow Psychiatry | Tooele, Utah',
+    description: 'Learn about Blue Willow Psychiatry in Tooele, Utah, where Kristi Lawrence, APRN provides thorough assessment and individualized mental health care.',
   },
 }
 
@@ -24,14 +24,14 @@ export default function AboutPage() {
   return (
     <>
       {/* Page header: from her draft Philosophy page. */}
-      <PageHero title={"Care That Fits Your Life and Your Needs"} subtitle={"Understanding, thorough, and individualized mental health care in Tooele, UT."} crumb="About" image="/images/eucalyptus-white-flowers.jpg" position="object-[center_40%]" />
+      <PageHero title={"Care That Fits Your Life and Your Needs"} subtitle={"Understanding, thorough, and individualized mental health care in Tooele, Utah."} crumb="About" image="/images/eucalyptus-white-flowers.jpg" position="object-[center_40%]" />
 
       <section className="bg-[var(--color-cream)] py-24">
         <div className="mx-auto grid max-w-6xl gap-12 px-6 lg:grid-cols-5">
           <div className="space-y-6 text-lg leading-relaxed text-[var(--color-ink)] lg:col-span-3 lg:pr-12">
             <h2 className="font-cormorant text-4xl text-[var(--color-primary)]">Our Treatment Philosophy</h2>
             <p>Our primary goal is to understand how your symptoms are impacting your daily life and keeping you from living the life you want. Once we know your goals and the challenges you face, we can design a treatment plan to allow you to stop suffering and achieve your full potential.</p>
-            <p>We want this to be as easy as possible, and understand the demands on your time. We offer both in-office and virtual visits as well as offering appointments on weekends and evenings.</p>
+            <p>We want this to be as easy as possible, and understand the demands on your time. We offer both in-office and virtual visits.</p>
             <p>We know you are here because you have been trying, but what you are doing hasn&apos;t worked. At Blue Willow Psychiatry, we will explore different approaches so your efforts lead to real improvement. We like to think of ourselves as a coach: you do the work, but we give you guidance, tools, techniques and exercises so all your hard work results in real improvement. Sometimes treatment is therapy, medications, lifestyle or diet changes, or a combination of these.</p>
             <p>If you already have a great therapist we want you to keep working with them, and we are happy to collaborate care. If you don&apos;t, we might suggest therapy at Blue Willow Psychiatry, or we will help you find an amazing therapist in our community that specializes in your unique needs.</p>
             <p><Link href="/team" className="text-[var(--color-primary)] font-semibold underline">Meet Kristi Lawrence, APRN</Link>, who founded Blue Willow Psychiatry in 2023.</p>
@@ -52,13 +52,13 @@ export default function AboutPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                   </svg>
-                  <span>28 North Main Street, Tooele, UT 84074</span>
+                  <span>1102 W 60 S, Ste 6, Tooele, Utah 84074, in Mindful Collective</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <svg className="mt-1 h-6 w-6 shrink-0 text-[var(--color-accent)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <span>In-office and virtual visits. Evening and weekend appointments available.</span>
+                  <span>In-office and virtual visits.</span>
                 </div>
               </div>
               <Link href="/contact" className="mt-8 inline-block rounded-full bg-[var(--color-accent)] px-8 py-3 font-medium text-white transition-colors hover:bg-[var(--color-accent-dark)]">

@@ -3,11 +3,11 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Insurance vs Self Pay for Psychiatry | Blue Willow',
-  description: 'Compare using insurance with paying out of pocket for psychiatric care in Tooele, UT: cost structure, privacy, access and who each option suits best.',
+  description: 'Compare using insurance with paying out of pocket for psychiatric care in Tooele, Utah: cost structure, privacy, access and who each option suits best.',
   alternates: { canonical: '/compare/insurance-vs-self-pay-psychiatry' },
   openGraph: {
     title: 'Insurance vs Self Pay for Psychiatry | Blue Willow',
-    description: 'Compare using insurance with paying out of pocket for psychiatric care in Tooele, UT: cost structure, privacy, access and who each option suits best.',
+    description: 'Compare using insurance with paying out of pocket for psychiatric care in Tooele, Utah: cost structure, privacy, access and who each option suits best.',
     url: 'https://www.bluewillowpsych.com/compare/insurance-vs-self-pay-psychiatry',
     siteName: 'Blue Willow Psychiatry',
     type: 'website',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary',
     title: 'Insurance vs Self Pay for Psychiatry | Blue Willow',
-    description: 'Compare using insurance with paying out of pocket for psychiatric care in Tooele, UT: cost structure, privacy, access and who each option suits best.',
+    description: 'Compare using insurance with paying out of pocket for psychiatric care in Tooele, Utah: cost structure, privacy, access and who each option suits best.',
   },
 }
 
@@ -66,7 +66,7 @@ export default function Page() {
             <Link href="/" className="hover:underline">Home</Link> › Resources › Comparison
           </p>
           <h1 className="font-cormorant text-5xl font-light">Insurance vs Self Pay for Psychiatry</h1>
-          <p className="mt-6 text-lg opacity-90">How you pay shapes cost, privacy and paperwork. Here is how the two paths compare for mental health care in Tooele, UT.</p>
+          <p className="mt-6 text-lg opacity-90">How you pay shapes cost, privacy and paperwork. Here is how the two paths compare for mental health care in Tooele, Utah.</p>
         </div>
       </section>
 
@@ -148,7 +148,7 @@ export default function Page() {
       <section className="bg-[var(--color-primary)] py-20 text-white text-center">
         <div className="max-w-2xl mx-auto px-6">
           <h2 className="font-cormorant text-4xl mb-4">Not Sure Which Fits You?</h2>
-          <p className="mb-8 opacity-90">Reach out to Blue Willow Psychiatry at 28 North Main Street, Tooele, UT, or call (435) 200-3430.</p>
+          <p className="mb-8 opacity-90">Reach out to Blue Willow Psychiatry at 1102 W 60 S, Ste 6, Tooele, Utah, or call (435) 200-3430.</p>
           <Link href="/contact" className="inline-block bg-[var(--color-accent)] hover:bg-[var(--color-accent-dark)] border border-white transition-colors text-white px-8 py-4 rounded-full font-semibold">Discuss Your Options</Link>
         </div>
       </section>

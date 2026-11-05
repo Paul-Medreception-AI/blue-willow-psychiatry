@@ -2,11 +2,11 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'What Is a Psychiatric APRN? | Blue Willow Psychiatry',
-  description: 'Learn what a psychiatric APRN is, what training they have, what they treat, and how they support mental health care in Tooele, UT.',
+  description: 'Learn what a psychiatric APRN is, what training they have, what they treat, and how they support mental health care in Tooele, Utah.',
   alternates: { canonical: '/blog/what-is-a-psychiatric-aprn' },
   openGraph: {
     title: 'What Is a Psychiatric APRN? | Blue Willow Psychiatry',
-    description: 'Learn what a psychiatric APRN is, what training they have, what they treat, and how they support mental health care in Tooele, UT.',
+    description: 'Learn what a psychiatric APRN is, what training they have, what they treat, and how they support mental health care in Tooele, Utah.',
     url: 'https://www.bluewillowpsych.com/blog/what-is-a-psychiatric-aprn',
     siteName: 'Blue Willow Psychiatry',
     type: 'website',
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary',
     title: 'What Is a Psychiatric APRN? | Blue Willow Psychiatry',
-    description: 'Learn what a psychiatric APRN is, what training they have, what they treat, and how they support mental health care in Tooele, UT.',
+    description: 'Learn what a psychiatric APRN is, what training they have, what they treat, and how they support mental health care in Tooele, Utah.',
   },
 }
 
@@ -104,7 +104,7 @@ export default function Page() {
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Taking the Next Step</h2>
         <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-          You do not need to wait until things feel unbearable to ask for support. If symptoms are affecting your work, relationships, sleep, or sense of well-being, a professional evaluation can bring clarity and a plan. If you are in crisis or having thoughts of harming yourself, call or text 988 (the Suicide and Crisis Lifeline) or call 911 right away. To reach Blue Willow Psychiatry in Tooele, UT, call (435) 200-3430 or visit us at 28 North Main Street.
+          You do not need to wait until things feel unbearable to ask for support. If symptoms are affecting your work, relationships, sleep, or sense of well-being, a professional evaluation can bring clarity and a plan. If you are in crisis or having thoughts of harming yourself, call or text 988 (the Suicide and Crisis Lifeline) or call 911 right away. To reach Blue Willow Psychiatry in Tooele, Utah, call (435) 200-3430 or visit us at 1102 W 60 S, Ste 6.
         </p>
       </article>
 
@@ -134,7 +134,7 @@ export default function Page() {
             </a>
             <a href="/contact" className="animate-fade-up block bg-white border border-[var(--color-border)] rounded-2xl p-6 hover:shadow-lg transition-shadow">
               <h4 className="font-cormorant text-2xl text-[var(--color-primary)] mb-2">Contact Us</h4>
-              <p className="text-sm text-[var(--color-muted)]">Get in touch with Blue Willow Psychiatry in Tooele, UT.</p>
+              <p className="text-sm text-[var(--color-muted)]">Get in touch with Blue Willow Psychiatry in Tooele, Utah.</p>
             </a>
           </div>
         </div>

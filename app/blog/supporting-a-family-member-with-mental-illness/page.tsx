@@ -109,7 +109,7 @@ export default function Page() {
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Encouraging Professional Help</h2>
         <p className="text-[var(--color-ink)] leading-loose text-base">
-          Mental health conditions are treatable, and care often combines therapy, medication, and lifestyle support tailored to the individual. If you are concerned about someone you love, a professional evaluation is a meaningful step. Blue Willow Psychiatry in Tooele, Utah, provides mental health care, and you are welcome to call (435) 200-3430 or visit us at 28 North Main Street to ask questions about next steps.
+          Mental health conditions are treatable, and care often combines therapy, medication, and lifestyle support tailored to the individual. If you are concerned about someone you love, a professional evaluation is a meaningful step. Blue Willow Psychiatry in Tooele, Utah, provides mental health care, and you are welcome to call (435) 200-3430 or visit us at 1102 W 60 S, Ste 6 to ask questions about next steps.
         </p>
       </article>
 

@@ -112,7 +112,7 @@ export default function Page() {
         <p>After the conversation, your clinician will share their impressions and discuss possible next steps. Depending on what you are experiencing, that might include counseling, medication management, follow-up visits, or referrals for additional evaluation. You stay part of every decision, and you can ask questions about benefits, side effects and alternatives. Treatment is a collaborative process, and plans can be adjusted as you progress.</p>
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Take the Next Step</h2>
-        <p>If you have been wondering whether what you feel is serious enough to talk to someone, that question is reason enough. You do not need to be in crisis to deserve support. If you are in Tooele and would like to talk about mental health care, Blue Willow Psychiatry is located at 28 North Main Street, and you can reach the practice at (435) 200-3430.</p>
+        <p>If you have been wondering whether what you feel is serious enough to talk to someone, that question is reason enough. You do not need to be in crisis to deserve support. If you are in Tooele and would like to talk about mental health care, Blue Willow Psychiatry is located at 1102 W 60 S, Ste 6, and you can reach the practice at (435) 200-3430.</p>
         <p className="mt-4 text-sm text-[var(--color-muted)]">This article is for general education and is not a substitute for professional medical advice, diagnosis or treatment.</p>
       </article>
 

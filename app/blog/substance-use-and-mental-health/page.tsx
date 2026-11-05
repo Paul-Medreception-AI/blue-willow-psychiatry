@@ -2,11 +2,11 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Substance Use and Mental Health | Blue Willow Psychiatry',
-  description: 'Learn how substance use and mental health conditions affect each other, why they often occur together, and how to find support in Tooele, UT.',
+  description: 'Learn how substance use and mental health conditions affect each other, why they often occur together, and how to find support in Tooele, Utah.',
   alternates: { canonical: '/blog/substance-use-and-mental-health' },
   openGraph: {
     title: 'Substance Use and Mental Health | Blue Willow Psychiatry',
-    description: 'Learn how substance use and mental health conditions affect each other, why they often occur together, and how to find support in Tooele, UT.',
+    description: 'Learn how substance use and mental health conditions affect each other, why they often occur together, and how to find support in Tooele, Utah.',
     url: 'https://www.bluewillowpsych.com/blog/substance-use-and-mental-health',
     siteName: 'Blue Willow Psychiatry',
     type: 'website',
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary',
     title: 'Substance Use and Mental Health | Blue Willow Psychiatry',
-    description: 'Learn how substance use and mental health conditions affect each other, why they often occur together, and how to find support in Tooele, UT.',
+    description: 'Learn how substance use and mental health conditions affect each other, why they often occur together, and how to find support in Tooele, Utah.',
   },
 }
 
@@ -123,7 +123,7 @@ export default function Page() {
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Taking the Next Step</h2>
         <p>
-          Asking for help is a sign of strength. If substance use and your mental health are affecting each other, Blue Willow Psychiatry in Tooele, UT invites you to reach out. Call (435) 200-3430 or visit us at 28 North Main Street, Tooele, UT 84074 to start a conversation about your concerns.
+          Asking for help is a sign of strength. If substance use and your mental health are affecting each other, Blue Willow Psychiatry in Tooele, Utah invites you to reach out. Call (435) 200-3430 or visit us at 1102 W 60 S, Ste 6, Tooele, Utah 84074 to start a conversation about your concerns.
         </p>
       </article>
 
@@ -142,7 +142,7 @@ export default function Page() {
         <div className="grid md:grid-cols-3 gap-6">
           {[
             { h: '/blog', t: 'Resources Hub', d: 'Browse all patient education articles from Blue Willow Psychiatry.' },
-            { h: '/services', t: 'Our Services', d: 'Learn about the mental health care offered in Tooele, UT.' },
+            { h: '/services', t: 'Our Services', d: 'Learn about the mental health care offered in Tooele, Utah.' },
             { h: '/contact', t: 'Contact the Practice', d: 'Reach out to ask questions or begin a conversation about care.' },
           ].map((c) => (
             <a key={c.h} href={c.h} className="animate-fade-up block bg-white rounded-2xl p-6 border border-[var(--color-border)] hover:shadow-lg transition-shadow">

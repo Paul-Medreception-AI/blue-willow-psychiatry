@@ -121,7 +121,7 @@ export default function Page() {
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Take the Next Step</h2>
         <p className="text-[var(--color-ink)] leading-loose text-base">
-          Questions about insurance should never keep you from seeking support. If you are in Tooele, UT and considering mental health care, Blue Willow Psychiatry can answer questions about the process. Call (435) 200-3430 or visit us at 28 North Main Street, Tooele, UT 84074. If you are ever in crisis, call or text 988 to reach the Suicide and Crisis Lifeline, or call 911.
+          Questions about insurance should never keep you from seeking support. If you are in Tooele, Utah and considering mental health care, Blue Willow Psychiatry can answer questions about the process. Call (435) 200-3430 or visit us at 1102 W 60 S, Ste 6, Tooele, Utah 84074. If you are ever in crisis, call or text 988 to reach the Suicide and Crisis Lifeline, or call 911.
         </p>
       </article>
 

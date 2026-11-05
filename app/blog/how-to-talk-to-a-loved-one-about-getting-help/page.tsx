@@ -106,7 +106,7 @@ export default function Page() {
         <p>Resistance is common and does not mean you failed. Let them know the offer stands, and check in again later without pressure. Motivational approaches used by clinicians emphasize respecting a person&rsquo;s autonomy, since people are more likely to change when they feel heard rather than pushed. Meanwhile, remain steady, keep including them in daily life, and take care of your own well-being. Supporting someone is demanding, and you may benefit from support too.</p>
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Taking the next step together</h2>
-        <p>When your loved one is ready, a first appointment with a mental health professional can feel less daunting with a supportive person nearby. Blue Willow Psychiatry is located at 28 North Main Street in Tooele, UT. If you have questions about reaching out, you can call (435) 200-3430. Starting the conversation is a meaningful act of care, and you do not have to have all the answers to begin.</p>
+        <p>When your loved one is ready, a first appointment with a mental health professional can feel less daunting with a supportive person nearby. Blue Willow Psychiatry is located at 1102 W 60 S, Ste 6 in Tooele, Utah. If you have questions about reaching out, you can call (435) 200-3430. Starting the conversation is a meaningful act of care, and you do not have to have all the answers to begin.</p>
         <p className="mt-4 text-sm text-[var(--color-muted)]">This article is for general education and is not a substitute for professional medical advice.</p>
       </article>
 

@@ -49,7 +49,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div>
                 <span className="font-cormorant text-2xl font-semibold text-white">Blue Willow Psychiatry</span>
                 <p className="mt-4 text-sm text-white/70 max-w-xs">Mental health care that understands you.</p>
-                <p className="mt-4 text-sm text-white/70">In-office and virtual visits. Evening and weekend appointments available.</p>
+                <p className="mt-4 text-sm text-white/70">In-office and virtual visits.</p>
                 <a href="https://www.psychologytoday.com/profile/1115781" target="_blank" rel="noopener noreferrer" className="mt-4 inline-block text-sm text-white/70 underline underline-offset-2 hover:text-white transition-colors">Kristi Lawrence on Psychology Today</a>
               </div>
               <div>
@@ -67,7 +67,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div>
                 <h3 className="font-cormorant text-lg font-semibold mb-4">Contact</h3>
                 <ul className="space-y-2 text-sm text-white/70">
-                  <li>28 North Main Street, Tooele, UT 84074</li>
+                  <li>1102 W 60 S, Ste 6, Tooele, Utah 84074</li>
+                  <li>Located in Mindful Collective</li>
                   <li><a href="tel:4352003430" className="hover:text-white transition-colors">(435) 200-3430</a></li>
                   <li><a href="mailto:Kristi@BlueWillowPsych.com" className="hover:text-white transition-colors">Kristi@BlueWillowPsych.com</a></li>
                 </ul>

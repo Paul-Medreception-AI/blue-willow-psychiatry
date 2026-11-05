@@ -95,7 +95,7 @@ export default function Page() {
         </ul>
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">When to Seek Professional Help</h2>
-        <p>If focus problems, constant worry, or both are getting in the way of work, school, relationships, or your peace of mind, it is worth talking with a professional. You do not need to have it all figured out beforehand. Describing what your days feel like is enough to begin. If you are in Tooele, UT, you can reach Blue Willow Psychiatry at (435) 200-3430 or visit 28 North Main Street. If you ever feel unsafe or are thinking about harming yourself, call or text 988 or go to the nearest emergency room right away.</p>
+        <p>If focus problems, constant worry, or both are getting in the way of work, school, relationships, or your peace of mind, it is worth talking with a professional. You do not need to have it all figured out beforehand. Describing what your days feel like is enough to begin. If you are in Tooele, Utah, you can reach Blue Willow Psychiatry at (435) 200-3430 or visit 1102 W 60 S, Ste 6. If you ever feel unsafe or are thinking about harming yourself, call or text 988 or go to the nearest emergency room right away.</p>
       </article>
 
       <div className="bg-[var(--color-cream)] rounded-2xl p-8 max-w-3xl mx-auto my-12 px-6 flex gap-6 items-start animate-fade-up">

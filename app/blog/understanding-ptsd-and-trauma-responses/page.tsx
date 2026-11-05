@@ -117,7 +117,7 @@ export default function Page() {
           Consider reaching out if symptoms last more than a month, disrupt work or relationships, or leave you relying on alcohol or other substances to cope. If you have thoughts of harming yourself, call or text 988 (the Suicide and Crisis Lifeline) or call 911 right away.
         </p>
         <p className="mt-4">
-          You do not have to have everything figured out before asking for support. Blue Willow Psychiatry provides mental health care in Tooele, UT. To talk about your concerns, call (435) 200-3430 or visit us at 28 North Main Street, Tooele, UT 84074. Healing from trauma is possible, and the first step is a conversation.
+          You do not have to have everything figured out before asking for support. Blue Willow Psychiatry provides mental health care in Tooele, Utah. To talk about your concerns, call (435) 200-3430 or visit us at 1102 W 60 S, Ste 6, Tooele, Utah 84074. Healing from trauma is possible, and the first step is a conversation.
         </p>
       </article>
 

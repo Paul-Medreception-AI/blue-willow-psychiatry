@@ -128,7 +128,7 @@ export default function Page() {
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Reaching Out for Support</h2>
         <p>
-          Asking for help is one of the strongest things a new parent can do. If your mood has felt off for more than a couple of weeks, or if you are simply unsure, a conversation with a mental health professional can bring clarity and relief. Blue Willow Psychiatry provides mental health care in Tooele, UT. You can call (435) 200-3430 or visit us at 28 North Main Street, Tooele, UT 84074 to start the conversation.
+          Asking for help is one of the strongest things a new parent can do. If your mood has felt off for more than a couple of weeks, or if you are simply unsure, a conversation with a mental health professional can bring clarity and relief. Blue Willow Psychiatry provides mental health care in Tooele, Utah. You can call (435) 200-3430 or visit us at 1102 W 60 S, Ste 6, Tooele, Utah 84074 to start the conversation.
         </p>
         <p className="mt-4 text-sm text-[var(--color-muted)]">
           This article is for general education and is not a substitute for personal medical advice, diagnosis, or treatment.

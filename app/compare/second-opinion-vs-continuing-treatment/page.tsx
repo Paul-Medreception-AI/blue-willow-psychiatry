@@ -135,7 +135,7 @@ export default function Page() {
       <section className="bg-[var(--color-primary)] py-20 text-center text-white">
         <div className="max-w-2xl mx-auto px-6">
           <h2 className="font-cormorant text-4xl mb-4">Not sure which path fits?</h2>
-          <p className="mb-8 opacity-90">Reach out to Blue Willow Psychiatry in Tooele, UT, at (435) 200-3430 to talk through your situation.</p>
+          <p className="mb-8 opacity-90">Reach out to Blue Willow Psychiatry in Tooele, Utah, at (435) 200-3430 to talk through your situation.</p>
           <Link href="/contact" className="inline-block rounded-full bg-[var(--color-accent)] px-8 py-3 font-semibold text-white border border-white transition-colors hover:bg-[var(--color-accent-dark)]">Discuss Your Options</Link>
         </div>
       </section>

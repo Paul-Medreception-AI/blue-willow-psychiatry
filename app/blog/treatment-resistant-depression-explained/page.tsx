@@ -128,7 +128,7 @@ export default function Page() {
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">You Do Not Have to Face This Alone</h2>
         <p className="text-[var(--color-ink)] leading-loose text-base">
-          Having tried treatments that did not work can be exhausting, and hope may feel hard to hold. But a lack of response so far does not mean you will never feel better. If you live in or near Tooele, Utah and want to talk through your options, Blue Willow Psychiatry is at 28 North Main Street. Call (435) 200-3430 or reach out through our contact page to start the conversation.
+          Having tried treatments that did not work can be exhausting, and hope may feel hard to hold. But a lack of response so far does not mean you will never feel better. If you live in or near Tooele, Utah and want to talk through your options, Blue Willow Psychiatry is at 1102 W 60 S, Ste 6. Call (435) 200-3430 or reach out through our contact page to start the conversation.
         </p>
         <p className="text-sm text-[var(--color-muted)] leading-relaxed mt-6">
           This article is for general education and is not a substitute for personal medical advice, diagnosis, or treatment.

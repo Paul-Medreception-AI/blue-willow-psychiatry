@@ -2,20 +2,20 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Patient Reviews | Blue Willow Psychiatry in Tooele, UT',
-  description: 'Share your experience with Blue Willow Psychiatry in Tooele, UT. We value feedback from patients about their mental health care.',
+  title: 'Patient Reviews | Blue Willow Psychiatry in Tooele, Utah',
+  description: 'Share your experience with Blue Willow Psychiatry in Tooele, Utah. We value feedback from patients about their mental health care.',
   alternates: { canonical: '/reviews' },
   openGraph: {
-    title: 'Patient Reviews | Blue Willow Psychiatry in Tooele, UT',
-    description: 'Share your experience with Blue Willow Psychiatry in Tooele, UT. We value feedback from patients about their mental health care.',
+    title: 'Patient Reviews | Blue Willow Psychiatry in Tooele, Utah',
+    description: 'Share your experience with Blue Willow Psychiatry in Tooele, Utah. We value feedback from patients about their mental health care.',
     url: 'https://www.bluewillowpsych.com/reviews',
     siteName: 'Blue Willow Psychiatry',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Patient Reviews | Blue Willow Psychiatry in Tooele, UT',
-    description: 'Share your experience with Blue Willow Psychiatry in Tooele, UT. We value feedback from patients about their mental health care.',
+    title: 'Patient Reviews | Blue Willow Psychiatry in Tooele, Utah',
+    description: 'Share your experience with Blue Willow Psychiatry in Tooele, Utah. We value feedback from patients about their mental health care.',
   },
 }
 

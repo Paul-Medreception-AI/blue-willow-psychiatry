@@ -64,7 +64,7 @@ export default function Page() {
             <Link href="/" className="hover:underline">Home</Link> › <span>Resources</span> › <span>Comparison</span>
           </nav>
           <h1 className="font-cormorant text-5xl font-light">Medication vs Therapy: Which Is Right for You?</h1>
-          <p className="mt-6 text-lg text-white/90">A clear look at both approaches to mental health care in Tooele, UT, so you can make an informed decision.</p>
+          <p className="mt-6 text-lg text-white/90">A clear look at both approaches to mental health care in Tooele, Utah, so you can make an informed decision.</p>
         </div>
       </section>
 
@@ -143,7 +143,7 @@ export default function Page() {
       <section className="bg-[var(--color-primary)] py-20 text-center text-white">
         <div className="max-w-2xl mx-auto px-6">
           <h2 className="font-cormorant text-4xl mb-4">Ready to Talk Through Your Options?</h2>
-          <p className="mb-8 text-white/90">Blue Willow Psychiatry, 28 North Main Street, Tooele, UT 84074. Call (435) 200-3430.</p>
+          <p className="mb-8 text-white/90">Blue Willow Psychiatry, 1102 W 60 S, Ste 6, Tooele, Utah 84074. Call (435) 200-3430.</p>
           <Link href="/contact" className="inline-block rounded-full bg-[var(--color-accent)] border border-white px-8 py-3 font-semibold text-white transition hover:bg-[var(--color-accent-dark)]">Discuss Your Options</Link>
           <p className="mt-8 text-xs text-white/70">This page is general information, not medical advice. By Blue Willow Psychiatry, October 2026.</p>
         </div>

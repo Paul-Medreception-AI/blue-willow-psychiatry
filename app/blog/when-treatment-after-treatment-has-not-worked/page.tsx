@@ -35,7 +35,7 @@ const tips = [
 
 const related = [
   { href: '/blog', label: 'Blog', title: 'More Mental Health Resources', text: 'Browse patient education articles from Blue Willow Psychiatry.' },
-  { href: '/services', label: 'Services', title: 'Our Services', text: 'See the kinds of care offered in Tooele, UT.' },
+  { href: '/services', label: 'Services', title: 'Our Services', text: 'See the kinds of care offered in Tooele, Utah.' },
   { href: '/contact', label: 'Contact', title: 'Contact the Practice', text: 'Reach out to ask about scheduling a visit.' },
 ]
 
@@ -114,7 +114,7 @@ export default function Page() {
         <p className="mt-4">If you ever have thoughts of harming yourself, please do not wait for an appointment. In the United States, call or text 988 to reach the Suicide and Crisis Lifeline, or call 911 in an emergency.</p>
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Take the Next Step</h2>
-        <p>Feeling stuck after several treatments is a reason to seek a fresh look, not a reason to give up. If you are in or near Tooele, UT, Blue Willow Psychiatry is located at 28 North Main Street. You can call (435) 200-3430 or use our contact page to reach out and talk through your situation.</p>
+        <p>Feeling stuck after several treatments is a reason to seek a fresh look, not a reason to give up. If you are in or near Tooele, Utah, Blue Willow Psychiatry is located at 1102 W 60 S, Ste 6. You can call (435) 200-3430 or use our contact page to reach out and talk through your situation.</p>
       </article>
 
       <div className="bg-[var(--color-cream)] rounded-2xl p-8 max-w-3xl mx-auto my-12 px-6 flex gap-6 items-start animate-fade-up">

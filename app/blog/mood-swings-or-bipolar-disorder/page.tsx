@@ -99,7 +99,7 @@ export default function Page() {
         <p className="mt-6">Only a qualified clinician can diagnose bipolar disorder. A thorough evaluation considers your history, symptoms, and other possible causes such as thyroid problems, substance effects, or medication side effects.</p>
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">When to Reach Out</h2>
-        <p>If your mood shifts feel unpredictable, intense, or hard to manage, you do not have to sort it out alone. Blue Willow Psychiatry provides mental health care in Tooele, Utah. Call (435) 200-3430 or visit us at 28 North Main Street to ask about next steps. If you are in crisis or having thoughts of harming yourself, call or text 988, the Suicide and Crisis Lifeline, or call 911 right away.</p>
+        <p>If your mood shifts feel unpredictable, intense, or hard to manage, you do not have to sort it out alone. Blue Willow Psychiatry provides mental health care in Tooele, Utah. Call (435) 200-3430 or visit us at 1102 W 60 S, Ste 6 to ask about next steps. If you are in crisis or having thoughts of harming yourself, call or text 988, the Suicide and Crisis Lifeline, or call 911 right away.</p>
       </article>
 
       <section className="bg-[var(--color-cream)] rounded-2xl p-8 max-w-3xl mx-auto my-12 px-6 flex gap-6 items-start animate-fade-up">

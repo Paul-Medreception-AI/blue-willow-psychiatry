@@ -102,7 +102,7 @@ export default function Page() {
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">When to Seek Professional Help</h2>
         <p>Consider reaching out if attacks are recurring, if you are avoiding places or activities, if worry about the next attack is constant, or if panic is affecting your work, relationships, or sleep. If you ever have thoughts of harming yourself, call or text 988 in the U.S., or call 911 right away.</p>
-        <p className="mt-4">You do not have to manage panic alone. Blue Willow Psychiatry provides mental health care in Tooele, UT. Call (435) 200-3430 or visit us at 28 North Main Street to talk about next steps.</p>
+        <p className="mt-4">You do not have to manage panic alone. Blue Willow Psychiatry provides mental health care in Tooele, Utah. Call (435) 200-3430 or visit us at 1102 W 60 S, Ste 6 to talk about next steps.</p>
       </article>
 
       <div className="bg-[var(--color-cream)] rounded-2xl p-8 max-w-3xl mx-auto my-12 px-6 flex gap-6 items-start animate-fade-up">

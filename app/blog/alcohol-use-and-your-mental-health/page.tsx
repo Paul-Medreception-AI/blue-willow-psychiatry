@@ -128,7 +128,7 @@ export default function Page() {
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Take the First Step</h2>
         <p className="text-[var(--color-ink)] leading-loose text-base">
-          If alcohol is affecting your mood, sleep, or relationships, you deserve care without judgment. Blue Willow Psychiatry provides mental health care in Tooele, UT. Call (435) 200-3430 or visit us at 28 North Main Street to start a conversation about what you are experiencing. If you are in crisis or thinking about harming yourself, call or text 988 or call 911 right away.
+          If alcohol is affecting your mood, sleep, or relationships, you deserve care without judgment. Blue Willow Psychiatry provides mental health care in Tooele, Utah. Call (435) 200-3430 or visit us at 1102 W 60 S, Ste 6 to start a conversation about what you are experiencing. If you are in crisis or thinking about harming yourself, call or text 988 or call 911 right away.
         </p>
       </article>
 

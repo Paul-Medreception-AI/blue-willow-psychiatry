@@ -4,7 +4,7 @@ import SmsConsentForm from '@/components/SmsConsentForm'
 import { SITE } from '@/lib/site'
 
 const TITLE = 'Text Message Sign-Up | Blue Willow Psychiatry'
-const DESCRIPTION = 'Opt in to text messages from Blue Willow Psychiatry in Tooele, UT about your appointments and your care.'
+const DESCRIPTION = 'Opt in to text messages from Blue Willow Psychiatry in Tooele, Utah about your appointments and your care.'
 
 export const metadata: Metadata = {
   title: TITLE,

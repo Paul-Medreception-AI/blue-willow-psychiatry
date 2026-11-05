@@ -117,7 +117,7 @@ export default function Page() {
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Taking the First Step</h2>
         <p className="text-[var(--color-ink)] leading-loose text-base">
-          Reaching out is often the hardest part, and you have already done the thinking that gets you there. If you are in Tooele or the surrounding area and would like to talk with a professional, Blue Willow Psychiatry can be reached at (435) 200-3430 or at 28 North Main Street, Tooele, UT 84074. If you are ever in crisis or having thoughts of harming yourself, call or text 988 (Suicide &amp; Crisis Lifeline) or call 911 right away.
+          Reaching out is often the hardest part, and you have already done the thinking that gets you there. If you are in Tooele or the surrounding area and would like to talk with a professional, Blue Willow Psychiatry can be reached at (435) 200-3430 or at 1102 W 60 S, Ste 6, Tooele, Utah 84074. If you are ever in crisis or having thoughts of harming yourself, call or text 988 (Suicide &amp; Crisis Lifeline) or call 911 right away.
         </p>
       </article>
 

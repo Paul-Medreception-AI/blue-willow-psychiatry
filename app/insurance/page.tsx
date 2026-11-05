@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import PageHero from '@/components/PageHero'
 
-const TITLE = 'Insurance & Fees | Blue Willow Psychiatry, Tooele UT'
+const TITLE = 'Insurance & Fees | Blue Willow Psychiatry, Tooele, Utah'
 const DESCRIPTION = 'Insurance plans accepted at Blue Willow Psychiatry, including Medicaid, Medicare, Aetna, BlueCross BlueShield and Regence, DMBA, PEHP, SelectHealth, United Healthcare and Tricare, plus self pay rates and payment options.'
 
 export const metadata: Metadata = {

@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 
-const TITLE = 'Kristi Lawrence, APRN | Psychiatric NP in Tooele, UT'
-const DESCRIPTION = 'Meet Kristi Lawrence, APRN, a family and psychiatric mental health nurse practitioner who founded Blue Willow Psychiatry in Tooele, UT in 2023.'
+const TITLE = 'Kristi Lawrence, APRN | Psychiatric NP in Tooele, Utah'
+const DESCRIPTION = 'Meet Kristi Lawrence, APRN, a family and psychiatric mental health nurse practitioner who founded Blue Willow Psychiatry in Tooele, Utah in 2023.'
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -37,14 +37,14 @@ const PERSON_SCHEMA = {
     '@type': 'MedicalBusiness',
     name: 'Blue Willow Psychiatry',
     telephone: '+1-435-200-3430',
-    address: { '@type': 'PostalAddress', streetAddress: '28 North Main Street', addressLocality: 'Tooele', addressRegion: 'UT', postalCode: '84074', addressCountry: 'US' },
+    address: { '@type': 'PostalAddress', streetAddress: '1102 W 60 S, Ste 6', addressLocality: 'Tooele', addressRegion: 'UT', postalCode: '84074', addressCountry: 'US' },
   },
 }
 
 const CREDENTIALS = [
-  'Family Nurse Practitioner (FNP)',
-  'Psychiatric Mental Health Nurse Practitioner (PMHNP), her second board certification',
-  'More than 16 years caring for patients as a nurse and nurse practitioner',
+  'Family Practice Nurse Practitioner, Board Certified since 2016',
+  'Psychiatric Mental Health Nurse Practitioner, Board Certified since 2022',
+  'More than 18 years caring for patients as a nurse, and 10 as a nurse practitioner',
   'Founded Blue Willow Psychiatry in 2023',
 ]
 
@@ -61,7 +61,7 @@ export default function TeamPage() {
             <p className="font-dm-sans text-sm uppercase tracking-widest text-white/80">Meet Kristi</p>
             <h1 className="font-cormorant text-5xl md:text-6xl font-light mt-3">Kristi Lawrence, APRN</h1>
             <p className="mt-6 text-lg text-white/90 leading-relaxed">
-              Family Nurse Practitioner and Psychiatric Mental Health Nurse Practitioner, and the founder of Blue Willow Psychiatry in Tooele, UT.
+              Family Nurse Practitioner and Psychiatric Mental Health Nurse Practitioner, and the founder of Blue Willow Psychiatry in Tooele, Utah.
             </p>
             <p className="mt-4 text-lg text-white/90 leading-relaxed italic">
               &ldquo;We all have the ability to recover, heal, and grow.&rdquo;
@@ -80,7 +80,7 @@ export default function TeamPage() {
         <div className="relative max-w-3xl mx-auto px-6 space-y-6 text-lg leading-relaxed text-[var(--color-ink)]">
           <h2 className="font-cormorant text-4xl text-[var(--color-primary)]">About Kristi</h2>
           <p>
-            Kristi has been caring for patients for more than 16 years as a nurse and nurse practitioner. In her years working as a Family Nurse Practitioner she discovered both her passion for, and talents in, mental health care, and earned a second board certification as a Psychiatric Mental Health Nurse Practitioner to focus her services in this area.
+            Kristi has been caring for patients for more than 18 years as a nurse and 10 as a nurse practitioner. In her years working as a Family Nurse Practitioner she discovered both her passion for, and talents in, mental health care, and earned a second board certification as a Psychiatric Mental Health Nurse Practitioner to focus her services in this area.
           </p>
           <p>
             Kristi believes that we all have the ability to recover, heal, and grow. In 2023 she started Blue Willow Psychiatry to serve the residents of Grantsville, Erda, Stansbury, Tooele, Stockton, and surrounding areas. As a Grantsville native, she understands both the unique joys and challenges of living and working in Tooele County, and loves the people and places that make our community special.

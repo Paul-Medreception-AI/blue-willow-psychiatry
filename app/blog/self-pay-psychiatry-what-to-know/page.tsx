@@ -29,7 +29,7 @@ const tips = [
 
 const related = [
   { href: '/blog', title: 'Mental Health Resources', desc: 'Browse all of our patient education articles on mental health care.' },
-  { href: '/contact', title: 'Contact Blue Willow Psychiatry', desc: 'Ask a question about care in Tooele, UT, or reach the practice directly.' },
+  { href: '/contact', title: 'Contact Blue Willow Psychiatry', desc: 'Ask a question about care in Tooele, Utah, or reach the practice directly.' },
   { href: '/blog', title: 'More Patient Education', desc: 'Explore articles on understanding and navigating psychiatric care.' },
 ]
 
@@ -109,7 +109,7 @@ export default function Page() {
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Taking the Next Step</h2>
         <p className="text-[var(--color-ink)] leading-loose text-base">
-          Choosing how to pay for psychiatric care is a personal decision, and you deserve straightforward answers. If you are in or near Tooele, UT, Blue Willow Psychiatry can answer your questions about getting started. Call (435) 200-3430 or reach out through our contact page. You do not have to have everything figured out to ask.
+          Choosing how to pay for psychiatric care is a personal decision, and you deserve straightforward answers. If you are in or near Tooele, Utah, Blue Willow Psychiatry can answer your questions about getting started. Call (435) 200-3430 or reach out through our contact page. You do not have to have everything figured out to ask.
         </p>
       </article>
 

@@ -135,7 +135,7 @@ export default function Page() {
           Reach out for professional support if symptoms last more than a couple of weeks, make it hard to function at work or home, or come with persistent sadness, panic, or changes in sleep and appetite. Treatment for stress-related concerns may include talk therapy, skill-building, lifestyle guidance, and, when appropriate, medication. If you ever have thoughts of harming yourself, call or text 988, the Suicide &amp; Crisis Lifeline, or call 911 in an emergency.
         </p>
         <p className="text-[var(--color-ink)] leading-loose text-base">
-          You do not have to wait until you reach a breaking point. If stress or burnout is taking a toll, Blue Willow Psychiatry in Tooele, UT is here to talk. Call (435) 200-3430 or reach out through our contact page to take the next step toward feeling like yourself again.
+          You do not have to wait until you reach a breaking point. If stress or burnout is taking a toll, Blue Willow Psychiatry in Tooele, Utah is here to talk. Call (435) 200-3430 or reach out through our contact page to take the next step toward feeling like yourself again.
         </p>
       </article>
 

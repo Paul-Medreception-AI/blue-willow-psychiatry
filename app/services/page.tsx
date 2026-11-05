@@ -7,7 +7,7 @@ import { SERVICES } from '../../lib/data/services'
 import PageHero from '@/components/PageHero'
 
 const TITLE = "Services | Blue Willow Psychiatry"
-const DESCRIPTION = "Blue Willow Psychiatry offers Assessments, Treatment, Medication Management, Brief Solution-Focused Therapy, and more."
+const DESCRIPTION = "Blue Willow Psychiatry offers Assessments, Treatment and Medication Management, Cognitive Behavioral Therapy, Brief Solution-Focused Therapy, and more."
 const URL = "https://www.bluewillowpsych.com/services"
 const HEADING = "Our Services"
 const SUBHEADING = "Explore the care we offer. Choose a service to see what it involves and what to expect."

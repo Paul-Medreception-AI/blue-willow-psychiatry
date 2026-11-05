@@ -160,7 +160,7 @@ export default function Page() {
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Taking the Next Step</h2>
         <p className="leading-loose text-base">
-          Asking for help is a strong, hopeful act, and asking questions is how you make that help your own. If you are looking for mental health care in Tooele, Utah, Blue Willow Psychiatry is located at 28 North Main Street. You can call (435) 200-3430 to reach the practice and talk through your questions. This article is for general education and is not a substitute for personal medical advice.
+          Asking for help is a strong, hopeful act, and asking questions is how you make that help your own. If you are looking for mental health care in Tooele, Utah, Blue Willow Psychiatry is located at 1102 W 60 S, Ste 6. You can call (435) 200-3430 to reach the practice and talk through your questions. This article is for general education and is not a substitute for personal medical advice.
         </p>
       </article>
 

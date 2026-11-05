@@ -93,7 +93,7 @@ export default function Page() {
         </ul>
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Take the Next Step Toward Clarity</h2>
-        <p>Struggling with your mental health is not a personal failing, and wanting answers is a healthy instinct. If you are looking for mental health care in Tooele, UT, Blue Willow Psychiatry is located at 28 North Main Street and can be reached at (435) 200-3430. If you are ever in crisis or thinking about harming yourself, call or text 988 or go to the nearest emergency room right away.</p>
+        <p>Struggling with your mental health is not a personal failing, and wanting answers is a healthy instinct. If you are looking for mental health care in Tooele, Utah, Blue Willow Psychiatry is located at 1102 W 60 S, Ste 6 and can be reached at (435) 200-3430. If you are ever in crisis or thinking about harming yourself, call or text 988 or go to the nearest emergency room right away.</p>
         <p className="mt-4 text-sm text-[var(--color-muted)]">This article is for general education and is not a substitute for personalized medical advice.</p>
       </article>
 
@@ -105,7 +105,7 @@ export default function Page() {
         </div>
         <div>
           <p className="font-cormorant text-xl font-semibold text-[var(--color-ink)]">From Blue Willow Psychiatry</p>
-          <p className="text-sm text-[var(--color-muted)] mt-1">Patient education on mental health care from Tooele, UT.</p>
+          <p className="text-sm text-[var(--color-muted)] mt-1">Patient education on mental health care from Tooele, Utah.</p>
         </div>
       </div>
 

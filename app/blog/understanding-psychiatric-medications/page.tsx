@@ -2,11 +2,11 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Understanding Psychiatric Medications | Blue Willow Psychiatry',
-  description: 'Learn how psychiatric medications work, who they help, what to expect, and how to talk with a clinician in Tooele, UT about treatment options.',
+  description: 'Learn how psychiatric medications work, who they help, what to expect, and how to talk with a clinician in Tooele, Utah about treatment options.',
   alternates: { canonical: '/blog/understanding-psychiatric-medications' },
   openGraph: {
     title: 'Understanding Psychiatric Medications | Blue Willow Psychiatry',
-    description: 'Learn how psychiatric medications work, who they help, what to expect, and how to talk with a clinician in Tooele, UT about treatment options.',
+    description: 'Learn how psychiatric medications work, who they help, what to expect, and how to talk with a clinician in Tooele, Utah about treatment options.',
     url: 'https://www.bluewillowpsych.com/blog/understanding-psychiatric-medications',
     siteName: 'Blue Willow Psychiatry',
     type: 'website',
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary',
     title: 'Understanding Psychiatric Medications | Blue Willow Psychiatry',
-    description: 'Learn how psychiatric medications work, who they help, what to expect, and how to talk with a clinician in Tooele, UT about treatment options.',
+    description: 'Learn how psychiatric medications work, who they help, what to expect, and how to talk with a clinician in Tooele, Utah about treatment options.',
   },
 }
 
@@ -117,7 +117,7 @@ export default function Page() {
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Take the Next Step</h2>
         <p className="text-[var(--color-ink)] leading-loose text-base">
-          If you are wondering whether medication could help, a conversation with a qualified clinician is the best place to start. Blue Willow Psychiatry serves the Tooele, UT community from 28 North Main Street. You can call (435) 200-3430 to ask about care. This article is for education only and is not a substitute for personal medical advice.
+          If you are wondering whether medication could help, a conversation with a qualified clinician is the best place to start. Blue Willow Psychiatry serves the Tooele, Utah community from 1102 W 60 S, Ste 6. You can call (435) 200-3430 to ask about care. This article is for education only and is not a substitute for personal medical advice.
         </p>
       </article>
 
@@ -129,7 +129,7 @@ export default function Page() {
         </div>
         <div>
           <p className="font-cormorant text-xl font-semibold text-[var(--color-ink)]">From Blue Willow Psychiatry</p>
-          <p className="text-[var(--color-muted)] text-sm mt-1">Patient education on mental health care in Tooele, UT.</p>
+          <p className="text-[var(--color-muted)] text-sm mt-1">Patient education on mental health care in Tooele, Utah.</p>
         </div>
       </div>
 

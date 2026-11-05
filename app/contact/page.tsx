@@ -4,20 +4,20 @@ import ContactForm from '@/components/ContactForm'
 import PageHero from '@/components/PageHero'
 
 export const metadata: Metadata = {
-  title: 'Contact Blue Willow Psychiatry | Tooele, UT',
-  description: 'Contact Blue Willow Psychiatry in Tooele, UT. Call (435) 200-3430 or email to schedule a visit, in person or virtually.',
+  title: 'Contact Blue Willow Psychiatry | Tooele, Utah',
+  description: 'Contact Blue Willow Psychiatry in Tooele, Utah. Call (435) 200-3430 or email to schedule a visit, in person or virtually.',
   alternates: { canonical: '/contact' },
   openGraph: {
-    title: 'Contact Blue Willow Psychiatry | Tooele, UT',
-    description: 'Contact Blue Willow Psychiatry in Tooele, UT. Call (435) 200-3430 or email to schedule a visit, in person or virtually.',
+    title: 'Contact Blue Willow Psychiatry | Tooele, Utah',
+    description: 'Contact Blue Willow Psychiatry in Tooele, Utah. Call (435) 200-3430 or email to schedule a visit, in person or virtually.',
     url: 'https://www.bluewillowpsych.com/contact',
     siteName: 'Blue Willow Psychiatry',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Contact Blue Willow Psychiatry | Tooele, UT',
-    description: 'Contact Blue Willow Psychiatry in Tooele, UT. Call (435) 200-3430 or email to schedule a visit, in person or virtually.',
+    title: 'Contact Blue Willow Psychiatry | Tooele, Utah',
+    description: 'Contact Blue Willow Psychiatry in Tooele, Utah. Call (435) 200-3430 or email to schedule a visit, in person or virtually.',
   },
 }
 
@@ -49,8 +49,9 @@ export default function ContactPage() {
               </svg>
                 <h3 className="font-cormorant text-2xl text-[var(--color-primary)]">Visit Us</h3>
               </div>
-              <p className="text-[var(--color-ink)]">28 North Main Street</p>
-              <p className="text-[var(--color-ink)]">Tooele, UT 84074</p>
+              <p className="text-[var(--color-ink)]">1102 W 60 S, Ste 6</p>
+              <p className="text-[var(--color-ink)]">Tooele, Utah 84074</p>
+              <p className="text-[var(--color-muted)] mt-3">We are in Mindful Collective, a shared office space for mental health care.</p>
             </div>
 
             <div className="animate-fade-up bg-white rounded-2xl p-8 border border-[var(--color-border)]">
@@ -69,6 +70,7 @@ export default function ContactPage() {
                   Kristi@BlueWillowPsych.com
                 </a>
               </p>
+              <p className="text-[var(--color-ink)] mt-2">Fax: <span className="tabular-nums">(855) 450-1174</span></p>
             </div>
 
             <div className="animate-fade-up bg-[var(--color-light)] rounded-2xl p-8">
@@ -79,7 +81,7 @@ export default function ContactPage() {
               </svg>
                 <h3 className="font-cormorant text-2xl text-[var(--color-primary)]">Hours</h3>
               </div>
-              <p className="text-[var(--color-ink)]">Call for availability. Evening and weekend appointments are available.</p>
+              <p className="text-[var(--color-ink)]">Call for availability. In-office and virtual visits are available.</p>
             </div>
 
             <div className="animate-fade-up bg-[var(--color-primary)] text-white rounded-2xl p-8">

@@ -35,7 +35,7 @@ const tips = [
 
 const related = [
   { href: '/blog', label: 'Blog', title: 'More Mental Health Resources', text: 'Browse our library of patient education articles.' },
-  { href: '/contact', label: 'Contact', title: 'Talk With Our Practice', text: 'Reach out to ask about care in Tooele, UT.' },
+  { href: '/contact', label: 'Contact', title: 'Talk With Our Practice', text: 'Reach out to ask about care in Tooele, Utah.' },
   { href: '/about', label: 'About', title: 'About Blue Willow Psychiatry', text: 'Learn more about our approach to mental health care.' },
 ]
 
@@ -122,7 +122,7 @@ export default function Page() {
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">When to Reach Out</h2>
         <p>
-          Consider professional help if obsessions or rituals take up significant time, cause distress, or get in the way of daily life. You do not have to wait until things feel unbearable. If you are in Tooele, UT and would like to talk about mental health care, Blue Willow Psychiatry is at 28 North Main Street, and you can call (435) 200-3430. If you are ever in crisis or thinking about harming yourself, call or text 988 or go to the nearest emergency room.
+          Consider professional help if obsessions or rituals take up significant time, cause distress, or get in the way of daily life. You do not have to wait until things feel unbearable. If you are in Tooele, Utah and would like to talk about mental health care, Blue Willow Psychiatry is at 1102 W 60 S, Ste 6, and you can call (435) 200-3430. If you are ever in crisis or thinking about harming yourself, call or text 988 or go to the nearest emergency room.
         </p>
       </article>
 

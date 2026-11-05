@@ -117,7 +117,7 @@ export default function Page() {
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Take the Next Step</h2>
         <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-          You deserve care that makes sense to you. If you are in Tooele, UT and have questions about your diagnosis or treatment, Blue Willow Psychiatry is here to talk. Call (435) 200-3430 or visit us at 28 North Main Street, Tooele, UT 84074. If you are in crisis or thinking about harming yourself, call or text 988 or go to the nearest emergency room.
+          You deserve care that makes sense to you. If you are in Tooele, Utah and have questions about your diagnosis or treatment, Blue Willow Psychiatry is here to talk. Call (435) 200-3430 or visit us at 1102 W 60 S, Ste 6, Tooele, Utah 84074. If you are in crisis or thinking about harming yourself, call or text 988 or go to the nearest emergency room.
         </p>
         <p className="text-sm text-[var(--color-muted)] leading-relaxed">
           This article is for education only and is not a substitute for personalized medical advice.

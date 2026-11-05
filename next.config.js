@@ -33,6 +33,8 @@ const nextConfig = {
       // Removed 2026-11-05 at the practice's request: the free consultation is no longer offered.
       { source: '/services/free-15-minute-consultation', destination: '/contact', permanent: true },
       { source: '/blog/is-a-free-consultation-right-for-you', destination: '/blog', permanent: true },
+      // Merged 2026-11-05 at the practice's request: Treatment and Medication Management are one page.
+      { source: '/services/treatment', destination: '/services/medication-management', permanent: true },
     ];
   },
 };

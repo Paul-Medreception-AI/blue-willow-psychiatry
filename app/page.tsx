@@ -3,20 +3,20 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: 'Mental Health Care in Tooele, UT | Blue Willow Psychiatry',
-  description: 'Blue Willow Psychiatry in Tooele, UT offers in-depth assessment, medication management and solution-focused therapy with Kristi Lawrence, APRN.',
+  title: 'Mental Health Care in Tooele, Utah | Blue Willow Psychiatry',
+  description: 'Blue Willow Psychiatry in Tooele, Utah offers in-depth assessment, medication management and solution-focused therapy with Kristi Lawrence, APRN.',
   alternates: { canonical: '/' },
   openGraph: {
-    title: 'Mental Health Care in Tooele, UT | Blue Willow Psychiatry',
-    description: 'Blue Willow Psychiatry in Tooele, UT offers in-depth assessment, medication management and solution-focused therapy with Kristi Lawrence, APRN.',
+    title: 'Mental Health Care in Tooele, Utah | Blue Willow Psychiatry',
+    description: 'Blue Willow Psychiatry in Tooele, Utah offers in-depth assessment, medication management and solution-focused therapy with Kristi Lawrence, APRN.',
     url: 'https://www.bluewillowpsych.com/',
     siteName: 'Blue Willow Psychiatry',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Mental Health Care in Tooele, UT | Blue Willow Psychiatry',
-    description: 'Blue Willow Psychiatry in Tooele, UT offers in-depth assessment, medication management and solution-focused therapy with Kristi Lawrence, APRN.',
+    title: 'Mental Health Care in Tooele, Utah | Blue Willow Psychiatry',
+    description: 'Blue Willow Psychiatry in Tooele, Utah offers in-depth assessment, medication management and solution-focused therapy with Kristi Lawrence, APRN.',
   },
 }
 
@@ -24,12 +24,13 @@ const trust = [
   'Personalized Care Plans',
   'In-Depth Assessment and Diagnosis',
   'Medication Management and Therapy Combined',
-  'Evening and Weekend Appointments Available',
+  'In-Office and Virtual Visits',
 ]
 
 const services = [
   {
     name: 'Assessments',
+    href: '/services/assessments',
     description: 'Get clarity if you know something is not right, want a second opinion, or have tried treatment after treatment without relief. Our in-depth assessment and diagnosis may include lab tests or other specialized testing.',
     icon: (
       <svg className="w-10 h-10 stroke-[var(--color-primary)]" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
@@ -41,8 +42,9 @@ const services = [
     ),
   },
   {
-    name: 'Treatment',
-    description: 'Individualized treatment built around your life and needs. Sometimes it is medication, sometimes therapy, and often a combination of both.',
+    name: 'Treatment and Medication Management',
+    href: '/services/medication-management',
+    description: 'Individualized treatment built around your life and needs. Sometimes it is medication, sometimes therapy, and often a combination of both. Patients with straightforward treatment plans may qualify for a shorter 15 minute medication visit.',
     icon: (
       <svg className="w-10 h-10 stroke-[var(--color-primary)]" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 20s-7-4.5-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 1.5-.5 2.8-1.3 3.9" />
@@ -51,12 +53,12 @@ const services = [
     ),
   },
   {
-    name: 'Medication Management',
-    description: 'Ongoing visits to monitor, adjust, and support your medications. Patients with straightforward treatment plans may qualify for a shorter 15 minute appointment.',
+    name: 'Therapy',
+    href: '/services/cognitive-behavioral-therapy',
+    description: 'Cognitive behavioral therapy and brief solution-focused therapy: practical, goal-focused work to change the patterns that keep you stuck, on its own or alongside medication.',
     icon: (
       <svg className="w-10 h-10 stroke-[var(--color-primary)]" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-        <rect x="2" y="8.5" width="20" height="7" rx="3.5" transform="rotate(-45 12 12)" />
-        <path strokeLinecap="round" strokeLinejoin="round" d="M9.5 9.5l5 5" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M8 10h8M8 14h5M21 12c0 4.4-4 8-9 8a9.9 9.9 0 01-4-.8L3 20l1.4-3.7A7.4 7.4 0 013 12c0-4.4 4-8 9-8s9 3.6 9 8z" />
       </svg>
     ),
   },
@@ -94,7 +96,7 @@ export default function Home() {
               Mental health care that understands <em>you</em>.
             </h1>
             <p className="mt-6 text-lg text-[var(--color-ink)]/80 leading-relaxed max-w-xl">
-              Blue Willow Psychiatry in Tooele, UT. In-office and virtual visits, with evening and weekend appointments available.
+              Blue Willow Psychiatry in Tooele, Utah. In-office and virtual visits.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-5">
               <Link href="/contact" className="inline-flex items-center gap-2 bg-[var(--color-primary)] hover:bg-[var(--color-dark)] text-white px-8 py-4 rounded-lg font-semibold shadow-md transition-colors">
@@ -126,14 +128,14 @@ export default function Home() {
       <section className="bg-[var(--color-cream)] py-24">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="font-cormorant text-5xl text-center text-[var(--color-ink)] mb-4">How We Can Help</h2>
-          <p className="text-center text-[var(--color-muted)] mb-16">Mental health care in Tooele, UT, tailored to you.</p>
+          <p className="text-center text-[var(--color-muted)] mb-16">Mental health care in Tooele, Utah, tailored to you.</p>
           <div className="grid gap-8 md:grid-cols-3">
             {services.map((s) => (
               <div key={s.name} className="animate-fade-up bg-white rounded-2xl p-8 border border-[var(--color-border)] hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
                 {s.icon}
                 <h3 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)] mt-5">{s.name}</h3>
                 <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">{s.description}</p>
-                <Link href="/services" className="inline-block text-[var(--color-primary)] font-semibold text-sm mt-6 hover:underline">
+                <Link href={s.href} className="inline-block text-[var(--color-primary)] font-semibold text-sm mt-6 hover:underline">
                   Learn More →
                 </Link>
               </div>

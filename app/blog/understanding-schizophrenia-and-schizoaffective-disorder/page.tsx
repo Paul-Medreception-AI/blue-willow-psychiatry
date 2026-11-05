@@ -95,7 +95,7 @@ export default function Page() {
         <p className="mt-4">If someone is in immediate danger or may harm themselves or others, call 911 or the 988 Suicide &amp; Crisis Lifeline right away.</p>
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Taking the Next Step</h2>
-        <p>If you or someone you care about is experiencing unusual thoughts, perceptions, or mood changes, you do not have to wait for things to get worse. Blue Willow Psychiatry provides mental health care in Tooele, UT. Call (435) 200-3430 or visit us at 28 North Main Street to start a conversation about what you are experiencing.</p>
+        <p>If you or someone you care about is experiencing unusual thoughts, perceptions, or mood changes, you do not have to wait for things to get worse. Blue Willow Psychiatry provides mental health care in Tooele, Utah. Call (435) 200-3430 or visit us at 1102 W 60 S, Ste 6 to start a conversation about what you are experiencing.</p>
       </article>
 
       <div className="bg-[var(--color-cream)] rounded-2xl p-8 max-w-3xl mx-auto my-12 px-6 flex gap-6 items-start animate-fade-up">

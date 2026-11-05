@@ -124,7 +124,7 @@ export default function Page() {
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Take the next step</h2>
         <p className="text-[var(--color-ink)] leading-loose text-base">
-          Follow-up visits are a partnership. The more clearly you can describe your experience, the better your care can fit you. If you are looking for mental health care in Tooele, UT, Blue Willow Psychiatry is located at 28 North Main Street. You can reach the practice at (435) 200-3430 to ask about next steps.
+          Follow-up visits are a partnership. The more clearly you can describe your experience, the better your care can fit you. If you are looking for mental health care in Tooele, Utah, Blue Willow Psychiatry is located at 1102 W 60 S, Ste 6. You can reach the practice at (435) 200-3430 to ask about next steps.
         </p>
         <p className="text-xs text-[var(--color-muted)] mt-8">This article is for general education and is not a substitute for personal medical advice.</p>
       </article>

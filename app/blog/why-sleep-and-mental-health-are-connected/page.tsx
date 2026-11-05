@@ -136,7 +136,7 @@ export default function Page() {
           Self-help strategies are valuable, but they are not always enough. When sleep trouble lasts more than a few weeks, or comes with low mood, anxiety, racing thoughts, or thoughts of self-harm, a professional evaluation can help sort out what is driving the problem. Treatment may include therapy approaches designed for insomnia, care for an underlying condition, a review of medications, or a combination. Because sleep and mood affect each other, addressing one often helps the other.
         </p>
         <p className="text-[var(--color-ink)] leading-loose text-base">
-          If you are in crisis or thinking about harming yourself, call or text 988 (the Suicide and Crisis Lifeline) or call 911 right away. Otherwise, you can reach Blue Willow Psychiatry in Tooele, UT at (435) 200-3430 to talk about your concerns. You deserve rest, and support is available.
+          If you are in crisis or thinking about harming yourself, call or text 988 (the Suicide and Crisis Lifeline) or call 911 right away. Otherwise, you can reach Blue Willow Psychiatry in Tooele, Utah at (435) 200-3430 to talk about your concerns. You deserve rest, and support is available.
         </p>
       </article>
 

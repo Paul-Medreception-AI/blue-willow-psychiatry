@@ -108,7 +108,7 @@ export default function Page() {
 
         <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">Taking the next step</h2>
         <p className="text-[var(--color-ink)] leading-loose text-base">
-          You do not have to figure this out alone or choose perfectly on the first try. A mental health professional can review your symptoms, history and preferences, then help you weigh the options. If you are in Tooele, UT and would like to talk, call Blue Willow Psychiatry at (435) 200-3430 or visit the practice at 28 North Main Street. If you are in crisis or thinking about harming yourself, call or text 988 or go to the nearest emergency room.
+          You do not have to figure this out alone or choose perfectly on the first try. A mental health professional can review your symptoms, history and preferences, then help you weigh the options. If you are in Tooele, Utah and would like to talk, call Blue Willow Psychiatry at (435) 200-3430 or visit the practice at 1102 W 60 S, Ste 6. If you are in crisis or thinking about harming yourself, call or text 988 or go to the nearest emergency room.
         </p>
       </article>
 

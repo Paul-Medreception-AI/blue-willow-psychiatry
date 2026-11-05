@@ -128,7 +128,7 @@ export default function Page() {
           Consider reaching out if worry is present most days, if it affects your sleep, work, or relationships, if you are avoiding things you care about, or if you have physical symptoms with no clear cause. If you ever have thoughts of harming yourself, call or text 988, the Suicide &amp; Crisis Lifeline, or call 911 in an emergency.
         </p>
         <p className="mt-4">
-          You do not have to wait until things feel unbearable. If you are in or near Tooele, UT, Blue Willow Psychiatry at 28 North Main Street can be reached at (435) 200-3430 to talk about mental health care and next steps. Asking for help is a sign of strength, and relief is possible.
+          You do not have to wait until things feel unbearable. If you are in or near Tooele, Utah, Blue Willow Psychiatry at 1102 W 60 S, Ste 6 can be reached at (435) 200-3430 to talk about mental health care and next steps. Asking for help is a sign of strength, and relief is possible.
         </p>
       </article>
 

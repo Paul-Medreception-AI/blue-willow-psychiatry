@@ -2,11 +2,11 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Grief and Mental Health | Blue Willow Psychiatry',
-  description: 'Learn how grief affects mental health, when it becomes prolonged or overlaps with depression, and how to find support in Tooele, UT.',
+  description: 'Learn how grief affects mental health, when it becomes prolonged or overlaps with depression, and how to find support in Tooele, Utah.',
   alternates: { canonical: '/blog/grief-and-mental-health' },
   openGraph: {
     title: 'Grief and Mental Health | Blue Willow Psychiatry',
-    description: 'Learn how grief affects mental health, when it becomes prolonged or overlaps with depression, and how to find support in Tooele, UT.',
+    description: 'Learn how grief affects mental health, when it becomes prolonged or overlaps with depression, and how to find support in Tooele, Utah.',
     url: 'https://www.bluewillowpsych.com/blog/grief-and-mental-health',
     siteName: 'Blue Willow Psychiatry',
     type: 'website',
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary',
     title: 'Grief and Mental Health | Blue Willow Psychiatry',
-    description: 'Learn how grief affects mental health, when it becomes prolonged or overlaps with depression, and how to find support in Tooele, UT.',
+    description: 'Learn how grief affects mental health, when it becomes prolonged or overlaps with depression, and how to find support in Tooele, Utah.',
   },
 }
 
@@ -114,7 +114,7 @@ export default function Page() {
           Consider reaching out if your grief feels unrelenting, if you cannot function at work or home, if you are withdrawing from everyone, if you are relying on alcohol or drugs to cope, or if you feel hopeless. Treatment can include talk therapy, grief-focused counseling, and, when depression or anxiety develop, a careful evaluation of whether medication could help. If you are having thoughts of ending your life, call or text 988, the Suicide and Crisis Lifeline, or go to the nearest emergency room right away.
         </p>
         <p className="text-[var(--color-ink)] leading-loose text-base mt-4">
-          Asking for support is not a sign that you are grieving the wrong way. If you are in Tooele, UT and would like to talk with someone about what you are going through, Blue Willow Psychiatry is here to listen. You can call (435) 200-3430 or reach out through our contact page.
+          Asking for support is not a sign that you are grieving the wrong way. If you are in Tooele, Utah and would like to talk with someone about what you are going through, Blue Willow Psychiatry is here to listen. You can call (435) 200-3430 or reach out through our contact page.
         </p>
       </article>
 
