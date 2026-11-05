@@ -94,10 +94,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </footer>
       </body>
-      {/* MedReception patient widget: callback, appointment request and the AI chat, all filed on
-          Blue Willow Psychiatry's Studio board (qa-api lambdaWidget, client id 'blue-willow-psychiatry',
-          STUDIO_ONLY). Same embed as body1md and gables-pain. */}
-      <Script src="https://widget.medreception.ai/embed.js" data-client-id="blue-willow-psychiatry" strategy="afterInteractive" />
+      {/* Studio's own website widget for Blue Willow Psychiatry (key wk_j2bbvj029nmhsr0e2hv68zer,
+          created 2026-11-05): callback, appointment request and the AI chat. The chat answers from the
+          practice's Studio records plus the widget's notes, and every request lands on the practice's
+          Studio board. Set up and watched from Studio's Website Chat tab. Replaces the qa-api widget
+          (client id 'blue-willow-psychiatry'). Same pattern as aldo-gamarra-md. */}
+      <Script src="https://studio.medreception.ai/widget.js" data-key="wk_j2bbvj029nmhsr0e2hv68zer" strategy="afterInteractive" />
       {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
 
     </html>
