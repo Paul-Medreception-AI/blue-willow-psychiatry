@@ -25,6 +25,7 @@ const trust = [
   'In-Depth Assessment and Diagnosis',
   'Medication Management and Therapy Combined',
   'In-Office and Virtual Visits',
+  'Evening Appointments Available',
 ]
 
 const services = [
@@ -96,7 +97,7 @@ export default function Home() {
               Mental health care that understands <em>you</em>.
             </h1>
             <p className="mt-6 text-lg text-[var(--color-ink)]/80 leading-relaxed max-w-xl">
-              Blue Willow Psychiatry in Tooele, Utah. In-office and virtual visits.
+              Blue Willow Psychiatry in Tooele, Utah. In-office and virtual visits, with evening appointments available.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-5">
               <Link href="/contact" className="inline-flex items-center gap-2 bg-[var(--color-primary)] hover:bg-[var(--color-dark)] text-white px-8 py-4 rounded-lg font-semibold shadow-md transition-colors">

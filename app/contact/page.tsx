@@ -81,7 +81,7 @@ export default function ContactPage() {
               </svg>
                 <h3 className="font-cormorant text-2xl text-[var(--color-primary)]">Hours</h3>
               </div>
-              <p className="text-[var(--color-ink)]">Call for availability. In-office and virtual visits are available.</p>
+              <p className="text-[var(--color-ink)]">Evening appointments are available. Call for availability. In-office and virtual visits are available.</p>
             </div>
 
             <div className="animate-fade-up bg-[var(--color-primary)] text-white rounded-2xl p-8">

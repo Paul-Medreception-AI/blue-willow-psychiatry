@@ -59,7 +59,7 @@ const faqs = [
   },
   {
     q: 'Do you accept my insurance?',
-    a: 'We accept most insurance plans, including Medicaid and Medicare, Aetna, BlueCross BlueShield and Regence, DMBA, PEHP, University of Utah Health Plans, United Healthcare, SelectHealth, Tricare and more. Please call (435) 200-3430 to verify coverage when you schedule your appointment. See our Insurance & Fees page for details.',
+    a: 'We accept most insurance plans, including Medicaid and Medicare, Aetna, BlueCross BlueShield and Regence, DMBA, PEHP, University of Utah Health Plans, United Healthcare, SelectHealth, Tricare, Meritain Health and more. Please call (435) 200-3430 to verify coverage when you schedule your appointment. See our Insurance & Fees page for details.',
   },
   {
     q: 'How much does a visit cost?',

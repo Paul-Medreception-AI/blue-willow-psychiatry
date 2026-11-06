@@ -3,7 +3,7 @@ import Link from 'next/link'
 import PageHero from '@/components/PageHero'
 
 const TITLE = 'Telehealth Psychiatry in Utah | Blue Willow Psychiatry'
-const DESCRIPTION = 'See Kristi Lawrence, APRN in the Tooele office or by virtual visit. Call (435) 200-3430 to schedule.'
+const DESCRIPTION = 'See Kristi Lawrence, APRN in the Tooele office or by virtual visit. Evening appointments are available. Call (435) 200-3430 to schedule.'
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -36,7 +36,7 @@ const OPTIONS = [
   },
   {
     title: 'Easy Scheduling',
-    text: 'We know you are busy. Call (435) 200-3430 to schedule in person or virtually.',
+    text: 'We know you are busy. Evening appointments are available. Call (435) 200-3430 to schedule in person or virtually.',
     icon: 'M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z',
   },
 ]
@@ -45,6 +45,10 @@ const faqs = [
   {
     q: 'Can I be seen by telehealth?',
     a: 'Yes. We offer both in-office and virtual visits, so you can choose what fits your schedule.',
+  },
+  {
+    q: 'Are evening appointments available?',
+    a: 'Yes. Evening appointments are available, in person or virtually. Call (435) 200-3430 to schedule.',
   },
   {
     q: 'Do I ever need to come into the office?',
@@ -60,7 +64,7 @@ export default function TelehealthPage() {
   return (
     <main>
       {/* Page header: from her draft Services page. */}
-      <PageHero title={"Telehealth and Office Visits"} subtitle={"We want this to be as easy as possible, and understand the demands on your time. We offer both in-office and virtual visits."} crumb="Telehealth" image="/images/eucalyptus-sprig-jar.jpg" position="object-[center_52%]" />
+      <PageHero title={"Telehealth and Office Visits"} subtitle={"We want this to be as easy as possible, and understand the demands on your time. We offer both in-office and virtual visits, and evening appointments are available."} crumb="Telehealth" image="/images/eucalyptus-sprig-jar.jpg" position="object-[center_52%]" />
 
       <section className="bg-[var(--color-cream)] py-24">
         <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">

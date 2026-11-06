@@ -3,7 +3,7 @@ import Link from 'next/link'
 import PageHero from '@/components/PageHero'
 
 const TITLE = 'Insurance & Fees | Blue Willow Psychiatry, Tooele, Utah'
-const DESCRIPTION = 'Insurance plans accepted at Blue Willow Psychiatry, including Medicaid, Medicare, Aetna, BlueCross BlueShield and Regence, DMBA, PEHP, SelectHealth, United Healthcare and Tricare, plus self pay rates and payment options.'
+const DESCRIPTION = 'Insurance plans accepted at Blue Willow Psychiatry, including Medicaid, Medicare, Aetna, BlueCross BlueShield and Regence, DMBA, PEHP, SelectHealth, United Healthcare, Tricare and Meritain Health, plus self pay rates and payment options.'
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -35,6 +35,7 @@ const PLANS = [
   'United Healthcare',
   'SelectHealth',
   'Tricare',
+  'Meritain Health',
 ]
 
 const SELF_PAY = [
@@ -46,7 +47,7 @@ const SELF_PAY = [
 const faqs = [
   {
     q: 'Do you take my insurance?',
-    a: 'We accept most insurance plans, including Medicaid and Medicare, Aetna, BlueCross BlueShield and Regence, DMBA, PEHP, University of Utah Health Plans, United Healthcare, SelectHealth, Tricare and more. Please call (435) 200-3430 to verify coverage when you schedule your appointment.',
+    a: 'We accept most insurance plans, including Medicaid and Medicare, Aetna, BlueCross BlueShield and Regence, DMBA, PEHP, University of Utah Health Plans, United Healthcare, SelectHealth, Tricare, Meritain Health and more. Please call (435) 200-3430 to verify coverage when you schedule your appointment.',
   },
   {
     q: 'What if I do not have insurance?',
